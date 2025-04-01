@@ -1,0 +1,20 @@
+
+Entropy:
+- false-neg
+- false-pos
+- observed
+	- W1
+	- W2
+
+C-bar
+- false-neg
+- observed
+	- W1
+	- W2
+
+Test-retest
+- observed
+
+Uniqueness
+- observed DONE
+

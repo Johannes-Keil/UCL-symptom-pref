@@ -1,0 +1,309 @@
+id,item_id,item,agreement_response,agreement_rt,null_resp
+10240,1,I never want to be sad again. ,-1.0,5330.0,False
+10240,2,I feel that occasional sadness is important. ,-1.0,633.0,False
+10240,3,I enjoy feeling melancholy sometimes.,0.0,305.0,False
+10240,4,It is not always bad to feel low. ,-1.0,699.0,False
+10240,5,It is never good to feel low. ,-1.0,323.0,False
+10240,6,When I  feel low I can see things more clearly.,0.0,360.0,False
+10240,7,Feeling sad sometimes is part of normal life,0.0,323.0,False
+10240,8,I have learnt a lot about myself by being happy. ,-1.0,408.0,False
+10240,9,I have learnt a lot about myself by being sad. ,0.0,307.0,False
+10240,10,How one feels is not the most important thing. ,0.0,250.0,False
+10240,11,"I am always trying to be myself, even if this makes me feel low.",-1.0,376.0,False
+10240,12,Feeling anger is always good. ,0.0,533.0,False
+10240,13,Feeling anger is never good. ,0.0,815.0,False
+10240,14,Anger can be important in life.,0.0,722.0,False
+10245,1,I never want to be sad again. ,1.0,940.0,False
+10245,2,I feel that occasional sadness is important. ,1.0,2472.0,False
+10245,3,I enjoy feeling melancholy sometimes.,1.0,490.0,False
+10245,4,It is not always bad to feel low. ,0.0,389.0,False
+10245,5,It is never good to feel low. ,0.0,515.0,False
+10245,6,When I  feel low I can see things more clearly.,0.0,594.0,False
+10245,7,Feeling sad sometimes is part of normal life,0.0,469.0,False
+10245,8,I have learnt a lot about myself by being happy. ,0.0,765.0,False
+10245,9,I have learnt a lot about myself by being sad. ,0.0,1093.0,False
+10245,10,How one feels is not the most important thing. ,1.0,1586.0,False
+10245,11,"I am always trying to be myself, even if this makes me feel low.",0.0,655.0,False
+10245,12,Feeling anger is always good. ,1.0,393.0,False
+10245,13,Feeling anger is never good. ,1.0,3763.0,False
+10245,14,Anger can be important in life.,0.0,465.0,False
+10246,1,I never want to be sad again. ,1.0,2457.0,False
+10246,2,I feel that occasional sadness is important. ,0.0,3478.0,False
+10246,3,I enjoy feeling melancholy sometimes.,0.0,5129.0,False
+10246,4,It is not always bad to feel low. ,1.0,6900.0,False
+10246,5,It is never good to feel low. ,1.0,10015.0,False
+10246,6,When I  feel low I can see things more clearly.,-1.0,8821.0,False
+10246,7,Feeling sad sometimes is part of normal life,1.0,4072.0,False
+10246,8,I have learnt a lot about myself by being happy. ,0.0,3524.0,False
+10246,9,I have learnt a lot about myself by being sad. ,1.0,3582.0,False
+10246,10,How one feels is not the most important thing. ,-1.0,3649.0,False
+10246,11,"I am always trying to be myself, even if this makes me feel low.",1.0,6564.0,False
+10246,12,Feeling anger is always good. ,-1.0,5836.0,False
+10246,13,Feeling anger is never good. ,0.0,613.0,False
+10246,14,Anger can be important in life.,1.0,2552.0,False
+10247,1,I never want to be sad again. ,0.0,11637.0,False
+10247,2,I feel that occasional sadness is important. ,-1.0,805.0,False
+10247,3,I enjoy feeling melancholy sometimes.,-1.0,2087.0,False
+10247,4,It is not always bad to feel low. ,-1.0,3147.0,False
+10247,5,It is never good to feel low. ,1.0,2139.0,False
+10247,6,When I  feel low I can see things more clearly.,-1.0,1021.0,False
+10247,7,Feeling sad sometimes is part of normal life,1.0,1984.0,False
+10247,8,I have learnt a lot about myself by being happy. ,1.0,4843.0,False
+10247,9,I have learnt a lot about myself by being sad. ,-1.0,2805.0,False
+10247,10,How one feels is not the most important thing. ,-1.0,5163.0,False
+10247,11,"I am always trying to be myself, even if this makes me feel low.",1.0,2840.0,False
+10247,12,Feeling anger is always good. ,-2.0,2365.0,False
+10247,13,Feeling anger is never good. ,1.0,1004.0,False
+10247,14,Anger can be important in life.,-1.0,1469.0,False
+10248,1,I never want to be sad again. ,0.0,2110.0,False
+10248,2,I feel that occasional sadness is important. ,1.0,2872.0,False
+10248,3,I enjoy feeling melancholy sometimes.,0.0,3092.0,False
+10248,4,It is not always bad to feel low. ,1.0,2894.0,False
+10248,5,It is never good to feel low. ,-2.0,2164.0,False
+10248,6,When I  feel low I can see things more clearly.,0.0,2186.0,False
+10248,7,Feeling sad sometimes is part of normal life,1.0,6332.0,False
+10248,8,I have learnt a lot about myself by being happy. ,0.0,3628.0,False
+10248,9,I have learnt a lot about myself by being sad. ,0.0,2172.0,False
+10248,10,How one feels is not the most important thing. ,0.0,2974.0,False
+10248,11,"I am always trying to be myself, even if this makes me feel low.",2.0,2519.0,False
+10248,12,Feeling anger is always good. ,-1.0,3126.0,False
+10248,13,Feeling anger is never good. ,-2.0,2078.0,False
+10248,14,Anger can be important in life.,1.0,3486.0,False
+10249,1,I never want to be sad again. ,-1.0,2488.0,False
+10249,2,I feel that occasional sadness is important. ,1.0,2856.0,False
+10249,3,I enjoy feeling melancholy sometimes.,1.0,2377.0,False
+10249,4,It is not always bad to feel low. ,2.0,7327.0,False
+10249,5,It is never good to feel low. ,-2.0,3872.0,False
+10249,6,When I  feel low I can see things more clearly.,1.0,2080.0,False
+10249,7,Feeling sad sometimes is part of normal life,2.0,4776.0,False
+10249,8,I have learnt a lot about myself by being happy. ,0.0,5375.0,False
+10249,9,I have learnt a lot about myself by being sad. ,2.0,3063.0,False
+10249,10,How one feels is not the most important thing. ,0.0,4897.0,False
+10249,11,"I am always trying to be myself, even if this makes me feel low.",1.0,7543.0,False
+10249,12,Feeling anger is always good. ,-2.0,1528.0,False
+10249,13,Feeling anger is never good. ,-1.0,5080.0,False
+10249,14,Anger can be important in life.,1.0,3816.0,False
+10254,1,I never want to be sad again. ,0.0,3155.0,False
+10254,2,I feel that occasional sadness is important. ,0.0,2896.0,False
+10254,3,I enjoy feeling melancholy sometimes.,-1.0,2112.0,False
+10254,4,It is not always bad to feel low. ,1.0,4464.0,False
+10254,5,It is never good to feel low. ,0.0,6878.0,False
+10254,6,When I  feel low I can see things more clearly.,-1.0,2850.0,False
+10254,7,Feeling sad sometimes is part of normal life,1.0,2860.0,False
+10254,8,I have learnt a lot about myself by being happy. ,1.0,2341.0,False
+10254,9,I have learnt a lot about myself by being sad. ,2.0,2621.0,False
+10254,10,How one feels is not the most important thing. ,-1.0,3791.0,False
+10254,11,"I am always trying to be myself, even if this makes me feel low.",1.0,4992.0,False
+10254,12,Feeling anger is always good. ,-2.0,2371.0,False
+10254,13,Feeling anger is never good. ,0.0,2555.0,False
+10254,14,Anger can be important in life.,-1.0,1616.0,False
+10256,1,I never want to be sad again. ,1.0,1816.0,False
+10256,2,I feel that occasional sadness is important. ,-1.0,3519.0,False
+10256,3,I enjoy feeling melancholy sometimes.,-1.0,2198.0,False
+10256,4,It is not always bad to feel low. ,1.0,2765.0,False
+10256,5,It is never good to feel low. ,-1.0,2558.0,False
+10256,6,When I  feel low I can see things more clearly.,-1.0,4598.0,False
+10256,7,Feeling sad sometimes is part of normal life,2.0,2730.0,False
+10256,8,I have learnt a lot about myself by being happy. ,1.0,2341.0,False
+10256,9,I have learnt a lot about myself by being sad. ,1.0,3761.0,False
+10256,10,How one feels is not the most important thing. ,0.0,3271.0,False
+10256,11,"I am always trying to be myself, even if this makes me feel low.",0.0,5510.0,False
+10256,12,Feeling anger is always good. ,-2.0,4156.0,False
+10256,13,Feeling anger is never good. ,-1.0,2841.0,False
+10256,14,Anger can be important in life.,1.0,2835.0,False
+10257,1,I never want to be sad again. ,-1.0,2932.0,False
+10257,2,I feel that occasional sadness is important. ,0.0,113230.0,False
+10257,3,I enjoy feeling melancholy sometimes.,-1.0,10091.0,False
+10257,4,It is not always bad to feel low. ,0.0,5368.0,False
+10257,5,It is never good to feel low. ,-1.0,1628.0,False
+10257,6,When I  feel low I can see things more clearly.,-2.0,9255.0,False
+10257,7,Feeling sad sometimes is part of normal life,2.0,2215.0,False
+10257,8,I have learnt a lot about myself by being happy. ,2.0,5246.0,False
+10257,9,I have learnt a lot about myself by being sad. ,1.0,3767.0,False
+10257,10,How one feels is not the most important thing. ,0.0,4083.0,False
+10257,11,"I am always trying to be myself, even if this makes me feel low.",0.0,5713.0,False
+10257,12,Feeling anger is always good. ,-1.0,2880.0,False
+10257,13,Feeling anger is never good. ,-1.0,2163.0,False
+10257,14,Anger can be important in life.,0.0,16728.0,False
+10258,1,I never want to be sad again. ,1.0,3702.0,False
+10258,2,I feel that occasional sadness is important. ,1.0,6358.0,False
+10258,3,I enjoy feeling melancholy sometimes.,-1.0,1136.0,False
+10258,4,It is not always bad to feel low. ,1.0,2117.0,False
+10258,5,It is never good to feel low. ,-1.0,6881.0,False
+10258,6,When I  feel low I can see things more clearly.,-1.0,4573.0,False
+10258,7,Feeling sad sometimes is part of normal life,2.0,5679.0,False
+10258,8,I have learnt a lot about myself by being happy. ,1.0,2738.0,False
+10258,9,I have learnt a lot about myself by being sad. ,2.0,3307.0,False
+10258,10,How one feels is not the most important thing. ,-2.0,2442.0,False
+10258,11,"I am always trying to be myself, even if this makes me feel low.",1.0,5856.0,False
+10258,12,Feeling anger is always good. ,-2.0,3048.0,False
+10258,13,Feeling anger is never good. ,-1.0,2685.0,False
+10258,14,Anger can be important in life.,1.0,3904.0,False
+10259,1,I never want to be sad again. ,-1.0,3528.0,False
+10259,2,I feel that occasional sadness is important. ,-1.0,2478.0,False
+10259,3,I enjoy feeling melancholy sometimes.,1.0,1875.0,False
+10259,4,It is not always bad to feel low. ,0.0,1640.0,False
+10259,5,It is never good to feel low. ,-1.0,5654.0,False
+10259,6,When I  feel low I can see things more clearly.,0.0,2417.0,False
+10259,7,Feeling sad sometimes is part of normal life,1.0,4672.0,False
+10259,8,I have learnt a lot about myself by being happy. ,0.0,734.0,False
+10259,9,I have learnt a lot about myself by being sad. ,1.0,3370.0,False
+10259,10,How one feels is not the most important thing. ,0.0,1806.0,False
+10259,11,"I am always trying to be myself, even if this makes me feel low.",-1.0,3501.0,False
+10259,12,Feeling anger is always good. ,0.0,3927.0,False
+10259,13,Feeling anger is never good. ,0.0,1433.0,False
+10259,14,Anger can be important in life.,1.0,3352.0,False
+10262,1,I never want to be sad again. ,-2.0,820.0,False
+10262,2,I feel that occasional sadness is important. ,1.0,585.0,False
+10262,3,I enjoy feeling melancholy sometimes.,1.0,365.0,False
+10262,4,It is not always bad to feel low. ,1.0,720.0,False
+10262,5,It is never good to feel low. ,-2.0,469.0,False
+10262,6,When I  feel low I can see things more clearly.,1.0,3160.0,False
+10262,7,Feeling sad sometimes is part of normal life,2.0,361.0,False
+10262,8,I have learnt a lot about myself by being happy. ,2.0,2516.0,False
+10262,9,I have learnt a lot about myself by being sad. ,2.0,1357.0,False
+10262,10,How one feels is not the most important thing. ,-1.0,5119.0,False
+10262,11,"I am always trying to be myself, even if this makes me feel low.",1.0,5616.0,False
+10262,12,Feeling anger is always good. ,-2.0,356.0,False
+10262,13,Feeling anger is never good. ,-1.0,1059.0,False
+10262,14,Anger can be important in life.,1.0,1537.0,False
+10264,1,I never want to be sad again. ,1.0,2493.0,False
+10264,2,I feel that occasional sadness is important. ,-1.0,12399.0,False
+10264,3,I enjoy feeling melancholy sometimes.,-1.0,2515.0,False
+10264,4,It is not always bad to feel low. ,0.0,4325.0,False
+10264,5,It is never good to feel low. ,1.0,2171.0,False
+10264,6,When I  feel low I can see things more clearly.,-2.0,5771.0,False
+10264,7,Feeling sad sometimes is part of normal life,1.0,3566.0,False
+10264,8,I have learnt a lot about myself by being happy. ,1.0,3809.0,False
+10264,9,I have learnt a lot about myself by being sad. ,1.0,4888.0,False
+10264,10,How one feels is not the most important thing. ,-2.0,3067.0,False
+10264,11,"I am always trying to be myself, even if this makes me feel low.",-1.0,14859.0,False
+10264,12,Feeling anger is always good. ,-1.0,5922.0,False
+10264,13,Feeling anger is never good. ,-1.0,8139.0,False
+10264,14,Anger can be important in life.,-1.0,4442.0,False
+10266,1,I never want to be sad again. ,-1.0,8263.0,False
+10266,2,I feel that occasional sadness is important. ,2.0,4203.0,False
+10266,3,I enjoy feeling melancholy sometimes.,1.0,7649.0,False
+10266,4,It is not always bad to feel low. ,1.0,232.0,False
+10266,5,It is never good to feel low. ,-1.0,9661.0,False
+10266,6,When I  feel low I can see things more clearly.,-1.0,2274.0,False
+10266,7,Feeling sad sometimes is part of normal life,2.0,731.0,False
+10266,8,I have learnt a lot about myself by being happy. ,2.0,2262.0,False
+10266,9,I have learnt a lot about myself by being sad. ,1.0,2836.0,False
+10266,10,How one feels is not the most important thing. ,-2.0,5615.0,False
+10266,11,"I am always trying to be myself, even if this makes me feel low.",1.0,3314.0,False
+10266,12,Feeling anger is always good. ,0.0,1825.0,False
+10266,13,Feeling anger is never good. ,-1.0,2507.0,False
+10266,14,Anger can be important in life.,1.0,3121.0,False
+10267,1,I never want to be sad again. ,-1.0,1551.0,False
+10267,2,I feel that occasional sadness is important. ,1.0,2128.0,False
+10267,3,I enjoy feeling melancholy sometimes.,0.0,1502.0,False
+10267,4,It is not always bad to feel low. ,1.0,2184.0,False
+10267,5,It is never good to feel low. ,-1.0,1072.0,False
+10267,6,When I  feel low I can see things more clearly.,1.0,2817.0,False
+10267,7,Feeling sad sometimes is part of normal life,1.0,2916.0,False
+10267,8,I have learnt a lot about myself by being happy. ,1.0,4160.0,False
+10267,9,I have learnt a lot about myself by being sad. ,0.0,2895.0,False
+10267,10,How one feels is not the most important thing. ,-1.0,4864.0,False
+10267,11,"I am always trying to be myself, even if this makes me feel low.",1.0,1944.0,False
+10267,12,Feeling anger is always good. ,-2.0,1832.0,False
+10267,13,Feeling anger is never good. ,-1.0,2094.0,False
+10267,14,Anger can be important in life.,1.0,3800.0,False
+10268,1,I never want to be sad again. ,-2.0,2329.0,False
+10268,2,I feel that occasional sadness is important. ,1.0,4931.0,False
+10268,3,I enjoy feeling melancholy sometimes.,0.0,9395.0,False
+10268,4,It is not always bad to feel low. ,2.0,2242.0,False
+10268,5,It is never good to feel low. ,2.0,1847.0,False
+10268,6,When I  feel low I can see things more clearly.,-2.0,6909.0,False
+10268,7,Feeling sad sometimes is part of normal life,2.0,2465.0,False
+10268,8,I have learnt a lot about myself by being happy. ,2.0,765.0,False
+10268,9,I have learnt a lot about myself by being sad. ,1.0,2929.0,False
+10268,10,How one feels is not the most important thing. ,-1.0,4401.0,False
+10268,11,"I am always trying to be myself, even if this makes me feel low.",-1.0,2313.0,False
+10268,12,Feeling anger is always good. ,-2.0,5609.0,False
+10268,13,Feeling anger is never good. ,-1.0,1833.0,False
+10268,14,Anger can be important in life.,1.0,1864.0,False
+10273,1,I never want to be sad again. ,-2.0,4412.0,False
+10273,2,I feel that occasional sadness is important. ,1.0,5871.0,False
+10273,3,I enjoy feeling melancholy sometimes.,1.0,399.0,False
+10273,4,It is not always bad to feel low. ,1.0,3708.0,False
+10273,5,It is never good to feel low. ,-1.0,1132.0,False
+10273,6,When I  feel low I can see things more clearly.,2.0,8639.0,False
+10273,7,Feeling sad sometimes is part of normal life,2.0,2587.0,False
+10273,8,I have learnt a lot about myself by being happy. ,-1.0,2608.0,False
+10273,9,I have learnt a lot about myself by being sad. ,1.0,21820.0,False
+10273,10,How one feels is not the most important thing. ,-1.0,2311.0,False
+10273,11,"I am always trying to be myself, even if this makes me feel low.",1.0,2604.0,False
+10273,12,Feeling anger is always good. ,-2.0,1673.0,False
+10273,13,Feeling anger is never good. ,-1.0,3140.0,False
+10273,14,Anger can be important in life.,-1.0,2363.0,False
+10274,1,I never want to be sad again. ,0.0,609.0,False
+10274,2,I feel that occasional sadness is important. ,2.0,151.0,False
+10274,3,I enjoy feeling melancholy sometimes.,1.0,303.0,False
+10274,4,It is not always bad to feel low. ,-1.0,643.0,False
+10274,5,It is never good to feel low. ,0.0,3145.0,False
+10274,6,When I  feel low I can see things more clearly.,0.0,864.0,False
+10274,7,Feeling sad sometimes is part of normal life,0.0,3410.0,False
+10274,8,I have learnt a lot about myself by being happy. ,2.0,149.0,False
+10274,9,I have learnt a lot about myself by being sad. ,1.0,589.0,False
+10274,10,How one feels is not the most important thing. ,2.0,173.0,False
+10274,11,"I am always trying to be myself, even if this makes me feel low.",2.0,994.0,False
+10274,12,Feeling anger is always good. ,1.0,3529.0,False
+10274,13,Feeling anger is never good. ,1.0,461.0,False
+10274,14,Anger can be important in life.,1.0,335.0,False
+10275,1,I never want to be sad again. ,-1.0,3079.0,False
+10275,2,I feel that occasional sadness is important. ,-1.0,8511.0,False
+10275,3,I enjoy feeling melancholy sometimes.,1.0,6048.0,False
+10275,4,It is not always bad to feel low. ,2.0,3512.0,False
+10275,5,It is never good to feel low. ,-1.0,2810.0,False
+10275,6,When I  feel low I can see things more clearly.,0.0,3561.0,False
+10275,7,Feeling sad sometimes is part of normal life,2.0,2718.0,False
+10275,8,I have learnt a lot about myself by being happy. ,1.0,7960.0,False
+10275,9,I have learnt a lot about myself by being sad. ,1.0,45237.0,False
+10275,10,How one feels is not the most important thing. ,-1.0,22461.0,False
+10275,11,"I am always trying to be myself, even if this makes me feel low.",0.0,6265.0,False
+10275,12,Feeling anger is always good. ,-2.0,3337.0,False
+10275,13,Feeling anger is never good. ,1.0,6112.0,False
+10275,14,Anger can be important in life.,-2.0,6321.0,False
+10277,1,I never want to be sad again. ,,,True
+10277,2,I feel that occasional sadness is important. ,,,True
+10277,3,I enjoy feeling melancholy sometimes.,,,True
+10277,4,It is not always bad to feel low. ,,,True
+10277,5,It is never good to feel low. ,,,True
+10277,6,When I  feel low I can see things more clearly.,,,True
+10277,7,Feeling sad sometimes is part of normal life,,,True
+10277,8,I have learnt a lot about myself by being happy. ,,,True
+10277,9,I have learnt a lot about myself by being sad. ,,,True
+10277,10,How one feels is not the most important thing. ,,,True
+10277,11,"I am always trying to be myself, even if this makes me feel low.",,,True
+10277,12,Feeling anger is always good. ,,,True
+10277,13,Feeling anger is never good. ,,,True
+10277,14,Anger can be important in life.,,,True
+10278,1,I never want to be sad again. ,2.0,4609.0,False
+10278,2,I feel that occasional sadness is important. ,-2.0,2248.0,False
+10278,3,I enjoy feeling melancholy sometimes.,-1.0,3497.0,False
+10278,4,It is not always bad to feel low. ,-1.0,1722.0,False
+10278,5,It is never good to feel low. ,2.0,2593.0,False
+10278,6,When I  feel low I can see things more clearly.,-1.0,5347.0,False
+10278,7,Feeling sad sometimes is part of normal life,1.0,2679.0,False
+10278,8,I have learnt a lot about myself by being happy. ,2.0,5647.0,False
+10278,9,I have learnt a lot about myself by being sad. ,-1.0,55929.0,False
+10278,10,How one feels is not the most important thing. ,-1.0,6065.0,False
+10278,11,"I am always trying to be myself, even if this makes me feel low.",1.0,6748.0,False
+10278,12,Feeling anger is always good. ,-2.0,3881.0,False
+10278,13,Feeling anger is never good. ,2.0,5105.0,False
+10278,14,Anger can be important in life.,-1.0,5984.0,False
+10280,1,I never want to be sad again. ,-1.0,2465.0,False
+10280,2,I feel that occasional sadness is important. ,1.0,1984.0,False
+10280,3,I enjoy feeling melancholy sometimes.,-1.0,3960.0,False
+10280,4,It is not always bad to feel low. ,1.0,2879.0,False
+10280,5,It is never good to feel low. ,-1.0,1759.0,False
+10280,6,When I  feel low I can see things more clearly.,0.0,2784.0,False
+10280,7,Feeling sad sometimes is part of normal life,2.0,2383.0,False
+10280,8,I have learnt a lot about myself by being happy. ,2.0,3703.0,False
+10280,9,I have learnt a lot about myself by being sad. ,1.0,4946.0,False
+10280,10,How one feels is not the most important thing. ,0.0,6496.0,False
+10280,11,"I am always trying to be myself, even if this makes me feel low.",2.0,3649.0,False
+10280,12,Feeling anger is always good. ,-2.0,2856.0,False
+10280,13,Feeling anger is never good. ,-1.0,2896.0,False
+10280,14,Anger can be important in life.,1.0,6711.0,False

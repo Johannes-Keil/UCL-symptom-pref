@@ -1,0 +1,2221 @@
+id,item_id,item,positive,CESD_response,CESD_rt,null_resp,orig_response
+10680,1,I was bothered by things that usually don't bother me.,0,0.0,8618.0,0,0.0
+10680,2,I did not feel like eating; my appetite was poor.,0,0.0,1488.0,0,0.0
+10680,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1330.0,0,0.0
+10680,4,I felt just as good as other people.,1,0.0,4206.0,0,3.0
+10680,5,I had trouble keeping my mind on what I was doing.,0,0.0,8710.0,0,0.0
+10680,6,I felt depressed.,0,0.0,664.0,0,0.0
+10680,7,I felt that everything I did was an effort.,0,0.0,2240.0,0,0.0
+10680,8,I felt hopeful about the future.,1,0.0,5521.0,0,3.0
+10680,9,I thought my life had been a failure.,0,0.0,5177.0,0,0.0
+10680,10,I felt fearful.,0,0.0,1794.0,0,0.0
+10680,11,My sleep was restless.,0,1.0,2483.0,0,1.0
+10680,12,I was happy.,1,0.0,6147.0,0,3.0
+10680,13,I talked less than ususal.,0,0.0,1059.0,0,0.0
+10680,14,I felt lonely.,0,0.0,3475.0,0,0.0
+10680,15,People were unfriendly.,0,0.0,1740.0,0,0.0
+10680,16,I enjoyed life.,1,0.0,1807.0,0,3.0
+10680,17,I had crying spells.,0,0.0,2601.0,0,0.0
+10680,18,I felt sad.,0,0.0,454.0,0,0.0
+10680,19,I felt that people dislike me.,0,0.0,2035.0,0,0.0
+10680,20,"I could not get ""going.""",0,0.0,1129.0,0,0.0
+10681,1,I was bothered by things that usually don't bother me.,0,1.0,6761.0,0,1.0
+10681,2,I did not feel like eating; my appetite was poor.,0,0.0,3231.0,0,0.0
+10681,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,3146.0,0,2.0
+10681,4,I felt just as good as other people.,1,1.0,2200.0,0,2.0
+10681,5,I had trouble keeping my mind on what I was doing.,0,1.0,6897.0,0,1.0
+10681,6,I felt depressed.,0,3.0,2175.0,0,3.0
+10681,7,I felt that everything I did was an effort.,0,2.0,2688.0,0,2.0
+10681,8,I felt hopeful about the future.,1,2.0,9961.0,0,1.0
+10681,9,I thought my life had been a failure.,0,0.0,1224.0,0,0.0
+10681,10,I felt fearful.,0,0.0,1896.0,0,0.0
+10681,11,My sleep was restless.,0,1.0,1137.0,0,1.0
+10681,12,I was happy.,1,2.0,1158.0,0,1.0
+10681,13,I talked less than ususal.,0,2.0,2921.0,0,2.0
+10681,14,I felt lonely.,0,0.0,1971.0,0,0.0
+10681,15,People were unfriendly.,0,0.0,1981.0,0,0.0
+10681,16,I enjoyed life.,1,2.0,2049.0,0,1.0
+10681,17,I had crying spells.,0,0.0,1743.0,0,0.0
+10681,18,I felt sad.,0,0.0,1306.0,0,0.0
+10681,19,I felt that people dislike me.,0,0.0,1303.0,0,0.0
+10681,20,"I could not get ""going.""",0,2.0,1561.0,0,2.0
+10682,1,I was bothered by things that usually don't bother me.,0,2.0,1703.0,0,2.0
+10682,2,I did not feel like eating; my appetite was poor.,0,0.0,8287.0,0,0.0
+10682,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1882.0,0,2.0
+10682,4,I felt just as good as other people.,1,1.0,3913.0,0,2.0
+10682,5,I had trouble keeping my mind on what I was doing.,0,2.0,1319.0,0,2.0
+10682,6,I felt depressed.,0,2.0,1210.0,0,2.0
+10682,7,I felt that everything I did was an effort.,0,2.0,1461.0,0,2.0
+10682,8,I felt hopeful about the future.,1,1.0,1639.0,0,2.0
+10682,9,I thought my life had been a failure.,0,0.0,2622.0,0,0.0
+10682,10,I felt fearful.,0,1.0,1670.0,0,1.0
+10682,11,My sleep was restless.,0,3.0,2366.0,0,3.0
+10682,12,I was happy.,1,2.0,3095.0,0,1.0
+10682,13,I talked less than ususal.,0,1.0,6587.0,0,1.0
+10682,14,I felt lonely.,0,2.0,1588.0,0,2.0
+10682,15,People were unfriendly.,0,0.0,2482.0,0,0.0
+10682,16,I enjoyed life.,1,2.0,2736.0,0,1.0
+10682,17,I had crying spells.,0,1.0,2458.0,0,1.0
+10682,18,I felt sad.,0,3.0,2069.0,0,3.0
+10682,19,I felt that people dislike me.,0,1.0,2351.0,0,1.0
+10682,20,"I could not get ""going.""",0,1.0,1603.0,0,1.0
+10683,1,I was bothered by things that usually don't bother me.,0,0.0,10130.0,0,0.0
+10683,2,I did not feel like eating; my appetite was poor.,0,0.0,3319.0,0,0.0
+10683,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,8196.0,0,2.0
+10683,4,I felt just as good as other people.,1,3.0,7016.0,0,0.0
+10683,5,I had trouble keeping my mind on what I was doing.,0,0.0,3830.0,0,0.0
+10683,6,I felt depressed.,0,3.0,4551.0,0,3.0
+10683,7,I felt that everything I did was an effort.,0,2.0,11903.0,0,2.0
+10683,8,I felt hopeful about the future.,1,3.0,7857.0,0,0.0
+10683,9,I thought my life had been a failure.,0,2.0,10600.0,0,2.0
+10683,10,I felt fearful.,0,0.0,14996.0,0,0.0
+10683,11,My sleep was restless.,0,0.0,5001.0,0,0.0
+10683,12,I was happy.,1,3.0,8663.0,0,0.0
+10683,13,I talked less than ususal.,0,0.0,10697.0,0,0.0
+10683,14,I felt lonely.,0,3.0,7915.0,0,3.0
+10683,15,People were unfriendly.,0,0.0,6334.0,0,0.0
+10683,16,I enjoyed life.,1,3.0,10631.0,0,0.0
+10683,17,I had crying spells.,0,0.0,3097.0,0,0.0
+10683,18,I felt sad.,0,3.0,6051.0,0,3.0
+10683,19,I felt that people dislike me.,0,1.0,9248.0,0,1.0
+10683,20,"I could not get ""going.""",0,2.0,6497.0,0,2.0
+10684,1,I was bothered by things that usually don't bother me.,0,1.0,135423.0,0,1.0
+10684,2,I did not feel like eating; my appetite was poor.,0,1.0,4785.0,0,1.0
+10684,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,7055.0,0,2.0
+10684,4,I felt just as good as other people.,1,3.0,4210.0,0,0.0
+10684,5,I had trouble keeping my mind on what I was doing.,0,1.0,6647.0,0,1.0
+10684,6,I felt depressed.,0,2.0,2029.0,0,2.0
+10684,7,I felt that everything I did was an effort.,0,2.0,2009.0,0,2.0
+10684,8,I felt hopeful about the future.,1,2.0,1971.0,0,1.0
+10684,9,I thought my life had been a failure.,0,2.0,3315.0,0,2.0
+10684,10,I felt fearful.,0,0.0,3876.0,0,0.0
+10684,11,My sleep was restless.,0,0.0,1554.0,0,0.0
+10684,12,I was happy.,1,2.0,1726.0,0,1.0
+10684,13,I talked less than ususal.,0,3.0,2753.0,0,3.0
+10684,14,I felt lonely.,0,1.0,981.0,0,1.0
+10684,15,People were unfriendly.,0,1.0,3580.0,0,1.0
+10684,16,I enjoyed life.,1,2.0,4487.0,0,1.0
+10684,17,I had crying spells.,0,0.0,1773.0,0,0.0
+10684,18,I felt sad.,0,1.0,2673.0,0,1.0
+10684,19,I felt that people dislike me.,0,2.0,1943.0,0,2.0
+10684,20,"I could not get ""going.""",0,2.0,1224.0,0,2.0
+10685,1,I was bothered by things that usually don't bother me.,0,1.0,54223.0,0,1.0
+10685,2,I did not feel like eating; my appetite was poor.,0,0.0,3508.0,0,0.0
+10685,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,3211.0,0,0.0
+10685,4,I felt just as good as other people.,1,2.0,4453.0,0,1.0
+10685,5,I had trouble keeping my mind on what I was doing.,0,2.0,2106.0,0,2.0
+10685,6,I felt depressed.,0,1.0,1909.0,0,1.0
+10685,7,I felt that everything I did was an effort.,0,1.0,4256.0,0,1.0
+10685,8,I felt hopeful about the future.,1,1.0,7297.0,0,2.0
+10685,9,I thought my life had been a failure.,0,1.0,4277.0,0,1.0
+10685,10,I felt fearful.,0,1.0,1473.0,0,1.0
+10685,11,My sleep was restless.,0,3.0,1726.0,0,3.0
+10685,12,I was happy.,1,1.0,1960.0,0,2.0
+10685,13,I talked less than ususal.,0,0.0,7091.0,0,0.0
+10685,14,I felt lonely.,0,0.0,1788.0,0,0.0
+10685,15,People were unfriendly.,0,0.0,2430.0,0,0.0
+10685,16,I enjoyed life.,1,1.0,1477.0,0,2.0
+10685,17,I had crying spells.,0,0.0,4791.0,0,0.0
+10685,18,I felt sad.,0,0.0,916.0,0,0.0
+10685,19,I felt that people dislike me.,0,1.0,2122.0,0,1.0
+10685,20,"I could not get ""going.""",0,1.0,2502.0,0,1.0
+10686,1,I was bothered by things that usually don't bother me.,0,1.0,10190.0,0,1.0
+10686,2,I did not feel like eating; my appetite was poor.,0,0.0,845.0,0,0.0
+10686,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2079.0,0,1.0
+10686,4,I felt just as good as other people.,1,1.0,3263.0,0,2.0
+10686,5,I had trouble keeping my mind on what I was doing.,0,1.0,2927.0,0,1.0
+10686,6,I felt depressed.,0,1.0,2830.0,0,1.0
+10686,7,I felt that everything I did was an effort.,0,1.0,1870.0,0,1.0
+10686,8,I felt hopeful about the future.,1,1.0,1433.0,0,2.0
+10686,9,I thought my life had been a failure.,0,1.0,2297.0,0,1.0
+10686,10,I felt fearful.,0,1.0,1716.0,0,1.0
+10686,11,My sleep was restless.,0,1.0,1878.0,0,1.0
+10686,12,I was happy.,1,1.0,745.0,0,2.0
+10686,13,I talked less than ususal.,0,1.0,4003.0,0,1.0
+10686,14,I felt lonely.,0,2.0,1753.0,0,2.0
+10686,15,People were unfriendly.,0,0.0,2167.0,0,0.0
+10686,16,I enjoyed life.,1,1.0,2305.0,0,2.0
+10686,17,I had crying spells.,0,1.0,1828.0,0,1.0
+10686,18,I felt sad.,0,1.0,3364.0,0,1.0
+10686,19,I felt that people dislike me.,0,1.0,1490.0,0,1.0
+10686,20,"I could not get ""going.""",0,1.0,1237.0,0,1.0
+10687,1,I was bothered by things that usually don't bother me.,0,1.0,8344.0,0,1.0
+10687,2,I did not feel like eating; my appetite was poor.,0,2.0,1409.0,0,2.0
+10687,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,4194.0,0,0.0
+10687,4,I felt just as good as other people.,1,3.0,6153.0,0,0.0
+10687,5,I had trouble keeping my mind on what I was doing.,0,0.0,3212.0,0,0.0
+10687,6,I felt depressed.,0,2.0,4684.0,0,2.0
+10687,7,I felt that everything I did was an effort.,0,1.0,2381.0,0,1.0
+10687,8,I felt hopeful about the future.,1,2.0,2271.0,0,1.0
+10687,9,I thought my life had been a failure.,0,2.0,4081.0,0,2.0
+10687,10,I felt fearful.,0,0.0,2346.0,0,0.0
+10687,11,My sleep was restless.,0,0.0,1458.0,0,0.0
+10687,12,I was happy.,1,2.0,1370.0,0,1.0
+10687,13,I talked less than ususal.,0,0.0,2009.0,0,0.0
+10687,14,I felt lonely.,0,3.0,2899.0,0,3.0
+10687,15,People were unfriendly.,0,2.0,5239.0,0,2.0
+10687,16,I enjoyed life.,1,3.0,4930.0,0,0.0
+10687,17,I had crying spells.,0,0.0,1389.0,0,0.0
+10687,18,I felt sad.,0,1.0,2305.0,0,1.0
+10687,19,I felt that people dislike me.,0,2.0,4013.0,0,2.0
+10687,20,"I could not get ""going.""",0,1.0,1723.0,0,1.0
+10688,1,I was bothered by things that usually don't bother me.,0,2.0,5206.0,0,2.0
+10688,2,I did not feel like eating; my appetite was poor.,0,2.0,1856.0,0,2.0
+10688,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1847.0,0,2.0
+10688,4,I felt just as good as other people.,1,2.0,2226.0,0,1.0
+10688,5,I had trouble keeping my mind on what I was doing.,0,3.0,2544.0,0,3.0
+10688,6,I felt depressed.,0,2.0,2488.0,0,2.0
+10688,7,I felt that everything I did was an effort.,0,2.0,1877.0,0,2.0
+10688,8,I felt hopeful about the future.,1,2.0,2229.0,0,1.0
+10688,9,I thought my life had been a failure.,0,2.0,2157.0,0,2.0
+10688,10,I felt fearful.,0,2.0,1170.0,0,2.0
+10688,11,My sleep was restless.,0,2.0,1676.0,0,2.0
+10688,12,I was happy.,1,3.0,1755.0,0,0.0
+10688,13,I talked less than ususal.,0,0.0,5187.0,0,0.0
+10688,14,I felt lonely.,0,3.0,1542.0,0,3.0
+10688,15,People were unfriendly.,0,1.0,4028.0,0,1.0
+10688,16,I enjoyed life.,1,2.0,1789.0,0,1.0
+10688,17,I had crying spells.,0,2.0,980.0,0,2.0
+10688,18,I felt sad.,0,3.0,1426.0,0,3.0
+10688,19,I felt that people dislike me.,0,2.0,2847.0,0,2.0
+10688,20,"I could not get ""going.""",0,3.0,1284.0,0,3.0
+10689,1,I was bothered by things that usually don't bother me.,0,3.0,9187.0,0,3.0
+10689,2,I did not feel like eating; my appetite was poor.,0,0.0,5249.0,0,0.0
+10689,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,5388.0,0,3.0
+10689,4,I felt just as good as other people.,1,3.0,6188.0,0,0.0
+10689,5,I had trouble keeping my mind on what I was doing.,0,2.0,5294.0,0,2.0
+10689,6,I felt depressed.,0,3.0,2238.0,0,3.0
+10689,7,I felt that everything I did was an effort.,0,3.0,2344.0,0,3.0
+10689,8,I felt hopeful about the future.,1,2.0,5208.0,0,1.0
+10689,9,I thought my life had been a failure.,0,1.0,3295.0,0,1.0
+10689,10,I felt fearful.,0,3.0,4154.0,0,3.0
+10689,11,My sleep was restless.,0,1.0,3170.0,0,1.0
+10689,12,I was happy.,1,3.0,5103.0,0,0.0
+10689,13,I talked less than ususal.,0,2.0,6396.0,0,2.0
+10689,14,I felt lonely.,0,2.0,2610.0,0,2.0
+10689,15,People were unfriendly.,0,3.0,3784.0,0,3.0
+10689,16,I enjoyed life.,1,3.0,2597.0,0,0.0
+10689,17,I had crying spells.,0,1.0,2011.0,0,1.0
+10689,18,I felt sad.,0,3.0,1505.0,0,3.0
+10689,19,I felt that people dislike me.,0,2.0,2929.0,0,2.0
+10689,20,"I could not get ""going.""",0,3.0,2257.0,0,3.0
+10690,1,I was bothered by things that usually don't bother me.,0,0.0,9229.0,0,0.0
+10690,2,I did not feel like eating; my appetite was poor.,0,1.0,7819.0,0,1.0
+10690,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,129726.0,0,1.0
+10690,4,I felt just as good as other people.,1,1.0,6613.0,0,2.0
+10690,5,I had trouble keeping my mind on what I was doing.,0,3.0,7345.0,0,3.0
+10690,6,I felt depressed.,0,2.0,6538.0,0,2.0
+10690,7,I felt that everything I did was an effort.,0,3.0,2484.0,0,3.0
+10690,8,I felt hopeful about the future.,1,1.0,3428.0,0,2.0
+10690,9,I thought my life had been a failure.,0,2.0,6003.0,0,2.0
+10690,10,I felt fearful.,0,2.0,2632.0,0,2.0
+10690,11,My sleep was restless.,0,0.0,7774.0,0,0.0
+10690,12,I was happy.,1,2.0,4290.0,0,1.0
+10690,13,I talked less than ususal.,0,1.0,3364.0,0,1.0
+10690,14,I felt lonely.,0,1.0,2602.0,0,1.0
+10690,15,People were unfriendly.,0,0.0,4960.0,0,0.0
+10690,16,I enjoyed life.,1,2.0,2554.0,0,1.0
+10690,17,I had crying spells.,0,0.0,8309.0,0,0.0
+10690,18,I felt sad.,0,2.0,4342.0,0,2.0
+10690,19,I felt that people dislike me.,0,1.0,5007.0,0,1.0
+10690,20,"I could not get ""going.""",0,3.0,2620.0,0,3.0
+10691,1,I was bothered by things that usually don't bother me.,0,1.0,561.0,0,1.0
+10691,2,I did not feel like eating; my appetite was poor.,0,0.0,7228.0,0,0.0
+10691,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2756.0,0,1.0
+10691,4,I felt just as good as other people.,1,2.0,2632.0,0,1.0
+10691,5,I had trouble keeping my mind on what I was doing.,0,3.0,1915.0,0,3.0
+10691,6,I felt depressed.,0,2.0,1388.0,0,2.0
+10691,7,I felt that everything I did was an effort.,0,3.0,1773.0,0,3.0
+10691,8,I felt hopeful about the future.,1,2.0,1914.0,0,1.0
+10691,9,I thought my life had been a failure.,0,2.0,1884.0,0,2.0
+10691,10,I felt fearful.,0,0.0,1513.0,0,0.0
+10691,11,My sleep was restless.,0,1.0,1262.0,0,1.0
+10691,12,I was happy.,1,2.0,1738.0,0,1.0
+10691,13,I talked less than ususal.,0,0.0,1888.0,0,0.0
+10691,14,I felt lonely.,0,2.0,1845.0,0,2.0
+10691,15,People were unfriendly.,0,0.0,1673.0,0,0.0
+10691,16,I enjoyed life.,1,2.0,1652.0,0,1.0
+10691,17,I had crying spells.,0,0.0,1523.0,0,0.0
+10691,18,I felt sad.,0,2.0,1751.0,0,2.0
+10691,19,I felt that people dislike me.,0,0.0,1799.0,0,0.0
+10691,20,"I could not get ""going.""",0,3.0,1584.0,0,3.0
+10692,1,I was bothered by things that usually don't bother me.,0,3.0,3053.0,0,3.0
+10692,2,I did not feel like eating; my appetite was poor.,0,0.0,2150.0,0,0.0
+10692,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1874.0,0,2.0
+10692,4,I felt just as good as other people.,1,3.0,2503.0,0,0.0
+10692,5,I had trouble keeping my mind on what I was doing.,0,1.0,1924.0,0,1.0
+10692,6,I felt depressed.,0,3.0,1291.0,0,3.0
+10692,7,I felt that everything I did was an effort.,0,3.0,1110.0,0,3.0
+10692,8,I felt hopeful about the future.,1,3.0,1754.0,0,0.0
+10692,9,I thought my life had been a failure.,0,2.0,1503.0,0,2.0
+10692,10,I felt fearful.,0,3.0,1291.0,0,3.0
+10692,11,My sleep was restless.,0,2.0,1734.0,0,2.0
+10692,12,I was happy.,1,3.0,1261.0,0,0.0
+10692,13,I talked less than ususal.,0,1.0,2763.0,0,1.0
+10692,14,I felt lonely.,0,1.0,1616.0,0,1.0
+10692,15,People were unfriendly.,0,3.0,1754.0,0,3.0
+10692,16,I enjoyed life.,1,3.0,1332.0,0,0.0
+10692,17,I had crying spells.,0,1.0,2329.0,0,1.0
+10692,18,I felt sad.,0,3.0,1555.0,0,3.0
+10692,19,I felt that people dislike me.,0,3.0,1279.0,0,3.0
+10692,20,"I could not get ""going.""",0,3.0,1251.0,0,3.0
+10693,1,I was bothered by things that usually don't bother me.,0,1.0,8996.0,0,1.0
+10693,2,I did not feel like eating; my appetite was poor.,0,0.0,3896.0,0,0.0
+10693,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,2380.0,0,0.0
+10693,4,I felt just as good as other people.,1,0.0,4200.0,0,3.0
+10693,5,I had trouble keeping my mind on what I was doing.,0,1.0,3069.0,0,1.0
+10693,6,I felt depressed.,0,0.0,2531.0,0,0.0
+10693,7,I felt that everything I did was an effort.,0,2.0,2876.0,0,2.0
+10693,8,I felt hopeful about the future.,1,1.0,1812.0,0,2.0
+10693,9,I thought my life had been a failure.,0,0.0,3205.0,0,0.0
+10693,10,I felt fearful.,0,0.0,1207.0,0,0.0
+10693,11,My sleep was restless.,0,2.0,3964.0,0,2.0
+10693,12,I was happy.,1,0.0,2148.0,0,3.0
+10693,13,I talked less than ususal.,0,1.0,4488.0,0,1.0
+10693,14,I felt lonely.,0,0.0,1320.0,0,0.0
+10693,15,People were unfriendly.,0,0.0,3524.0,0,0.0
+10693,16,I enjoyed life.,1,1.0,1836.0,0,2.0
+10693,17,I had crying spells.,0,0.0,2100.0,0,0.0
+10693,18,I felt sad.,0,0.0,1008.0,0,0.0
+10693,19,I felt that people dislike me.,0,0.0,1513.0,0,0.0
+10693,20,"I could not get ""going.""",0,2.0,1980.0,0,2.0
+10694,1,I was bothered by things that usually don't bother me.,0,1.0,9259.0,0,1.0
+10694,2,I did not feel like eating; my appetite was poor.,0,1.0,476.0,0,1.0
+10694,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2174.0,0,1.0
+10694,4,I felt just as good as other people.,1,1.0,4381.0,0,2.0
+10694,5,I had trouble keeping my mind on what I was doing.,0,3.0,8335.0,0,3.0
+10694,6,I felt depressed.,0,2.0,1386.0,0,2.0
+10694,7,I felt that everything I did was an effort.,0,3.0,5188.0,0,3.0
+10694,8,I felt hopeful about the future.,1,2.0,8908.0,0,1.0
+10694,9,I thought my life had been a failure.,0,1.0,2818.0,0,1.0
+10694,10,I felt fearful.,0,0.0,2353.0,0,0.0
+10694,11,My sleep was restless.,0,3.0,1651.0,0,3.0
+10694,12,I was happy.,1,2.0,2137.0,0,1.0
+10694,13,I talked less than ususal.,0,2.0,7179.0,0,2.0
+10694,14,I felt lonely.,0,1.0,1418.0,0,1.0
+10694,15,People were unfriendly.,0,0.0,3498.0,0,0.0
+10694,16,I enjoyed life.,1,1.0,3488.0,0,2.0
+10694,17,I had crying spells.,0,0.0,1918.0,0,0.0
+10694,18,I felt sad.,0,2.0,2204.0,0,2.0
+10694,19,I felt that people dislike me.,0,0.0,2408.0,0,0.0
+10694,20,"I could not get ""going.""",0,3.0,1144.0,0,3.0
+10695,1,I was bothered by things that usually don't bother me.,0,1.0,6614.0,0,1.0
+10695,2,I did not feel like eating; my appetite was poor.,0,0.0,2585.0,0,0.0
+10695,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,9471.0,0,0.0
+10695,4,I felt just as good as other people.,1,0.0,2457.0,0,3.0
+10695,5,I had trouble keeping my mind on what I was doing.,0,1.0,2543.0,0,1.0
+10695,6,I felt depressed.,0,0.0,4248.0,0,0.0
+10695,7,I felt that everything I did was an effort.,0,1.0,3168.0,0,1.0
+10695,8,I felt hopeful about the future.,1,1.0,3448.0,0,2.0
+10695,9,I thought my life had been a failure.,0,0.0,1864.0,0,0.0
+10695,10,I felt fearful.,0,1.0,1984.0,0,1.0
+10695,11,My sleep was restless.,0,1.0,3432.0,0,1.0
+10695,12,I was happy.,1,1.0,2216.0,0,2.0
+10695,13,I talked less than ususal.,0,0.0,2304.0,0,0.0
+10695,14,I felt lonely.,0,0.0,1592.0,0,0.0
+10695,15,People were unfriendly.,0,0.0,1336.0,0,0.0
+10695,16,I enjoyed life.,1,1.0,3056.0,0,2.0
+10695,17,I had crying spells.,0,0.0,5240.0,0,0.0
+10695,18,I felt sad.,0,1.0,1440.0,0,1.0
+10695,19,I felt that people dislike me.,0,0.0,1416.0,0,0.0
+10695,20,"I could not get ""going.""",0,1.0,1473.0,0,1.0
+10696,1,I was bothered by things that usually don't bother me.,0,1.0,6679.0,0,1.0
+10696,2,I did not feel like eating; my appetite was poor.,0,0.0,2975.0,0,0.0
+10696,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2345.0,0,1.0
+10696,4,I felt just as good as other people.,1,0.0,3712.0,0,3.0
+10696,5,I had trouble keeping my mind on what I was doing.,0,0.0,2080.0,0,0.0
+10696,6,I felt depressed.,0,3.0,2128.0,0,3.0
+10696,7,I felt that everything I did was an effort.,0,3.0,1896.0,0,3.0
+10696,8,I felt hopeful about the future.,1,0.0,1296.0,0,3.0
+10696,9,I thought my life had been a failure.,0,1.0,2392.0,0,1.0
+10696,10,I felt fearful.,0,1.0,4904.0,0,1.0
+10696,11,My sleep was restless.,0,3.0,2072.0,0,3.0
+10696,12,I was happy.,1,2.0,2721.0,0,1.0
+10696,13,I talked less than ususal.,0,0.0,2656.0,0,0.0
+10696,14,I felt lonely.,0,0.0,1336.0,0,0.0
+10696,15,People were unfriendly.,0,0.0,1720.0,0,0.0
+10696,16,I enjoyed life.,1,2.0,1903.0,0,1.0
+10696,17,I had crying spells.,0,1.0,1577.0,0,1.0
+10696,18,I felt sad.,0,2.0,1823.0,0,2.0
+10696,19,I felt that people dislike me.,0,0.0,1880.0,0,0.0
+10696,20,"I could not get ""going.""",0,1.0,1416.0,0,1.0
+10697,1,I was bothered by things that usually don't bother me.,0,1.0,5054.0,0,1.0
+10697,2,I did not feel like eating; my appetite was poor.,0,0.0,16385.0,0,0.0
+10697,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,3422.0,0,1.0
+10697,4,I felt just as good as other people.,1,0.0,3576.0,0,3.0
+10697,5,I had trouble keeping my mind on what I was doing.,0,3.0,4785.0,0,3.0
+10697,6,I felt depressed.,0,2.0,1949.0,0,2.0
+10697,7,I felt that everything I did was an effort.,0,1.0,738.0,0,1.0
+10697,8,I felt hopeful about the future.,1,1.0,3254.0,0,2.0
+10697,9,I thought my life had been a failure.,0,0.0,1797.0,0,0.0
+10697,10,I felt fearful.,0,0.0,839.0,0,0.0
+10697,11,My sleep was restless.,0,1.0,1387.0,0,1.0
+10697,12,I was happy.,1,1.0,1988.0,0,2.0
+10697,13,I talked less than ususal.,0,1.0,2505.0,0,1.0
+10697,14,I felt lonely.,0,2.0,887.0,0,2.0
+10697,15,People were unfriendly.,0,0.0,1802.0,0,0.0
+10697,16,I enjoyed life.,1,1.0,975.0,0,2.0
+10697,17,I had crying spells.,0,0.0,10086.0,0,0.0
+10697,18,I felt sad.,0,1.0,950.0,0,1.0
+10697,19,I felt that people dislike me.,0,0.0,1074.0,0,0.0
+10697,20,"I could not get ""going.""",0,0.0,1228.0,0,0.0
+10698,1,I was bothered by things that usually don't bother me.,0,3.0,3867.0,0,3.0
+10698,2,I did not feel like eating; my appetite was poor.,0,3.0,1417.0,0,3.0
+10698,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,1284.0,0,3.0
+10698,4,I felt just as good as other people.,1,3.0,4668.0,0,0.0
+10698,5,I had trouble keeping my mind on what I was doing.,0,3.0,2601.0,0,3.0
+10698,6,I felt depressed.,0,3.0,1266.0,0,3.0
+10698,7,I felt that everything I did was an effort.,0,3.0,1001.0,0,3.0
+10698,8,I felt hopeful about the future.,1,3.0,4251.0,0,0.0
+10698,9,I thought my life had been a failure.,0,3.0,2434.0,0,3.0
+10698,10,I felt fearful.,0,3.0,2517.0,0,3.0
+10698,11,My sleep was restless.,0,3.0,1167.0,0,3.0
+10698,12,I was happy.,1,3.0,2217.0,0,0.0
+10698,13,I talked less than ususal.,0,3.0,2534.0,0,3.0
+10698,14,I felt lonely.,0,3.0,2001.0,0,3.0
+10698,15,People were unfriendly.,0,3.0,1067.0,0,3.0
+10698,16,I enjoyed life.,1,3.0,2567.0,0,0.0
+10698,17,I had crying spells.,0,3.0,2217.0,0,3.0
+10698,18,I felt sad.,0,3.0,2317.0,0,3.0
+10698,19,I felt that people dislike me.,0,3.0,1268.0,0,3.0
+10698,20,"I could not get ""going.""",0,3.0,817.0,0,3.0
+10699,1,I was bothered by things that usually don't bother me.,0,1.0,9255.0,0,1.0
+10699,2,I did not feel like eating; my appetite was poor.,0,0.0,3089.0,0,0.0
+10699,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,4567.0,0,1.0
+10699,4,I felt just as good as other people.,1,1.0,7617.0,0,2.0
+10699,5,I had trouble keeping my mind on what I was doing.,0,1.0,2832.0,0,1.0
+10699,6,I felt depressed.,0,1.0,23128.0,0,1.0
+10699,7,I felt that everything I did was an effort.,0,1.0,10744.0,0,1.0
+10699,8,I felt hopeful about the future.,1,2.0,9592.0,0,1.0
+10699,9,I thought my life had been a failure.,0,0.0,6856.0,0,0.0
+10699,10,I felt fearful.,0,1.0,2736.0,0,1.0
+10699,11,My sleep was restless.,0,3.0,3272.0,0,3.0
+10699,12,I was happy.,1,2.0,5776.0,0,1.0
+10699,13,I talked less than ususal.,0,0.0,2679.0,0,0.0
+10699,14,I felt lonely.,0,0.0,1809.0,0,0.0
+10699,15,People were unfriendly.,0,0.0,1216.0,0,0.0
+10699,16,I enjoyed life.,1,2.0,1743.0,0,1.0
+10699,17,I had crying spells.,0,0.0,2241.0,0,0.0
+10699,18,I felt sad.,0,1.0,1704.0,0,1.0
+10699,19,I felt that people dislike me.,0,0.0,1608.0,0,0.0
+10699,20,"I could not get ""going.""",0,2.0,2328.0,0,2.0
+10700,1,I was bothered by things that usually don't bother me.,0,3.0,3016.0,0,3.0
+10700,2,I did not feel like eating; my appetite was poor.,0,2.0,371.0,0,2.0
+10700,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,361.0,0,2.0
+10700,4,I felt just as good as other people.,1,2.0,183.0,0,1.0
+10700,5,I had trouble keeping my mind on what I was doing.,0,3.0,548.0,0,3.0
+10700,6,I felt depressed.,0,2.0,371.0,0,2.0
+10700,7,I felt that everything I did was an effort.,0,1.0,207.0,0,1.0
+10700,8,I felt hopeful about the future.,1,0.0,542.0,0,3.0
+10700,9,I thought my life had been a failure.,0,2.0,399.0,0,2.0
+10700,10,I felt fearful.,0,1.0,219.0,0,1.0
+10700,11,My sleep was restless.,0,3.0,523.0,0,3.0
+10700,12,I was happy.,1,1.0,379.0,0,2.0
+10700,13,I talked less than ususal.,0,1.0,198.0,0,1.0
+10700,14,I felt lonely.,0,3.0,541.0,0,3.0
+10700,15,People were unfriendly.,0,1.0,194.0,0,1.0
+10700,16,I enjoyed life.,1,1.0,404.0,0,2.0
+10700,17,I had crying spells.,0,2.0,383.0,0,2.0
+10700,18,I felt sad.,0,3.0,577.0,0,3.0
+10700,19,I felt that people dislike me.,0,0.0,759.0,0,0.0
+10700,20,"I could not get ""going.""",0,2.0,621.0,0,2.0
+10701,1,I was bothered by things that usually don't bother me.,0,0.0,11521.0,0,0.0
+10701,2,I did not feel like eating; my appetite was poor.,0,0.0,1431.0,0,0.0
+10701,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1967.0,0,0.0
+10701,4,I felt just as good as other people.,1,0.0,6036.0,0,3.0
+10701,5,I had trouble keeping my mind on what I was doing.,0,1.0,2852.0,0,1.0
+10701,6,I felt depressed.,0,0.0,1647.0,0,0.0
+10701,7,I felt that everything I did was an effort.,0,1.0,1960.0,0,1.0
+10701,8,I felt hopeful about the future.,1,1.0,4394.0,0,2.0
+10701,9,I thought my life had been a failure.,0,1.0,18125.0,0,1.0
+10701,10,I felt fearful.,0,0.0,1629.0,0,0.0
+10701,11,My sleep was restless.,0,0.0,2011.0,0,0.0
+10701,12,I was happy.,1,1.0,4955.0,0,2.0
+10701,13,I talked less than ususal.,0,0.0,1116.0,0,0.0
+10701,14,I felt lonely.,0,0.0,3109.0,0,0.0
+10701,15,People were unfriendly.,0,0.0,7601.0,0,0.0
+10701,16,I enjoyed life.,1,1.0,3743.0,0,2.0
+10701,17,I had crying spells.,0,0.0,9520.0,0,0.0
+10701,18,I felt sad.,0,0.0,2811.0,0,0.0
+10701,19,I felt that people dislike me.,0,0.0,2236.0,0,0.0
+10701,20,"I could not get ""going.""",0,1.0,8501.0,0,1.0
+10702,1,I was bothered by things that usually don't bother me.,0,0.0,8003.0,0,0.0
+10702,2,I did not feel like eating; my appetite was poor.,0,0.0,1343.0,0,0.0
+10702,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,2083.0,0,0.0
+10702,4,I felt just as good as other people.,1,2.0,2118.0,0,1.0
+10702,5,I had trouble keeping my mind on what I was doing.,0,2.0,2663.0,0,2.0
+10702,6,I felt depressed.,0,2.0,2274.0,0,2.0
+10702,7,I felt that everything I did was an effort.,0,2.0,1488.0,0,2.0
+10702,8,I felt hopeful about the future.,1,2.0,5555.0,0,1.0
+10702,9,I thought my life had been a failure.,0,2.0,1903.0,0,2.0
+10702,10,I felt fearful.,0,2.0,950.0,0,2.0
+10702,11,My sleep was restless.,0,0.0,1750.0,0,0.0
+10702,12,I was happy.,1,2.0,2229.0,0,1.0
+10702,13,I talked less than ususal.,0,0.0,1440.0,0,0.0
+10702,14,I felt lonely.,0,2.0,1649.0,0,2.0
+10702,15,People were unfriendly.,0,0.0,1689.0,0,0.0
+10702,16,I enjoyed life.,1,2.0,1301.0,0,1.0
+10702,17,I had crying spells.,0,0.0,1300.0,0,0.0
+10702,18,I felt sad.,0,1.0,1625.0,0,1.0
+10702,19,I felt that people dislike me.,0,0.0,1595.0,0,0.0
+10702,20,"I could not get ""going.""",0,2.0,1223.0,0,2.0
+10703,1,I was bothered by things that usually don't bother me.,0,0.0,7752.0,0,0.0
+10703,2,I did not feel like eating; my appetite was poor.,0,0.0,2397.0,0,0.0
+10703,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,3643.0,0,0.0
+10703,4,I felt just as good as other people.,1,1.0,5859.0,0,2.0
+10703,5,I had trouble keeping my mind on what I was doing.,0,0.0,2048.0,0,0.0
+10703,6,I felt depressed.,0,0.0,3699.0,0,0.0
+10703,7,I felt that everything I did was an effort.,0,0.0,3615.0,0,0.0
+10703,8,I felt hopeful about the future.,1,1.0,2781.0,0,2.0
+10703,9,I thought my life had been a failure.,0,1.0,3911.0,0,1.0
+10703,10,I felt fearful.,0,0.0,1267.0,0,0.0
+10703,11,My sleep was restless.,0,0.0,2729.0,0,0.0
+10703,12,I was happy.,1,1.0,4843.0,0,2.0
+10703,13,I talked less than ususal.,0,0.0,5325.0,0,0.0
+10703,14,I felt lonely.,0,0.0,1071.0,0,0.0
+10703,15,People were unfriendly.,0,0.0,2379.0,0,0.0
+10703,16,I enjoyed life.,1,2.0,3718.0,0,1.0
+10703,17,I had crying spells.,0,0.0,2261.0,0,0.0
+10703,18,I felt sad.,0,1.0,1306.0,0,1.0
+10703,19,I felt that people dislike me.,0,1.0,21880.0,0,1.0
+10703,20,"I could not get ""going.""",0,1.0,2642.0,0,1.0
+10704,1,I was bothered by things that usually don't bother me.,0,0.0,10802.0,0,0.0
+10704,2,I did not feel like eating; my appetite was poor.,0,0.0,1899.0,0,0.0
+10704,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,2611.0,0,0.0
+10704,4,I felt just as good as other people.,1,0.0,5131.0,0,3.0
+10704,5,I had trouble keeping my mind on what I was doing.,0,0.0,3228.0,0,0.0
+10704,6,I felt depressed.,0,0.0,1540.0,0,0.0
+10704,7,I felt that everything I did was an effort.,0,0.0,1305.0,0,0.0
+10704,8,I felt hopeful about the future.,1,1.0,1713.0,0,2.0
+10704,9,I thought my life had been a failure.,0,0.0,3026.0,0,0.0
+10704,10,I felt fearful.,0,0.0,1146.0,0,0.0
+10704,11,My sleep was restless.,0,1.0,2468.0,0,1.0
+10704,12,I was happy.,1,0.0,4014.0,0,3.0
+10704,13,I talked less than ususal.,0,2.0,5812.0,0,2.0
+10704,14,I felt lonely.,0,0.0,1613.0,0,0.0
+10704,15,People were unfriendly.,0,0.0,1405.0,0,0.0
+10704,16,I enjoyed life.,1,0.0,1736.0,0,3.0
+10704,17,I had crying spells.,0,0.0,1426.0,0,0.0
+10704,18,I felt sad.,0,0.0,924.0,0,0.0
+10704,19,I felt that people dislike me.,0,0.0,1134.0,0,0.0
+10704,20,"I could not get ""going.""",0,0.0,772.0,0,0.0
+10705,1,I was bothered by things that usually don't bother me.,0,1.0,13609.0,0,1.0
+10705,2,I did not feel like eating; my appetite was poor.,0,3.0,1657.0,0,3.0
+10705,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2149.0,0,2.0
+10705,4,I felt just as good as other people.,1,0.0,1657.0,0,3.0
+10705,5,I had trouble keeping my mind on what I was doing.,0,0.0,3183.0,0,0.0
+10705,6,I felt depressed.,0,1.0,3088.0,0,1.0
+10705,7,I felt that everything I did was an effort.,0,2.0,555.0,0,2.0
+10705,8,I felt hopeful about the future.,1,1.0,2075.0,0,2.0
+10705,9,I thought my life had been a failure.,0,0.0,2015.0,0,0.0
+10705,10,I felt fearful.,0,2.0,1842.0,0,2.0
+10705,11,My sleep was restless.,0,3.0,2936.0,0,3.0
+10705,12,I was happy.,1,2.0,1975.0,0,1.0
+10705,13,I talked less than ususal.,0,1.0,1596.0,0,1.0
+10705,14,I felt lonely.,0,0.0,2024.0,0,0.0
+10705,15,People were unfriendly.,0,1.0,3858.0,0,1.0
+10705,16,I enjoyed life.,1,1.0,2170.0,0,2.0
+10705,17,I had crying spells.,0,0.0,4807.0,0,0.0
+10705,18,I felt sad.,0,2.0,1637.0,0,2.0
+10705,19,I felt that people dislike me.,0,1.0,1710.0,0,1.0
+10705,20,"I could not get ""going.""",0,2.0,2905.0,0,2.0
+10706,1,I was bothered by things that usually don't bother me.,0,1.0,4984.0,0,1.0
+10706,2,I did not feel like eating; my appetite was poor.,0,0.0,2596.0,0,0.0
+10706,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,3483.0,0,2.0
+10706,4,I felt just as good as other people.,1,1.0,2662.0,0,2.0
+10706,5,I had trouble keeping my mind on what I was doing.,0,2.0,3907.0,0,2.0
+10706,6,I felt depressed.,0,2.0,1482.0,0,2.0
+10706,7,I felt that everything I did was an effort.,0,2.0,1389.0,0,2.0
+10706,8,I felt hopeful about the future.,1,2.0,2019.0,0,1.0
+10706,9,I thought my life had been a failure.,0,1.0,2846.0,0,1.0
+10706,10,I felt fearful.,0,2.0,2230.0,0,2.0
+10706,11,My sleep was restless.,0,2.0,703.0,0,2.0
+10706,12,I was happy.,1,1.0,2408.0,0,2.0
+10706,13,I talked less than ususal.,0,2.0,1499.0,0,2.0
+10706,14,I felt lonely.,0,2.0,648.0,0,2.0
+10706,15,People were unfriendly.,0,0.0,5036.0,0,0.0
+10706,16,I enjoyed life.,1,2.0,1738.0,0,1.0
+10706,17,I had crying spells.,0,0.0,1170.0,0,0.0
+10706,18,I felt sad.,0,2.0,1012.0,0,2.0
+10706,19,I felt that people dislike me.,0,1.0,1527.0,0,1.0
+10706,20,"I could not get ""going.""",0,1.0,502.0,0,1.0
+10707,1,I was bothered by things that usually don't bother me.,0,2.0,7187.0,0,2.0
+10707,2,I did not feel like eating; my appetite was poor.,0,3.0,1376.0,0,3.0
+10707,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2448.0,0,1.0
+10707,4,I felt just as good as other people.,1,0.0,3381.0,0,3.0
+10707,5,I had trouble keeping my mind on what I was doing.,0,0.0,2896.0,0,0.0
+10707,6,I felt depressed.,0,1.0,1589.0,0,1.0
+10707,7,I felt that everything I did was an effort.,0,1.0,1353.0,0,1.0
+10707,8,I felt hopeful about the future.,1,2.0,1101.0,0,1.0
+10707,9,I thought my life had been a failure.,0,0.0,1603.0,0,0.0
+10707,10,I felt fearful.,0,2.0,1158.0,0,2.0
+10707,11,My sleep was restless.,0,2.0,984.0,0,2.0
+10707,12,I was happy.,1,2.0,1511.0,0,1.0
+10707,13,I talked less than ususal.,0,0.0,2235.0,0,0.0
+10707,14,I felt lonely.,0,0.0,1404.0,0,0.0
+10707,15,People were unfriendly.,0,3.0,1642.0,0,3.0
+10707,16,I enjoyed life.,1,1.0,1949.0,0,2.0
+10707,17,I had crying spells.,0,0.0,2039.0,0,0.0
+10707,18,I felt sad.,0,2.0,1247.0,0,2.0
+10707,19,I felt that people dislike me.,0,3.0,1019.0,0,3.0
+10707,20,"I could not get ""going.""",0,2.0,968.0,0,2.0
+10708,1,I was bothered by things that usually don't bother me.,0,2.0,20183.0,0,2.0
+10708,2,I did not feel like eating; my appetite was poor.,0,2.0,3084.0,0,2.0
+10708,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1914.0,0,1.0
+10708,4,I felt just as good as other people.,1,2.0,2957.0,0,1.0
+10708,5,I had trouble keeping my mind on what I was doing.,0,2.0,2490.0,0,2.0
+10708,6,I felt depressed.,0,2.0,1520.0,0,2.0
+10708,7,I felt that everything I did was an effort.,0,3.0,2734.0,0,3.0
+10708,8,I felt hopeful about the future.,1,2.0,3820.0,0,1.0
+10708,9,I thought my life had been a failure.,0,1.0,2731.0,0,1.0
+10708,10,I felt fearful.,0,1.0,1496.0,0,1.0
+10708,11,My sleep was restless.,0,2.0,21836.0,0,2.0
+10708,12,I was happy.,1,2.0,1822.0,0,1.0
+10708,13,I talked less than ususal.,0,2.0,2370.0,0,2.0
+10708,14,I felt lonely.,0,2.0,1310.0,0,2.0
+10708,15,People were unfriendly.,0,1.0,6146.0,0,1.0
+10708,16,I enjoyed life.,1,2.0,1710.0,0,1.0
+10708,17,I had crying spells.,0,0.0,2212.0,0,0.0
+10708,18,I felt sad.,0,1.0,1354.0,0,1.0
+10708,19,I felt that people dislike me.,0,1.0,1632.0,0,1.0
+10708,20,"I could not get ""going.""",0,2.0,3640.0,0,2.0
+10709,1,I was bothered by things that usually don't bother me.,0,3.0,4275.0,0,3.0
+10709,2,I did not feel like eating; my appetite was poor.,0,0.0,1983.0,0,0.0
+10709,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,49683.0,0,3.0
+10709,4,I felt just as good as other people.,1,3.0,1730.0,0,0.0
+10709,5,I had trouble keeping my mind on what I was doing.,0,3.0,1530.0,0,3.0
+10709,6,I felt depressed.,0,3.0,675.0,0,3.0
+10709,7,I felt that everything I did was an effort.,0,3.0,2507.0,0,3.0
+10709,8,I felt hopeful about the future.,1,3.0,1859.0,0,0.0
+10709,9,I thought my life had been a failure.,0,3.0,1695.0,0,3.0
+10709,10,I felt fearful.,0,3.0,861.0,0,3.0
+10709,11,My sleep was restless.,0,3.0,617.0,0,3.0
+10709,12,I was happy.,1,2.0,1010.0,0,1.0
+10709,13,I talked less than ususal.,0,3.0,1611.0,0,3.0
+10709,14,I felt lonely.,0,3.0,1711.0,0,3.0
+10709,15,People were unfriendly.,0,3.0,636.0,0,3.0
+10709,16,I enjoyed life.,1,3.0,1211.0,0,0.0
+10709,17,I had crying spells.,0,2.0,1717.0,0,2.0
+10709,18,I felt sad.,0,3.0,3228.0,0,3.0
+10709,19,I felt that people dislike me.,0,3.0,700.0,0,3.0
+10709,20,"I could not get ""going.""",0,3.0,626.0,0,3.0
+10710,1,I was bothered by things that usually don't bother me.,0,0.0,18664.0,0,0.0
+10710,2,I did not feel like eating; my appetite was poor.,0,0.0,1721.0,0,0.0
+10710,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1455.0,0,2.0
+10710,4,I felt just as good as other people.,1,1.0,3457.0,0,2.0
+10710,5,I had trouble keeping my mind on what I was doing.,0,0.0,2839.0,0,0.0
+10710,6,I felt depressed.,0,2.0,4424.0,0,2.0
+10710,7,I felt that everything I did was an effort.,0,2.0,3257.0,0,2.0
+10710,8,I felt hopeful about the future.,1,3.0,6375.0,0,0.0
+10710,9,I thought my life had been a failure.,0,1.0,240.0,0,1.0
+10710,10,I felt fearful.,0,0.0,5984.0,0,0.0
+10710,11,My sleep was restless.,0,2.0,1848.0,0,2.0
+10710,12,I was happy.,1,2.0,272.0,0,1.0
+10710,13,I talked less than ususal.,0,0.0,9703.0,0,0.0
+10710,14,I felt lonely.,0,1.0,152.0,0,1.0
+10710,15,People were unfriendly.,0,1.0,120.0,0,1.0
+10710,16,I enjoyed life.,1,2.0,144.0,0,1.0
+10710,17,I had crying spells.,0,0.0,276312.0,0,0.0
+10710,18,I felt sad.,0,1.0,128.0,0,1.0
+10710,19,I felt that people dislike me.,0,0.0,13384.0,0,0.0
+10710,20,"I could not get ""going.""",0,1.0,336.0,0,1.0
+10711,1,I was bothered by things that usually don't bother me.,0,2.0,1027.0,0,2.0
+10711,2,I did not feel like eating; my appetite was poor.,0,2.0,14759.0,0,2.0
+10711,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,751.0,0,2.0
+10711,4,I felt just as good as other people.,1,1.0,664.0,0,2.0
+10711,5,I had trouble keeping my mind on what I was doing.,0,2.0,368.0,0,2.0
+10711,6,I felt depressed.,0,2.0,1560.0,0,2.0
+10711,7,I felt that everything I did was an effort.,0,2.0,273.0,0,2.0
+10711,8,I felt hopeful about the future.,1,1.0,377.0,0,2.0
+10711,9,I thought my life had been a failure.,0,2.0,385.0,0,2.0
+10711,10,I felt fearful.,0,2.0,478.0,0,2.0
+10711,11,My sleep was restless.,0,2.0,736.0,0,2.0
+10711,12,I was happy.,1,1.0,608.0,0,2.0
+10711,13,I talked less than ususal.,0,2.0,604.0,0,2.0
+10711,14,I felt lonely.,0,2.0,657.0,0,2.0
+10711,15,People were unfriendly.,0,2.0,721.0,0,2.0
+10711,16,I enjoyed life.,1,1.0,1910.0,0,2.0
+10711,17,I had crying spells.,0,2.0,588.0,0,2.0
+10711,18,I felt sad.,0,2.0,756.0,0,2.0
+10711,19,I felt that people dislike me.,0,2.0,463.0,0,2.0
+10711,20,"I could not get ""going.""",0,2.0,364.0,0,2.0
+10712,1,I was bothered by things that usually don't bother me.,0,1.0,10489.0,0,1.0
+10712,2,I did not feel like eating; my appetite was poor.,0,1.0,1050.0,0,1.0
+10712,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,4137.0,0,1.0
+10712,4,I felt just as good as other people.,1,3.0,3097.0,0,0.0
+10712,5,I had trouble keeping my mind on what I was doing.,0,1.0,4098.0,0,1.0
+10712,6,I felt depressed.,0,2.0,1568.0,0,2.0
+10712,7,I felt that everything I did was an effort.,0,2.0,2297.0,0,2.0
+10712,8,I felt hopeful about the future.,1,3.0,3758.0,0,0.0
+10712,9,I thought my life had been a failure.,0,2.0,3130.0,0,2.0
+10712,10,I felt fearful.,0,3.0,1858.0,0,3.0
+10712,11,My sleep was restless.,0,3.0,2161.0,0,3.0
+10712,12,I was happy.,1,1.0,5519.0,0,2.0
+10712,13,I talked less than ususal.,0,0.0,2907.0,0,0.0
+10712,14,I felt lonely.,0,1.0,2498.0,0,1.0
+10712,15,People were unfriendly.,0,0.0,1872.0,0,0.0
+10712,16,I enjoyed life.,1,1.0,2246.0,0,2.0
+10712,17,I had crying spells.,0,1.0,1908.0,0,1.0
+10712,18,I felt sad.,0,1.0,1999.0,0,1.0
+10712,19,I felt that people dislike me.,0,2.0,1750.0,0,2.0
+10712,20,"I could not get ""going.""",0,2.0,1849.0,0,2.0
+10713,1,I was bothered by things that usually don't bother me.,0,1.0,7794.0,0,1.0
+10713,2,I did not feel like eating; my appetite was poor.,0,2.0,15105.0,0,2.0
+10713,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,19283.0,0,1.0
+10713,4,I felt just as good as other people.,1,0.0,3397.0,0,3.0
+10713,5,I had trouble keeping my mind on what I was doing.,0,1.0,7351.0,0,1.0
+10713,6,I felt depressed.,0,1.0,5113.0,0,1.0
+10713,7,I felt that everything I did was an effort.,0,1.0,1982.0,0,1.0
+10713,8,I felt hopeful about the future.,1,2.0,6094.0,0,1.0
+10713,9,I thought my life had been a failure.,0,1.0,1815.0,0,1.0
+10713,10,I felt fearful.,0,0.0,3022.0,0,0.0
+10713,11,My sleep was restless.,0,3.0,5564.0,0,3.0
+10713,12,I was happy.,1,1.0,3837.0,0,2.0
+10713,13,I talked less than ususal.,0,2.0,2982.0,0,2.0
+10713,14,I felt lonely.,0,1.0,2331.0,0,1.0
+10713,15,People were unfriendly.,0,0.0,3379.0,0,0.0
+10713,16,I enjoyed life.,1,1.0,5246.0,0,2.0
+10713,17,I had crying spells.,0,0.0,2548.0,0,0.0
+10713,18,I felt sad.,0,1.0,1707.0,0,1.0
+10713,19,I felt that people dislike me.,0,0.0,2496.0,0,0.0
+10713,20,"I could not get ""going.""",0,2.0,1841.0,0,2.0
+10714,1,I was bothered by things that usually don't bother me.,0,2.0,10981.0,0,2.0
+10714,2,I did not feel like eating; my appetite was poor.,0,1.0,6181.0,0,1.0
+10714,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,6144.0,0,1.0
+10714,4,I felt just as good as other people.,1,1.0,2682.0,0,2.0
+10714,5,I had trouble keeping my mind on what I was doing.,0,1.0,3400.0,0,1.0
+10714,6,I felt depressed.,0,1.0,2016.0,0,1.0
+10714,7,I felt that everything I did was an effort.,0,1.0,1184.0,0,1.0
+10714,8,I felt hopeful about the future.,1,2.0,1924.0,0,1.0
+10714,9,I thought my life had been a failure.,0,0.0,1684.0,0,0.0
+10714,10,I felt fearful.,0,2.0,2196.0,0,2.0
+10714,11,My sleep was restless.,0,3.0,2256.0,0,3.0
+10714,12,I was happy.,1,1.0,2882.0,0,2.0
+10714,13,I talked less than ususal.,0,2.0,3454.0,0,2.0
+10714,14,I felt lonely.,0,0.0,1964.0,0,0.0
+10714,15,People were unfriendly.,0,0.0,1376.0,0,0.0
+10714,16,I enjoyed life.,1,1.0,1506.0,0,2.0
+10714,17,I had crying spells.,0,0.0,1654.0,0,0.0
+10714,18,I felt sad.,0,1.0,2404.0,0,1.0
+10714,19,I felt that people dislike me.,0,0.0,1824.0,0,0.0
+10714,20,"I could not get ""going.""",0,0.0,1144.0,0,0.0
+10715,1,I was bothered by things that usually don't bother me.,0,1.0,7447.0,0,1.0
+10715,2,I did not feel like eating; my appetite was poor.,0,0.0,3384.0,0,0.0
+10715,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,5752.0,0,2.0
+10715,4,I felt just as good as other people.,1,1.0,5560.0,0,2.0
+10715,5,I had trouble keeping my mind on what I was doing.,0,3.0,3176.0,0,3.0
+10715,6,I felt depressed.,0,2.0,2136.0,0,2.0
+10715,7,I felt that everything I did was an effort.,0,2.0,3192.0,0,2.0
+10715,8,I felt hopeful about the future.,1,2.0,5040.0,0,1.0
+10715,9,I thought my life had been a failure.,0,0.0,2679.0,0,0.0
+10715,10,I felt fearful.,0,1.0,1721.0,0,1.0
+10715,11,My sleep was restless.,0,1.0,1392.0,0,1.0
+10715,12,I was happy.,1,3.0,4400.0,0,0.0
+10715,13,I talked less than ususal.,0,0.0,3231.0,0,0.0
+10715,14,I felt lonely.,0,0.0,2928.0,0,0.0
+10715,15,People were unfriendly.,0,1.0,3999.0,0,1.0
+10715,16,I enjoyed life.,1,3.0,3385.0,0,0.0
+10715,17,I had crying spells.,0,0.0,1456.0,0,0.0
+10715,18,I felt sad.,0,1.0,2168.0,0,1.0
+10715,19,I felt that people dislike me.,0,0.0,2072.0,0,0.0
+10715,20,"I could not get ""going.""",0,3.0,1376.0,0,3.0
+10716,1,I was bothered by things that usually don't bother me.,0,0.0,5255.0,0,0.0
+10716,2,I did not feel like eating; my appetite was poor.,0,0.0,1570.0,0,0.0
+10716,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,2775.0,0,0.0
+10716,4,I felt just as good as other people.,1,0.0,7762.0,0,3.0
+10716,5,I had trouble keeping my mind on what I was doing.,0,0.0,4271.0,0,0.0
+10716,6,I felt depressed.,0,0.0,1809.0,0,0.0
+10716,7,I felt that everything I did was an effort.,0,0.0,2588.0,0,0.0
+10716,8,I felt hopeful about the future.,1,1.0,6033.0,0,2.0
+10716,9,I thought my life had been a failure.,0,0.0,1625.0,0,0.0
+10716,10,I felt fearful.,0,0.0,1856.0,0,0.0
+10716,11,My sleep was restless.,0,2.0,6097.0,0,2.0
+10716,12,I was happy.,1,1.0,3800.0,0,2.0
+10716,13,I talked less than ususal.,0,0.0,2392.0,0,0.0
+10716,14,I felt lonely.,0,0.0,984.0,0,0.0
+10716,15,People were unfriendly.,0,0.0,1001.0,0,0.0
+10716,16,I enjoyed life.,1,1.0,6256.0,0,2.0
+10716,17,I had crying spells.,0,0.0,2328.0,0,0.0
+10716,18,I felt sad.,0,0.0,960.0,0,0.0
+10716,19,I felt that people dislike me.,0,0.0,1729.0,0,0.0
+10716,20,"I could not get ""going.""",0,1.0,4041.0,0,1.0
+10717,1,I was bothered by things that usually don't bother me.,0,1.0,4199.0,0,1.0
+10717,2,I did not feel like eating; my appetite was poor.,0,0.0,947.0,0,0.0
+10717,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,2157.0,0,3.0
+10717,4,I felt just as good as other people.,1,3.0,955.0,0,0.0
+10717,5,I had trouble keeping my mind on what I was doing.,0,2.0,1076.0,0,2.0
+10717,6,I felt depressed.,0,3.0,1032.0,0,3.0
+10717,7,I felt that everything I did was an effort.,0,3.0,833.0,0,3.0
+10717,8,I felt hopeful about the future.,1,3.0,2177.0,0,0.0
+10717,9,I thought my life had been a failure.,0,3.0,1040.0,0,3.0
+10717,10,I felt fearful.,0,0.0,1215.0,0,0.0
+10717,11,My sleep was restless.,0,0.0,690.0,0,0.0
+10717,12,I was happy.,1,3.0,979.0,0,0.0
+10717,13,I talked less than ususal.,0,0.0,935.0,0,0.0
+10717,14,I felt lonely.,0,3.0,1190.0,0,3.0
+10717,15,People were unfriendly.,0,0.0,891.0,0,0.0
+10717,16,I enjoyed life.,1,3.0,1226.0,0,0.0
+10717,17,I had crying spells.,0,1.0,970.0,0,1.0
+10717,18,I felt sad.,0,2.0,1939.0,0,2.0
+10717,19,I felt that people dislike me.,0,3.0,1458.0,0,3.0
+10717,20,"I could not get ""going.""",0,3.0,607.0,0,3.0
+10718,1,I was bothered by things that usually don't bother me.,0,0.0,3623.0,0,0.0
+10718,2,I did not feel like eating; my appetite was poor.,0,0.0,7138.0,0,0.0
+10718,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,701.0,0,0.0
+10718,4,I felt just as good as other people.,1,0.0,3232.0,0,3.0
+10718,5,I had trouble keeping my mind on what I was doing.,0,0.0,1917.0,0,0.0
+10718,6,I felt depressed.,0,1.0,2694.0,0,1.0
+10718,7,I felt that everything I did was an effort.,0,0.0,1030.0,0,0.0
+10718,8,I felt hopeful about the future.,1,2.0,977.0,0,1.0
+10718,9,I thought my life had been a failure.,0,0.0,819.0,0,0.0
+10718,10,I felt fearful.,0,1.0,925.0,0,1.0
+10718,11,My sleep was restless.,0,2.0,1707.0,0,2.0
+10718,12,I was happy.,1,2.0,2234.0,0,1.0
+10718,13,I talked less than ususal.,0,0.0,2373.0,0,0.0
+10718,14,I felt lonely.,0,1.0,890.0,0,1.0
+10718,15,People were unfriendly.,0,0.0,884.0,0,0.0
+10718,16,I enjoyed life.,1,1.0,1184.0,0,2.0
+10718,17,I had crying spells.,0,0.0,1356.0,0,0.0
+10718,18,I felt sad.,0,1.0,677.0,0,1.0
+10718,19,I felt that people dislike me.,0,0.0,1520.0,0,0.0
+10718,20,"I could not get ""going.""",0,0.0,447.0,0,0.0
+10719,1,I was bothered by things that usually don't bother me.,0,2.0,6384.0,0,2.0
+10719,2,I did not feel like eating; my appetite was poor.,0,0.0,925.0,0,0.0
+10719,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,11850.0,0,2.0
+10719,4,I felt just as good as other people.,1,3.0,1980.0,0,0.0
+10719,5,I had trouble keeping my mind on what I was doing.,0,2.0,1640.0,0,2.0
+10719,6,I felt depressed.,0,2.0,9507.0,0,2.0
+10719,7,I felt that everything I did was an effort.,0,3.0,2188.0,0,3.0
+10719,8,I felt hopeful about the future.,1,3.0,2053.0,0,0.0
+10719,9,I thought my life had been a failure.,0,1.0,2060.0,0,1.0
+10719,10,I felt fearful.,0,2.0,1712.0,0,2.0
+10719,11,My sleep was restless.,0,0.0,4043.0,0,0.0
+10719,12,I was happy.,1,3.0,1557.0,0,0.0
+10719,13,I talked less than ususal.,0,1.0,1252.0,0,1.0
+10719,14,I felt lonely.,0,1.0,3245.0,0,1.0
+10719,15,People were unfriendly.,0,1.0,2066.0,0,1.0
+10719,16,I enjoyed life.,1,3.0,1807.0,0,0.0
+10719,17,I had crying spells.,0,0.0,2386.0,0,0.0
+10719,18,I felt sad.,0,2.0,1110.0,0,2.0
+10719,19,I felt that people dislike me.,0,1.0,1267.0,0,1.0
+10719,20,"I could not get ""going.""",0,3.0,2031.0,0,3.0
+10720,1,I was bothered by things that usually don't bother me.,0,1.0,38379.0,0,1.0
+10720,2,I did not feel like eating; my appetite was poor.,0,3.0,3623.0,0,3.0
+10720,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,976.0,0,3.0
+10720,4,I felt just as good as other people.,1,3.0,2192.0,0,0.0
+10720,5,I had trouble keeping my mind on what I was doing.,0,3.0,2152.0,0,3.0
+10720,6,I felt depressed.,0,3.0,1648.0,0,3.0
+10720,7,I felt that everything I did was an effort.,0,3.0,1344.0,0,3.0
+10720,8,I felt hopeful about the future.,1,3.0,1289.0,0,0.0
+10720,9,I thought my life had been a failure.,0,3.0,1591.0,0,3.0
+10720,10,I felt fearful.,0,1.0,608.0,0,1.0
+10720,11,My sleep was restless.,0,2.0,3664.0,0,2.0
+10720,12,I was happy.,1,3.0,4056.0,0,0.0
+10720,13,I talked less than ususal.,0,3.0,2167.0,0,3.0
+10720,14,I felt lonely.,0,2.0,1032.0,0,2.0
+10720,15,People were unfriendly.,0,0.0,2864.0,0,0.0
+10720,16,I enjoyed life.,1,3.0,3176.0,0,0.0
+10720,17,I had crying spells.,0,3.0,986.0,0,3.0
+10720,18,I felt sad.,0,3.0,1423.0,0,3.0
+10720,19,I felt that people dislike me.,0,0.0,1399.0,0,0.0
+10720,20,"I could not get ""going.""",0,3.0,912.0,0,3.0
+10721,1,I was bothered by things that usually don't bother me.,0,1.0,5840.0,0,1.0
+10721,2,I did not feel like eating; my appetite was poor.,0,0.0,3288.0,0,0.0
+10721,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,7565.0,0,1.0
+10721,4,I felt just as good as other people.,1,2.0,4552.0,0,1.0
+10721,5,I had trouble keeping my mind on what I was doing.,0,0.0,2699.0,0,0.0
+10721,6,I felt depressed.,0,3.0,3603.0,0,3.0
+10721,7,I felt that everything I did was an effort.,0,1.0,5685.0,0,1.0
+10721,8,I felt hopeful about the future.,1,3.0,6464.0,0,0.0
+10721,9,I thought my life had been a failure.,0,3.0,2683.0,0,3.0
+10721,10,I felt fearful.,0,0.0,2470.0,0,0.0
+10721,11,My sleep was restless.,0,3.0,1962.0,0,3.0
+10721,12,I was happy.,1,2.0,3517.0,0,1.0
+10721,13,I talked less than ususal.,0,3.0,2151.0,0,3.0
+10721,14,I felt lonely.,0,3.0,1451.0,0,3.0
+10721,15,People were unfriendly.,0,0.0,1950.0,0,0.0
+10721,16,I enjoyed life.,1,3.0,11068.0,0,0.0
+10721,17,I had crying spells.,0,0.0,2304.0,0,0.0
+10721,18,I felt sad.,0,3.0,2376.0,0,3.0
+10721,19,I felt that people dislike me.,0,1.0,3748.0,0,1.0
+10721,20,"I could not get ""going.""",0,1.0,2120.0,0,1.0
+10722,1,I was bothered by things that usually don't bother me.,0,1.0,8447.0,0,1.0
+10722,2,I did not feel like eating; my appetite was poor.,0,1.0,2229.0,0,1.0
+10722,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,462.0,0,1.0
+10722,4,I felt just as good as other people.,1,1.0,7974.0,0,2.0
+10722,5,I had trouble keeping my mind on what I was doing.,0,0.0,10982.0,0,0.0
+10722,6,I felt depressed.,0,1.0,2056.0,0,1.0
+10722,7,I felt that everything I did was an effort.,0,1.0,1542.0,0,1.0
+10722,8,I felt hopeful about the future.,1,1.0,1927.0,0,2.0
+10722,9,I thought my life had been a failure.,0,0.0,3439.0,0,0.0
+10722,10,I felt fearful.,0,0.0,1247.0,0,0.0
+10722,11,My sleep was restless.,0,1.0,3941.0,0,1.0
+10722,12,I was happy.,1,1.0,1685.0,0,2.0
+10722,13,I talked less than ususal.,0,1.0,2902.0,0,1.0
+10722,14,I felt lonely.,0,1.0,4938.0,0,1.0
+10722,15,People were unfriendly.,0,0.0,1440.0,0,0.0
+10722,16,I enjoyed life.,1,1.0,2250.0,0,2.0
+10722,17,I had crying spells.,0,0.0,4917.0,0,0.0
+10722,18,I felt sad.,0,1.0,1710.0,0,1.0
+10722,19,I felt that people dislike me.,0,0.0,3274.0,0,0.0
+10722,20,"I could not get ""going.""",0,2.0,4355.0,0,2.0
+10723,1,I was bothered by things that usually don't bother me.,0,0.0,12504.0,0,0.0
+10723,2,I did not feel like eating; my appetite was poor.,0,0.0,6789.0,0,0.0
+10723,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,3215.0,0,0.0
+10723,4,I felt just as good as other people.,1,1.0,6994.0,0,2.0
+10723,5,I had trouble keeping my mind on what I was doing.,0,1.0,4591.0,0,1.0
+10723,6,I felt depressed.,0,0.0,10053.0,0,0.0
+10723,7,I felt that everything I did was an effort.,0,1.0,12523.0,0,1.0
+10723,8,I felt hopeful about the future.,1,1.0,2044.0,0,2.0
+10723,9,I thought my life had been a failure.,0,0.0,7183.0,0,0.0
+10723,10,I felt fearful.,0,0.0,3707.0,0,0.0
+10723,11,My sleep was restless.,0,2.0,7244.0,0,2.0
+10723,12,I was happy.,1,2.0,2436.0,0,1.0
+10723,13,I talked less than ususal.,0,0.0,2894.0,0,0.0
+10723,14,I felt lonely.,0,0.0,1466.0,0,0.0
+10723,15,People were unfriendly.,0,0.0,1321.0,0,0.0
+10723,16,I enjoyed life.,1,2.0,1919.0,0,1.0
+10723,17,I had crying spells.,0,0.0,2477.0,0,0.0
+10723,18,I felt sad.,0,1.0,2781.0,0,1.0
+10723,19,I felt that people dislike me.,0,0.0,2803.0,0,0.0
+10723,20,"I could not get ""going.""",0,1.0,2355.0,0,1.0
+10724,1,I was bothered by things that usually don't bother me.,0,1.0,15126.0,0,1.0
+10724,2,I did not feel like eating; my appetite was poor.,0,1.0,1846.0,0,1.0
+10724,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,10603.0,0,1.0
+10724,4,I felt just as good as other people.,1,1.0,4329.0,0,2.0
+10724,5,I had trouble keeping my mind on what I was doing.,0,2.0,3354.0,0,2.0
+10724,6,I felt depressed.,0,0.0,3456.0,0,0.0
+10724,7,I felt that everything I did was an effort.,0,2.0,4660.0,0,2.0
+10724,8,I felt hopeful about the future.,1,0.0,3002.0,0,3.0
+10724,9,I thought my life had been a failure.,0,0.0,5733.0,0,0.0
+10724,10,I felt fearful.,0,1.0,7450.0,0,1.0
+10724,11,My sleep was restless.,0,3.0,2079.0,0,3.0
+10724,12,I was happy.,1,1.0,2744.0,0,2.0
+10724,13,I talked less than ususal.,0,1.0,2251.0,0,1.0
+10724,14,I felt lonely.,0,3.0,4455.0,0,3.0
+10724,15,People were unfriendly.,0,1.0,6512.0,0,1.0
+10724,16,I enjoyed life.,1,0.0,5802.0,0,3.0
+10724,17,I had crying spells.,0,0.0,2970.0,0,0.0
+10724,18,I felt sad.,0,1.0,2285.0,0,1.0
+10724,19,I felt that people dislike me.,0,1.0,2095.0,0,1.0
+10724,20,"I could not get ""going.""",0,3.0,2516.0,0,3.0
+10725,1,I was bothered by things that usually don't bother me.,0,0.0,8555.0,0,0.0
+10725,2,I did not feel like eating; my appetite was poor.,0,2.0,5693.0,0,2.0
+10725,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,3006.0,0,0.0
+10725,4,I felt just as good as other people.,1,3.0,1939.0,0,0.0
+10725,5,I had trouble keeping my mind on what I was doing.,0,0.0,2789.0,0,0.0
+10725,6,I felt depressed.,0,1.0,1843.0,0,1.0
+10725,7,I felt that everything I did was an effort.,0,0.0,3486.0,0,0.0
+10725,8,I felt hopeful about the future.,1,2.0,3790.0,0,1.0
+10725,9,I thought my life had been a failure.,0,0.0,5507.0,0,0.0
+10725,10,I felt fearful.,0,0.0,2162.0,0,0.0
+10725,11,My sleep was restless.,0,2.0,1367.0,0,2.0
+10725,12,I was happy.,1,3.0,3815.0,0,0.0
+10725,13,I talked less than ususal.,0,3.0,2165.0,0,3.0
+10725,14,I felt lonely.,0,3.0,1684.0,0,3.0
+10725,15,People were unfriendly.,0,0.0,1932.0,0,0.0
+10725,16,I enjoyed life.,1,3.0,1588.0,0,0.0
+10725,17,I had crying spells.,0,0.0,1186.0,0,0.0
+10725,18,I felt sad.,0,1.0,2329.0,0,1.0
+10725,19,I felt that people dislike me.,0,1.0,1297.0,0,1.0
+10725,20,"I could not get ""going.""",0,0.0,1389.0,0,0.0
+10726,1,I was bothered by things that usually don't bother me.,0,0.0,12461.0,0,0.0
+10726,2,I did not feel like eating; my appetite was poor.,0,0.0,2048.0,0,0.0
+10726,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1890.0,0,0.0
+10726,4,I felt just as good as other people.,1,0.0,10125.0,0,3.0
+10726,5,I had trouble keeping my mind on what I was doing.,0,1.0,9585.0,0,1.0
+10726,6,I felt depressed.,0,0.0,2301.0,0,0.0
+10726,7,I felt that everything I did was an effort.,0,0.0,2709.0,0,0.0
+10726,8,I felt hopeful about the future.,1,2.0,6465.0,0,1.0
+10726,9,I thought my life had been a failure.,0,1.0,5347.0,0,1.0
+10726,10,I felt fearful.,0,1.0,2266.0,0,1.0
+10726,11,My sleep was restless.,0,0.0,2549.0,0,0.0
+10726,12,I was happy.,1,1.0,6751.0,0,2.0
+10726,13,I talked less than ususal.,0,0.0,3225.0,0,0.0
+10726,14,I felt lonely.,0,0.0,1792.0,0,0.0
+10726,15,People were unfriendly.,0,0.0,2903.0,0,0.0
+10726,16,I enjoyed life.,1,2.0,3630.0,0,1.0
+10726,17,I had crying spells.,0,0.0,2295.0,0,0.0
+10726,18,I felt sad.,0,0.0,1304.0,0,0.0
+10726,19,I felt that people dislike me.,0,1.0,2873.0,0,1.0
+10726,20,"I could not get ""going.""",0,0.0,2819.0,0,0.0
+10727,1,I was bothered by things that usually don't bother me.,0,1.0,12772.0,0,1.0
+10727,2,I did not feel like eating; my appetite was poor.,0,3.0,1352.0,0,3.0
+10727,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,3727.0,0,1.0
+10727,4,I felt just as good as other people.,1,2.0,3017.0,0,1.0
+10727,5,I had trouble keeping my mind on what I was doing.,0,3.0,1992.0,0,3.0
+10727,6,I felt depressed.,0,3.0,632.0,0,3.0
+10727,7,I felt that everything I did was an effort.,0,2.0,4082.0,0,2.0
+10727,8,I felt hopeful about the future.,1,2.0,3692.0,0,1.0
+10727,9,I thought my life had been a failure.,0,2.0,3362.0,0,2.0
+10727,10,I felt fearful.,0,0.0,1872.0,0,0.0
+10727,11,My sleep was restless.,0,1.0,2692.0,0,1.0
+10727,12,I was happy.,1,2.0,1913.0,0,1.0
+10727,13,I talked less than ususal.,0,2.0,2331.0,0,2.0
+10727,14,I felt lonely.,0,3.0,1823.0,0,3.0
+10727,15,People were unfriendly.,0,0.0,1672.0,0,0.0
+10727,16,I enjoyed life.,1,2.0,1522.0,0,1.0
+10727,17,I had crying spells.,0,0.0,831.0,0,0.0
+10727,18,I felt sad.,0,2.0,1353.0,0,2.0
+10727,19,I felt that people dislike me.,0,1.0,1601.0,0,1.0
+10727,20,"I could not get ""going.""",0,3.0,1543.0,0,3.0
+10728,1,I was bothered by things that usually don't bother me.,0,1.0,5856.0,0,1.0
+10728,2,I did not feel like eating; my appetite was poor.,0,0.0,1922.0,0,0.0
+10728,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1502.0,0,1.0
+10728,4,I felt just as good as other people.,1,2.0,3446.0,0,1.0
+10728,5,I had trouble keeping my mind on what I was doing.,0,1.0,1741.0,0,1.0
+10728,6,I felt depressed.,0,2.0,1159.0,0,2.0
+10728,7,I felt that everything I did was an effort.,0,2.0,1572.0,0,2.0
+10728,8,I felt hopeful about the future.,1,2.0,2765.0,0,1.0
+10728,9,I thought my life had been a failure.,0,1.0,1326.0,0,1.0
+10728,10,I felt fearful.,0,1.0,906.0,0,1.0
+10728,11,My sleep was restless.,0,2.0,1883.0,0,2.0
+10728,12,I was happy.,1,3.0,3638.0,0,0.0
+10728,13,I talked less than ususal.,0,1.0,2376.0,0,1.0
+10728,14,I felt lonely.,0,2.0,1453.0,0,2.0
+10728,15,People were unfriendly.,0,1.0,1519.0,0,1.0
+10728,16,I enjoyed life.,1,2.0,1596.0,0,1.0
+10728,17,I had crying spells.,0,2.0,1009.0,0,2.0
+10728,18,I felt sad.,0,2.0,850.0,0,2.0
+10728,19,I felt that people dislike me.,0,1.0,2232.0,0,1.0
+10728,20,"I could not get ""going.""",0,2.0,898.0,0,2.0
+10729,1,I was bothered by things that usually don't bother me.,0,2.0,7117.0,0,2.0
+10729,2,I did not feel like eating; my appetite was poor.,0,0.0,3026.0,0,0.0
+10729,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1757.0,0,0.0
+10729,4,I felt just as good as other people.,1,3.0,2139.0,0,0.0
+10729,5,I had trouble keeping my mind on what I was doing.,0,2.0,2813.0,0,2.0
+10729,6,I felt depressed.,0,2.0,1018.0,0,2.0
+10729,7,I felt that everything I did was an effort.,0,2.0,1853.0,0,2.0
+10729,8,I felt hopeful about the future.,1,3.0,1923.0,0,0.0
+10729,9,I thought my life had been a failure.,0,2.0,2705.0,0,2.0
+10729,10,I felt fearful.,0,2.0,1653.0,0,2.0
+10729,11,My sleep was restless.,0,0.0,2618.0,0,0.0
+10729,12,I was happy.,1,3.0,1154.0,0,0.0
+10729,13,I talked less than ususal.,0,2.0,2131.0,0,2.0
+10729,14,I felt lonely.,0,2.0,965.0,0,2.0
+10729,15,People were unfriendly.,0,0.0,2164.0,0,0.0
+10729,16,I enjoyed life.,1,3.0,1221.0,0,0.0
+10729,17,I had crying spells.,0,3.0,1566.0,0,3.0
+10729,18,I felt sad.,0,3.0,945.0,0,3.0
+10729,19,I felt that people dislike me.,0,3.0,1784.0,0,3.0
+10729,20,"I could not get ""going.""",0,3.0,771.0,0,3.0
+10730,1,I was bothered by things that usually don't bother me.,0,1.0,4550.0,0,1.0
+10730,2,I did not feel like eating; my appetite was poor.,0,1.0,272.0,0,1.0
+10730,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1457.0,0,2.0
+10730,4,I felt just as good as other people.,1,0.0,5664.0,0,3.0
+10730,5,I had trouble keeping my mind on what I was doing.,0,3.0,2296.0,0,3.0
+10730,6,I felt depressed.,0,1.0,4439.0,0,1.0
+10730,7,I felt that everything I did was an effort.,0,3.0,3488.0,0,3.0
+10730,8,I felt hopeful about the future.,1,3.0,7368.0,0,0.0
+10730,9,I thought my life had been a failure.,0,2.0,2144.0,0,2.0
+10730,10,I felt fearful.,0,3.0,1647.0,0,3.0
+10730,11,My sleep was restless.,0,2.0,3160.0,0,2.0
+10730,12,I was happy.,1,3.0,5504.0,0,0.0
+10730,13,I talked less than ususal.,0,1.0,3911.0,0,1.0
+10730,14,I felt lonely.,0,2.0,1831.0,0,2.0
+10730,15,People were unfriendly.,0,3.0,1712.0,0,3.0
+10730,16,I enjoyed life.,1,0.0,329.0,0,3.0
+10730,17,I had crying spells.,0,0.0,5640.0,0,0.0
+10730,18,I felt sad.,0,1.0,1016.0,0,1.0
+10730,19,I felt that people dislike me.,0,1.0,1728.0,0,1.0
+10730,20,"I could not get ""going.""",0,3.0,1663.0,0,3.0
+10731,1,I was bothered by things that usually don't bother me.,0,1.0,6494.0,0,1.0
+10731,2,I did not feel like eating; my appetite was poor.,0,0.0,1482.0,0,0.0
+10731,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2262.0,0,1.0
+10731,4,I felt just as good as other people.,1,2.0,8124.0,0,1.0
+10731,5,I had trouble keeping my mind on what I was doing.,0,1.0,960.0,0,1.0
+10731,6,I felt depressed.,0,2.0,6640.0,0,2.0
+10731,7,I felt that everything I did was an effort.,0,1.0,1172.0,0,1.0
+10731,8,I felt hopeful about the future.,1,1.0,3145.0,0,2.0
+10731,9,I thought my life had been a failure.,0,1.0,1280.0,0,1.0
+10731,10,I felt fearful.,0,1.0,1091.0,0,1.0
+10731,11,My sleep was restless.,0,1.0,812.0,0,1.0
+10731,12,I was happy.,1,2.0,4491.0,0,1.0
+10731,13,I talked less than ususal.,0,2.0,1698.0,0,2.0
+10731,14,I felt lonely.,0,0.0,1025.0,0,0.0
+10731,15,People were unfriendly.,0,1.0,1221.0,0,1.0
+10731,16,I enjoyed life.,1,1.0,1534.0,0,2.0
+10731,17,I had crying spells.,0,2.0,1233.0,0,2.0
+10731,18,I felt sad.,0,2.0,1186.0,0,2.0
+10731,19,I felt that people dislike me.,0,1.0,1101.0,0,1.0
+10731,20,"I could not get ""going.""",0,2.0,1990.0,0,2.0
+10732,1,I was bothered by things that usually don't bother me.,0,2.0,3870.0,0,2.0
+10732,2,I did not feel like eating; my appetite was poor.,0,1.0,976.0,0,1.0
+10732,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,927.0,0,1.0
+10732,4,I felt just as good as other people.,1,1.0,5892.0,0,2.0
+10732,5,I had trouble keeping my mind on what I was doing.,0,3.0,1045.0,0,3.0
+10732,6,I felt depressed.,0,3.0,978.0,0,3.0
+10732,7,I felt that everything I did was an effort.,0,2.0,981.0,0,2.0
+10732,8,I felt hopeful about the future.,1,2.0,920.0,0,1.0
+10732,9,I thought my life had been a failure.,0,2.0,854.0,0,2.0
+10732,10,I felt fearful.,0,2.0,830.0,0,2.0
+10732,11,My sleep was restless.,0,1.0,1162.0,0,1.0
+10732,12,I was happy.,1,1.0,1078.0,0,2.0
+10732,13,I talked less than ususal.,0,3.0,869.0,0,3.0
+10732,14,I felt lonely.,0,3.0,770.0,0,3.0
+10732,15,People were unfriendly.,0,3.0,965.0,0,3.0
+10732,16,I enjoyed life.,1,1.0,997.0,0,2.0
+10732,17,I had crying spells.,0,2.0,946.0,0,2.0
+10732,18,I felt sad.,0,2.0,1128.0,0,2.0
+10732,19,I felt that people dislike me.,0,1.0,844.0,0,1.0
+10732,20,"I could not get ""going.""",0,2.0,596.0,0,2.0
+10733,1,I was bothered by things that usually don't bother me.,0,2.0,10859.0,0,2.0
+10733,2,I did not feel like eating; my appetite was poor.,0,2.0,2070.0,0,2.0
+10733,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,2643.0,0,3.0
+10733,4,I felt just as good as other people.,1,2.0,4371.0,0,1.0
+10733,5,I had trouble keeping my mind on what I was doing.,0,1.0,4777.0,0,1.0
+10733,6,I felt depressed.,0,3.0,2652.0,0,3.0
+10733,7,I felt that everything I did was an effort.,0,3.0,5690.0,0,3.0
+10733,8,I felt hopeful about the future.,1,2.0,3738.0,0,1.0
+10733,9,I thought my life had been a failure.,0,3.0,4344.0,0,3.0
+10733,10,I felt fearful.,0,1.0,2624.0,0,1.0
+10733,11,My sleep was restless.,0,2.0,2498.0,0,2.0
+10733,12,I was happy.,1,3.0,2767.0,0,0.0
+10733,13,I talked less than ususal.,0,0.0,1728.0,0,0.0
+10733,14,I felt lonely.,0,3.0,1948.0,0,3.0
+10733,15,People were unfriendly.,0,1.0,2784.0,0,1.0
+10733,16,I enjoyed life.,1,2.0,2333.0,0,1.0
+10733,17,I had crying spells.,0,2.0,2598.0,0,2.0
+10733,18,I felt sad.,0,3.0,2909.0,0,3.0
+10733,19,I felt that people dislike me.,0,2.0,2377.0,0,2.0
+10733,20,"I could not get ""going.""",0,2.0,1821.0,0,2.0
+10734,1,I was bothered by things that usually don't bother me.,0,2.0,11373.0,0,2.0
+10734,2,I did not feel like eating; my appetite was poor.,0,0.0,3484.0,0,0.0
+10734,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,3374.0,0,2.0
+10734,4,I felt just as good as other people.,1,2.0,2178.0,0,1.0
+10734,5,I had trouble keeping my mind on what I was doing.,0,3.0,1994.0,0,3.0
+10734,6,I felt depressed.,0,3.0,4310.0,0,3.0
+10734,7,I felt that everything I did was an effort.,0,3.0,2700.0,0,3.0
+10734,8,I felt hopeful about the future.,1,1.0,2132.0,0,2.0
+10734,9,I thought my life had been a failure.,0,1.0,2512.0,0,1.0
+10734,10,I felt fearful.,0,2.0,2515.0,0,2.0
+10734,11,My sleep was restless.,0,3.0,2021.0,0,3.0
+10734,12,I was happy.,1,3.0,4478.0,0,0.0
+10734,13,I talked less than ususal.,0,1.0,2988.0,0,1.0
+10734,14,I felt lonely.,0,2.0,2266.0,0,2.0
+10734,15,People were unfriendly.,0,1.0,1652.0,0,1.0
+10734,16,I enjoyed life.,1,2.0,1465.0,0,1.0
+10734,17,I had crying spells.,0,0.0,2402.0,0,0.0
+10734,18,I felt sad.,0,2.0,2445.0,0,2.0
+10734,19,I felt that people dislike me.,0,2.0,1810.0,0,2.0
+10734,20,"I could not get ""going.""",0,2.0,9341.0,0,2.0
+10735,1,I was bothered by things that usually don't bother me.,0,2.0,7472.0,0,2.0
+10735,2,I did not feel like eating; my appetite was poor.,0,1.0,4271.0,0,1.0
+10735,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,3208.0,0,2.0
+10735,4,I felt just as good as other people.,1,2.0,4624.0,0,1.0
+10735,5,I had trouble keeping my mind on what I was doing.,0,3.0,2680.0,0,3.0
+10735,6,I felt depressed.,0,3.0,496.0,0,3.0
+10735,7,I felt that everything I did was an effort.,0,3.0,1416.0,0,3.0
+10735,8,I felt hopeful about the future.,1,3.0,1872.0,0,0.0
+10735,9,I thought my life had been a failure.,0,0.0,2304.0,0,0.0
+10735,10,I felt fearful.,0,2.0,904.0,0,2.0
+10735,11,My sleep was restless.,0,3.0,2993.0,0,3.0
+10735,12,I was happy.,1,3.0,2543.0,0,0.0
+10735,13,I talked less than ususal.,0,3.0,2096.0,0,3.0
+10735,14,I felt lonely.,0,0.0,1984.0,0,0.0
+10735,15,People were unfriendly.,0,0.0,904.0,0,0.0
+10735,16,I enjoyed life.,1,2.0,1344.0,0,1.0
+10735,17,I had crying spells.,0,1.0,1696.0,0,1.0
+10735,18,I felt sad.,0,3.0,2571.0,0,3.0
+10735,19,I felt that people dislike me.,0,0.0,1736.0,0,0.0
+10735,20,"I could not get ""going.""",0,3.0,2472.0,0,3.0
+10736,1,I was bothered by things that usually don't bother me.,0,0.0,5157.0,0,0.0
+10736,2,I did not feel like eating; my appetite was poor.,0,0.0,854.0,0,0.0
+10736,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,3862.0,0,1.0
+10736,4,I felt just as good as other people.,1,0.0,3421.0,0,3.0
+10736,5,I had trouble keeping my mind on what I was doing.,0,1.0,3308.0,0,1.0
+10736,6,I felt depressed.,0,3.0,3152.0,0,3.0
+10736,7,I felt that everything I did was an effort.,0,3.0,1151.0,0,3.0
+10736,8,I felt hopeful about the future.,1,3.0,3062.0,0,0.0
+10736,9,I thought my life had been a failure.,0,3.0,2603.0,0,3.0
+10736,10,I felt fearful.,0,2.0,3707.0,0,2.0
+10736,11,My sleep was restless.,0,2.0,2011.0,0,2.0
+10736,12,I was happy.,1,1.0,3243.0,0,2.0
+10736,13,I talked less than ususal.,0,0.0,2568.0,0,0.0
+10736,14,I felt lonely.,0,3.0,2595.0,0,3.0
+10736,15,People were unfriendly.,0,0.0,3261.0,0,0.0
+10736,16,I enjoyed life.,1,1.0,4449.0,0,2.0
+10736,17,I had crying spells.,0,3.0,1713.0,0,3.0
+10736,18,I felt sad.,0,3.0,2854.0,0,3.0
+10736,19,I felt that people dislike me.,0,1.0,3406.0,0,1.0
+10736,20,"I could not get ""going.""",0,3.0,2290.0,0,3.0
+10737,1,I was bothered by things that usually don't bother me.,0,1.0,7107.0,0,1.0
+10737,2,I did not feel like eating; my appetite was poor.,0,0.0,2167.0,0,0.0
+10737,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,7721.0,0,3.0
+10737,4,I felt just as good as other people.,1,0.0,350.0,0,3.0
+10737,5,I had trouble keeping my mind on what I was doing.,0,3.0,723.0,0,3.0
+10737,6,I felt depressed.,0,3.0,336.0,0,3.0
+10737,7,I felt that everything I did was an effort.,0,3.0,307.0,0,3.0
+10737,8,I felt hopeful about the future.,1,0.0,339.0,0,3.0
+10737,9,I thought my life had been a failure.,0,3.0,934.0,0,3.0
+10737,10,I felt fearful.,0,3.0,350.0,0,3.0
+10737,11,My sleep was restless.,0,3.0,823.0,0,3.0
+10737,12,I was happy.,1,3.0,4001.0,0,0.0
+10737,13,I talked less than ususal.,0,3.0,324.0,0,3.0
+10737,14,I felt lonely.,0,3.0,353.0,0,3.0
+10737,15,People were unfriendly.,0,3.0,412.0,0,3.0
+10737,16,I enjoyed life.,1,3.0,4000.0,0,0.0
+10737,17,I had crying spells.,0,0.0,819.0,0,0.0
+10737,18,I felt sad.,0,3.0,923.0,0,3.0
+10737,19,I felt that people dislike me.,0,3.0,492.0,0,3.0
+10737,20,"I could not get ""going.""",0,3.0,2817.0,0,3.0
+10738,1,I was bothered by things that usually don't bother me.,0,1.0,8599.0,0,1.0
+10738,2,I did not feel like eating; my appetite was poor.,0,1.0,392.0,0,1.0
+10738,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1880.0,0,0.0
+10738,4,I felt just as good as other people.,1,0.0,2376.0,0,3.0
+10738,5,I had trouble keeping my mind on what I was doing.,0,0.0,1464.0,0,0.0
+10738,6,I felt depressed.,0,1.0,1832.0,0,1.0
+10738,7,I felt that everything I did was an effort.,0,1.0,1856.0,0,1.0
+10738,8,I felt hopeful about the future.,1,2.0,2456.0,0,1.0
+10738,9,I thought my life had been a failure.,0,0.0,1184.0,0,0.0
+10738,10,I felt fearful.,0,0.0,1224.0,0,0.0
+10738,11,My sleep was restless.,0,2.0,1632.0,0,2.0
+10738,12,I was happy.,1,2.0,1640.0,0,1.0
+10738,13,I talked less than ususal.,0,0.0,848.0,0,0.0
+10738,14,I felt lonely.,0,0.0,888.0,0,0.0
+10738,15,People were unfriendly.,0,0.0,1616.0,0,0.0
+10738,16,I enjoyed life.,1,1.0,4784.0,0,2.0
+10738,17,I had crying spells.,0,0.0,1560.0,0,0.0
+10738,18,I felt sad.,0,1.0,2576.0,0,1.0
+10738,19,I felt that people dislike me.,0,1.0,416.0,0,1.0
+10738,20,"I could not get ""going.""",0,0.0,424.0,0,0.0
+10739,1,I was bothered by things that usually don't bother me.,0,2.0,5423.0,0,2.0
+10739,2,I did not feel like eating; my appetite was poor.,0,0.0,5615.0,0,0.0
+10739,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,2115.0,0,3.0
+10739,4,I felt just as good as other people.,1,3.0,3034.0,0,0.0
+10739,5,I had trouble keeping my mind on what I was doing.,0,1.0,6866.0,0,1.0
+10739,6,I felt depressed.,0,3.0,3659.0,0,3.0
+10739,7,I felt that everything I did was an effort.,0,3.0,7300.0,0,3.0
+10739,8,I felt hopeful about the future.,1,3.0,2331.0,0,0.0
+10739,9,I thought my life had been a failure.,0,2.0,3599.0,0,2.0
+10739,10,I felt fearful.,0,3.0,16023.0,0,3.0
+10739,11,My sleep was restless.,0,2.0,3304.0,0,2.0
+10739,12,I was happy.,1,3.0,4942.0,0,0.0
+10739,13,I talked less than ususal.,0,1.0,2231.0,0,1.0
+10739,14,I felt lonely.,0,1.0,1313.0,0,1.0
+10739,15,People were unfriendly.,0,2.0,756.0,0,2.0
+10739,16,I enjoyed life.,1,3.0,2917.0,0,0.0
+10739,17,I had crying spells.,0,1.0,3007.0,0,1.0
+10739,18,I felt sad.,0,2.0,2202.0,0,2.0
+10739,19,I felt that people dislike me.,0,2.0,900.0,0,2.0
+10739,20,"I could not get ""going.""",0,3.0,2464.0,0,3.0
+10740,1,I was bothered by things that usually don't bother me.,0,0.0,2907.0,0,0.0
+10740,2,I did not feel like eating; my appetite was poor.,0,0.0,1621.0,0,0.0
+10740,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,6794.0,0,1.0
+10740,4,I felt just as good as other people.,1,2.0,3167.0,0,1.0
+10740,5,I had trouble keeping my mind on what I was doing.,0,1.0,3039.0,0,1.0
+10740,6,I felt depressed.,0,1.0,2425.0,0,1.0
+10740,7,I felt that everything I did was an effort.,0,3.0,5678.0,0,3.0
+10740,8,I felt hopeful about the future.,1,1.0,2490.0,0,2.0
+10740,9,I thought my life had been a failure.,0,3.0,2102.0,0,3.0
+10740,10,I felt fearful.,0,3.0,2704.0,0,3.0
+10740,11,My sleep was restless.,0,3.0,7896.0,0,3.0
+10740,12,I was happy.,1,1.0,2216.0,0,2.0
+10740,13,I talked less than ususal.,0,0.0,2520.0,0,0.0
+10740,14,I felt lonely.,0,3.0,1938.0,0,3.0
+10740,15,People were unfriendly.,0,0.0,3824.0,0,0.0
+10740,16,I enjoyed life.,1,1.0,2081.0,0,2.0
+10740,17,I had crying spells.,0,0.0,2094.0,0,0.0
+10740,18,I felt sad.,0,1.0,1871.0,0,1.0
+10740,19,I felt that people dislike me.,0,2.0,3112.0,0,2.0
+10740,20,"I could not get ""going.""",0,2.0,1250.0,0,2.0
+10741,1,I was bothered by things that usually don't bother me.,0,1.0,4671.0,0,1.0
+10741,2,I did not feel like eating; my appetite was poor.,0,0.0,1283.0,0,0.0
+10741,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,2176.0,0,3.0
+10741,4,I felt just as good as other people.,1,2.0,1506.0,0,1.0
+10741,5,I had trouble keeping my mind on what I was doing.,0,1.0,1739.0,0,1.0
+10741,6,I felt depressed.,0,2.0,1379.0,0,2.0
+10741,7,I felt that everything I did was an effort.,0,2.0,673.0,0,2.0
+10741,8,I felt hopeful about the future.,1,2.0,1700.0,0,1.0
+10741,9,I thought my life had been a failure.,0,0.0,1098.0,0,0.0
+10741,10,I felt fearful.,0,1.0,1578.0,0,1.0
+10741,11,My sleep was restless.,0,1.0,1316.0,0,1.0
+10741,12,I was happy.,1,3.0,2318.0,0,0.0
+10741,13,I talked less than ususal.,0,0.0,1771.0,0,0.0
+10741,14,I felt lonely.,0,0.0,844.0,0,0.0
+10741,15,People were unfriendly.,0,0.0,801.0,0,0.0
+10741,16,I enjoyed life.,1,3.0,680.0,0,0.0
+10741,17,I had crying spells.,0,2.0,1587.0,0,2.0
+10741,18,I felt sad.,0,2.0,1836.0,0,2.0
+10741,19,I felt that people dislike me.,0,1.0,3816.0,0,1.0
+10741,20,"I could not get ""going.""",0,0.0,1066.0,0,0.0
+10742,1,I was bothered by things that usually don't bother me.,0,3.0,9087.0,0,3.0
+10742,2,I did not feel like eating; my appetite was poor.,0,0.0,1649.0,0,0.0
+10742,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,4176.0,0,1.0
+10742,4,I felt just as good as other people.,1,2.0,3655.0,0,1.0
+10742,5,I had trouble keeping my mind on what I was doing.,0,3.0,3121.0,0,3.0
+10742,6,I felt depressed.,0,2.0,2752.0,0,2.0
+10742,7,I felt that everything I did was an effort.,0,3.0,1792.0,0,3.0
+10742,8,I felt hopeful about the future.,1,3.0,2439.0,0,0.0
+10742,9,I thought my life had been a failure.,0,2.0,3057.0,0,2.0
+10742,10,I felt fearful.,0,3.0,2383.0,0,3.0
+10742,11,My sleep was restless.,0,3.0,1609.0,0,3.0
+10742,12,I was happy.,1,3.0,1791.0,0,0.0
+10742,13,I talked less than ususal.,0,3.0,2464.0,0,3.0
+10742,14,I felt lonely.,0,3.0,1049.0,0,3.0
+10742,15,People were unfriendly.,0,2.0,5807.0,0,2.0
+10742,16,I enjoyed life.,1,3.0,2041.0,0,0.0
+10742,17,I had crying spells.,0,0.0,2312.0,0,0.0
+10742,18,I felt sad.,0,2.0,1863.0,0,2.0
+10742,19,I felt that people dislike me.,0,1.0,7145.0,0,1.0
+10742,20,"I could not get ""going.""",0,1.0,2408.0,0,1.0
+10743,1,I was bothered by things that usually don't bother me.,0,1.0,3437.0,0,1.0
+10743,2,I did not feel like eating; my appetite was poor.,0,1.0,1235.0,0,1.0
+10743,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1174.0,0,2.0
+10743,4,I felt just as good as other people.,1,2.0,1572.0,0,1.0
+10743,5,I had trouble keeping my mind on what I was doing.,0,2.0,2347.0,0,2.0
+10743,6,I felt depressed.,0,2.0,2594.0,0,2.0
+10743,7,I felt that everything I did was an effort.,0,1.0,996.0,0,1.0
+10743,8,I felt hopeful about the future.,1,2.0,2502.0,0,1.0
+10743,9,I thought my life had been a failure.,0,2.0,1406.0,0,2.0
+10743,10,I felt fearful.,0,2.0,2038.0,0,2.0
+10743,11,My sleep was restless.,0,3.0,1356.0,0,3.0
+10743,12,I was happy.,1,2.0,2567.0,0,1.0
+10743,13,I talked less than ususal.,0,1.0,756.0,0,1.0
+10743,14,I felt lonely.,0,2.0,1058.0,0,2.0
+10743,15,People were unfriendly.,0,1.0,1609.0,0,1.0
+10743,16,I enjoyed life.,1,2.0,1006.0,0,1.0
+10743,17,I had crying spells.,0,2.0,1037.0,0,2.0
+10743,18,I felt sad.,0,2.0,2832.0,0,2.0
+10743,19,I felt that people dislike me.,0,1.0,904.0,0,1.0
+10743,20,"I could not get ""going.""",0,2.0,679.0,0,2.0
+10744,1,I was bothered by things that usually don't bother me.,0,1.0,7120.0,0,1.0
+10744,2,I did not feel like eating; my appetite was poor.,0,0.0,2068.0,0,0.0
+10744,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,4243.0,0,3.0
+10744,4,I felt just as good as other people.,1,3.0,5917.0,0,0.0
+10744,5,I had trouble keeping my mind on what I was doing.,0,0.0,2107.0,0,0.0
+10744,6,I felt depressed.,0,3.0,1991.0,0,3.0
+10744,7,I felt that everything I did was an effort.,0,2.0,2242.0,0,2.0
+10744,8,I felt hopeful about the future.,1,3.0,1317.0,0,0.0
+10744,9,I thought my life had been a failure.,0,0.0,1433.0,0,0.0
+10744,10,I felt fearful.,0,1.0,1280.0,0,1.0
+10744,11,My sleep was restless.,0,3.0,1711.0,0,3.0
+10744,12,I was happy.,1,3.0,1377.0,0,0.0
+10744,13,I talked less than ususal.,0,1.0,1442.0,0,1.0
+10744,14,I felt lonely.,0,1.0,1340.0,0,1.0
+10744,15,People were unfriendly.,0,2.0,2219.0,0,2.0
+10744,16,I enjoyed life.,1,3.0,1368.0,0,0.0
+10744,17,I had crying spells.,0,0.0,1085.0,0,0.0
+10744,18,I felt sad.,0,3.0,1566.0,0,3.0
+10744,19,I felt that people dislike me.,0,2.0,2559.0,0,2.0
+10744,20,"I could not get ""going.""",0,2.0,1712.0,0,2.0
+10747,1,I was bothered by things that usually don't bother me.,0,1.0,3252.0,0,1.0
+10747,2,I did not feel like eating; my appetite was poor.,0,2.0,1901.0,0,2.0
+10747,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,5017.0,0,1.0
+10747,4,I felt just as good as other people.,1,2.0,1981.0,0,1.0
+10747,5,I had trouble keeping my mind on what I was doing.,0,2.0,2183.0,0,2.0
+10747,6,I felt depressed.,0,1.0,3307.0,0,1.0
+10747,7,I felt that everything I did was an effort.,0,2.0,2699.0,0,2.0
+10747,8,I felt hopeful about the future.,1,2.0,1937.0,0,1.0
+10747,9,I thought my life had been a failure.,0,0.0,2801.0,0,0.0
+10747,10,I felt fearful.,0,0.0,1664.0,0,0.0
+10747,11,My sleep was restless.,0,0.0,1778.0,0,0.0
+10747,12,I was happy.,1,3.0,1608.0,0,0.0
+10747,13,I talked less than ususal.,0,1.0,3915.0,0,1.0
+10747,14,I felt lonely.,0,0.0,1519.0,0,0.0
+10747,15,People were unfriendly.,0,0.0,1811.0,0,0.0
+10747,16,I enjoyed life.,1,2.0,1699.0,0,1.0
+10747,17,I had crying spells.,0,0.0,1676.0,0,0.0
+10747,18,I felt sad.,0,0.0,2948.0,0,0.0
+10747,19,I felt that people dislike me.,0,0.0,1103.0,0,0.0
+10747,20,"I could not get ""going.""",0,3.0,1440.0,0,3.0
+10748,1,I was bothered by things that usually don't bother me.,0,1.0,8599.0,0,1.0
+10748,2,I did not feel like eating; my appetite was poor.,0,0.0,2624.0,0,0.0
+10748,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,849.0,0,1.0
+10748,4,I felt just as good as other people.,1,2.0,607.0,0,1.0
+10748,5,I had trouble keeping my mind on what I was doing.,0,1.0,1096.0,0,1.0
+10748,6,I felt depressed.,0,2.0,1120.0,0,2.0
+10748,7,I felt that everything I did was an effort.,0,2.0,520.0,0,2.0
+10748,8,I felt hopeful about the future.,1,1.0,609.0,0,2.0
+10748,9,I thought my life had been a failure.,0,0.0,2600.0,0,0.0
+10748,10,I felt fearful.,0,1.0,1920.0,0,1.0
+10748,11,My sleep was restless.,0,1.0,568.0,0,1.0
+10748,12,I was happy.,1,2.0,336.0,0,1.0
+10748,13,I talked less than ususal.,0,0.0,1024.0,0,0.0
+10748,14,I felt lonely.,0,1.0,1320.0,0,1.0
+10748,15,People were unfriendly.,0,2.0,3935.0,0,2.0
+10748,16,I enjoyed life.,1,2.0,1936.0,0,1.0
+10748,17,I had crying spells.,0,1.0,784.0,0,1.0
+10748,18,I felt sad.,0,1.0,504.0,0,1.0
+10748,19,I felt that people dislike me.,0,1.0,319.0,0,1.0
+10748,20,"I could not get ""going.""",0,2.0,3001.0,0,2.0
+10749,1,I was bothered by things that usually don't bother me.,0,0.0,7206.0,0,0.0
+10749,2,I did not feel like eating; my appetite was poor.,0,0.0,1720.0,0,0.0
+10749,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1992.0,0,2.0
+10749,4,I felt just as good as other people.,1,2.0,3143.0,0,1.0
+10749,5,I had trouble keeping my mind on what I was doing.,0,0.0,1544.0,0,0.0
+10749,6,I felt depressed.,0,2.0,2033.0,0,2.0
+10749,7,I felt that everything I did was an effort.,0,0.0,1960.0,0,0.0
+10749,8,I felt hopeful about the future.,1,2.0,4095.0,0,1.0
+10749,9,I thought my life had been a failure.,0,2.0,2424.0,0,2.0
+10749,10,I felt fearful.,0,2.0,1976.0,0,2.0
+10749,11,My sleep was restless.,0,0.0,952.0,0,0.0
+10749,12,I was happy.,1,2.0,1560.0,0,1.0
+10749,13,I talked less than ususal.,0,0.0,1480.0,0,0.0
+10749,14,I felt lonely.,0,2.0,1152.0,0,2.0
+10749,15,People were unfriendly.,0,0.0,1384.0,0,0.0
+10749,16,I enjoyed life.,1,3.0,1473.0,0,0.0
+10749,17,I had crying spells.,0,1.0,1711.0,0,1.0
+10749,18,I felt sad.,0,2.0,1287.0,0,2.0
+10749,19,I felt that people dislike me.,0,0.0,1570.0,0,0.0
+10749,20,"I could not get ""going.""",0,0.0,470.0,0,0.0
+10750,1,I was bothered by things that usually don't bother me.,0,0.0,17986.0,0,0.0
+10750,2,I did not feel like eating; my appetite was poor.,0,0.0,2914.0,0,0.0
+10750,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,2791.0,0,0.0
+10750,4,I felt just as good as other people.,1,1.0,5577.0,0,2.0
+10750,5,I had trouble keeping my mind on what I was doing.,0,2.0,8281.0,0,2.0
+10750,6,I felt depressed.,0,2.0,3203.0,0,2.0
+10750,7,I felt that everything I did was an effort.,0,2.0,1742.0,0,2.0
+10750,8,I felt hopeful about the future.,1,2.0,400.0,0,1.0
+10750,9,I thought my life had been a failure.,0,2.0,5569.0,0,2.0
+10750,10,I felt fearful.,0,0.0,3694.0,0,0.0
+10750,11,My sleep was restless.,0,0.0,1347.0,0,0.0
+10750,12,I was happy.,1,1.0,4113.0,0,2.0
+10750,13,I talked less than ususal.,0,0.0,3561.0,0,0.0
+10750,14,I felt lonely.,0,1.0,375.0,0,1.0
+10750,15,People were unfriendly.,0,0.0,2799.0,0,0.0
+10750,16,I enjoyed life.,1,1.0,4492.0,0,2.0
+10750,17,I had crying spells.,0,1.0,6325.0,0,1.0
+10750,18,I felt sad.,0,1.0,422.0,0,1.0
+10750,19,I felt that people dislike me.,0,1.0,453.0,0,1.0
+10750,20,"I could not get ""going.""",0,2.0,4001.0,0,2.0
+10751,1,I was bothered by things that usually don't bother me.,0,2.0,2381.0,0,2.0
+10751,2,I did not feel like eating; my appetite was poor.,0,1.0,4482.0,0,1.0
+10751,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,643.0,0,2.0
+10751,4,I felt just as good as other people.,1,0.0,6692.0,0,3.0
+10751,5,I had trouble keeping my mind on what I was doing.,0,2.0,419.0,0,2.0
+10751,6,I felt depressed.,0,2.0,542.0,0,2.0
+10751,7,I felt that everything I did was an effort.,0,1.0,1933.0,0,1.0
+10751,8,I felt hopeful about the future.,1,2.0,3058.0,0,1.0
+10751,9,I thought my life had been a failure.,0,2.0,762.0,0,2.0
+10751,10,I felt fearful.,0,0.0,5015.0,0,0.0
+10751,11,My sleep was restless.,0,1.0,3991.0,0,1.0
+10751,12,I was happy.,1,1.0,432.0,0,2.0
+10751,13,I talked less than ususal.,0,2.0,759.0,0,2.0
+10751,14,I felt lonely.,0,1.0,4508.0,0,1.0
+10751,15,People were unfriendly.,0,0.0,2492.0,0,0.0
+10751,16,I enjoyed life.,1,1.0,450.0,0,2.0
+10751,17,I had crying spells.,0,0.0,2335.0,0,0.0
+10751,18,I felt sad.,0,2.0,1257.0,0,2.0
+10751,19,I felt that people dislike me.,0,0.0,2914.0,0,0.0
+10751,20,"I could not get ""going.""",0,1.0,1815.0,0,1.0
+10752,1,I was bothered by things that usually don't bother me.,0,1.0,5128.0,0,1.0
+10752,2,I did not feel like eating; my appetite was poor.,0,0.0,1694.0,0,0.0
+10752,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1710.0,0,1.0
+10752,4,I felt just as good as other people.,1,1.0,2988.0,0,2.0
+10752,5,I had trouble keeping my mind on what I was doing.,0,2.0,3063.0,0,2.0
+10752,6,I felt depressed.,0,2.0,1831.0,0,2.0
+10752,7,I felt that everything I did was an effort.,0,1.0,2544.0,0,1.0
+10752,8,I felt hopeful about the future.,1,2.0,3164.0,0,1.0
+10752,9,I thought my life had been a failure.,0,0.0,2948.0,0,0.0
+10752,10,I felt fearful.,0,1.0,1587.0,0,1.0
+10752,11,My sleep was restless.,0,3.0,2247.0,0,3.0
+10752,12,I was happy.,1,2.0,2404.0,0,1.0
+10752,13,I talked less than ususal.,0,0.0,2326.0,0,0.0
+10752,14,I felt lonely.,0,1.0,4000.0,0,1.0
+10752,15,People were unfriendly.,0,1.0,2045.0,0,1.0
+10752,16,I enjoyed life.,1,2.0,1278.0,0,1.0
+10752,17,I had crying spells.,0,0.0,1793.0,0,0.0
+10752,18,I felt sad.,0,2.0,2061.0,0,2.0
+10752,19,I felt that people dislike me.,0,1.0,1566.0,0,1.0
+10752,20,"I could not get ""going.""",0,2.0,1397.0,0,2.0
+10753,1,I was bothered by things that usually don't bother me.,0,0.0,6722.0,0,0.0
+10753,2,I did not feel like eating; my appetite was poor.,0,0.0,1804.0,0,0.0
+10753,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,4726.0,0,1.0
+10753,4,I felt just as good as other people.,1,3.0,4329.0,0,0.0
+10753,5,I had trouble keeping my mind on what I was doing.,0,2.0,2528.0,0,2.0
+10753,6,I felt depressed.,0,1.0,3897.0,0,1.0
+10753,7,I felt that everything I did was an effort.,0,3.0,1863.0,0,3.0
+10753,8,I felt hopeful about the future.,1,3.0,4151.0,0,0.0
+10753,9,I thought my life had been a failure.,0,2.0,4273.0,0,2.0
+10753,10,I felt fearful.,0,2.0,2825.0,0,2.0
+10753,11,My sleep was restless.,0,0.0,2112.0,0,0.0
+10753,12,I was happy.,1,3.0,1103.0,0,0.0
+10753,13,I talked less than ususal.,0,1.0,2761.0,0,1.0
+10753,14,I felt lonely.,0,0.0,2319.0,0,0.0
+10753,15,People were unfriendly.,0,0.0,1479.0,0,0.0
+10753,16,I enjoyed life.,1,3.0,1209.0,0,0.0
+10753,17,I had crying spells.,0,0.0,1191.0,0,0.0
+10753,18,I felt sad.,0,2.0,1504.0,0,2.0
+10753,19,I felt that people dislike me.,0,0.0,6385.0,0,0.0
+10753,20,"I could not get ""going.""",0,2.0,3135.0,0,2.0
+10754,1,I was bothered by things that usually don't bother me.,0,1.0,6296.0,0,1.0
+10754,2,I did not feel like eating; my appetite was poor.,0,0.0,667.0,0,0.0
+10754,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,472.0,0,0.0
+10754,4,I felt just as good as other people.,1,0.0,3310.0,0,3.0
+10754,5,I had trouble keeping my mind on what I was doing.,0,0.0,375.0,0,0.0
+10754,6,I felt depressed.,0,0.0,346.0,0,0.0
+10754,7,I felt that everything I did was an effort.,0,0.0,220.0,0,0.0
+10754,8,I felt hopeful about the future.,1,2.0,4606.0,0,1.0
+10754,9,I thought my life had been a failure.,0,0.0,707.0,0,0.0
+10754,10,I felt fearful.,0,0.0,148.0,0,0.0
+10754,11,My sleep was restless.,0,0.0,137.0,0,0.0
+10754,12,I was happy.,1,1.0,4125.0,0,2.0
+10754,13,I talked less than ususal.,0,0.0,1053.0,0,0.0
+10754,14,I felt lonely.,0,0.0,273.0,0,0.0
+10754,15,People were unfriendly.,0,0.0,1200.0,0,0.0
+10754,16,I enjoyed life.,1,1.0,4195.0,0,2.0
+10754,17,I had crying spells.,0,0.0,334.0,0,0.0
+10754,18,I felt sad.,0,0.0,798.0,0,0.0
+10754,19,I felt that people dislike me.,0,0.0,431.0,0,0.0
+10754,20,"I could not get ""going.""",0,1.0,4057.0,0,1.0
+10755,1,I was bothered by things that usually don't bother me.,0,3.0,5927.0,0,3.0
+10755,2,I did not feel like eating; my appetite was poor.,0,0.0,4520.0,0,0.0
+10755,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,5456.0,0,3.0
+10755,4,I felt just as good as other people.,1,1.0,3224.0,0,2.0
+10755,5,I had trouble keeping my mind on what I was doing.,0,2.0,3024.0,0,2.0
+10755,6,I felt depressed.,0,3.0,2024.0,0,3.0
+10755,7,I felt that everything I did was an effort.,0,3.0,1720.0,0,3.0
+10755,8,I felt hopeful about the future.,1,2.0,8336.0,0,1.0
+10755,9,I thought my life had been a failure.,0,2.0,1880.0,0,2.0
+10755,10,I felt fearful.,0,0.0,2383.0,0,0.0
+10755,11,My sleep was restless.,0,3.0,1872.0,0,3.0
+10755,12,I was happy.,1,1.0,2888.0,0,2.0
+10755,13,I talked less than ususal.,0,3.0,6480.0,0,3.0
+10755,14,I felt lonely.,0,3.0,1376.0,0,3.0
+10755,15,People were unfriendly.,0,2.0,2000.0,0,2.0
+10755,16,I enjoyed life.,1,1.0,6256.0,0,2.0
+10755,17,I had crying spells.,0,3.0,6576.0,0,3.0
+10755,18,I felt sad.,0,3.0,1888.0,0,3.0
+10755,19,I felt that people dislike me.,0,3.0,1816.0,0,3.0
+10755,20,"I could not get ""going.""",0,2.0,1520.0,0,2.0
+10756,1,I was bothered by things that usually don't bother me.,0,1.0,7048.0,0,1.0
+10756,2,I did not feel like eating; my appetite was poor.,0,1.0,1010.0,0,1.0
+10756,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2215.0,0,2.0
+10756,4,I felt just as good as other people.,1,2.0,2459.0,0,1.0
+10756,5,I had trouble keeping my mind on what I was doing.,0,3.0,2386.0,0,3.0
+10756,6,I felt depressed.,0,3.0,1349.0,0,3.0
+10756,7,I felt that everything I did was an effort.,0,3.0,884.0,0,3.0
+10756,8,I felt hopeful about the future.,1,3.0,1986.0,0,0.0
+10756,9,I thought my life had been a failure.,0,2.0,1643.0,0,2.0
+10756,10,I felt fearful.,0,1.0,1253.0,0,1.0
+10756,11,My sleep was restless.,0,2.0,1303.0,0,2.0
+10756,12,I was happy.,1,3.0,2472.0,0,0.0
+10756,13,I talked less than ususal.,0,2.0,2389.0,0,2.0
+10756,14,I felt lonely.,0,1.0,2098.0,0,1.0
+10756,15,People were unfriendly.,0,0.0,1951.0,0,0.0
+10756,16,I enjoyed life.,1,3.0,1043.0,0,0.0
+10756,17,I had crying spells.,0,0.0,1699.0,0,0.0
+10756,18,I felt sad.,0,3.0,1338.0,0,3.0
+10756,19,I felt that people dislike me.,0,0.0,2102.0,0,0.0
+10756,20,"I could not get ""going.""",0,3.0,1051.0,0,3.0
+10757,1,I was bothered by things that usually don't bother me.,0,2.0,15837.0,0,2.0
+10757,2,I did not feel like eating; my appetite was poor.,0,0.0,3556.0,0,0.0
+10757,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,3967.0,0,1.0
+10757,4,I felt just as good as other people.,1,3.0,4687.0,0,0.0
+10757,5,I had trouble keeping my mind on what I was doing.,0,0.0,1942.0,0,0.0
+10757,6,I felt depressed.,0,3.0,1925.0,0,3.0
+10757,7,I felt that everything I did was an effort.,0,0.0,3914.0,0,0.0
+10757,8,I felt hopeful about the future.,1,3.0,2378.0,0,0.0
+10757,9,I thought my life had been a failure.,0,3.0,2400.0,0,3.0
+10757,10,I felt fearful.,0,0.0,2009.0,0,0.0
+10757,11,My sleep was restless.,0,2.0,6529.0,0,2.0
+10757,12,I was happy.,1,3.0,1688.0,0,0.0
+10757,13,I talked less than ususal.,0,0.0,1387.0,0,0.0
+10757,14,I felt lonely.,0,0.0,984.0,0,0.0
+10757,15,People were unfriendly.,0,0.0,1014.0,0,0.0
+10757,16,I enjoyed life.,1,3.0,1288.0,0,0.0
+10757,17,I had crying spells.,0,0.0,1279.0,0,0.0
+10757,18,I felt sad.,0,3.0,2357.0,0,3.0
+10757,19,I felt that people dislike me.,0,0.0,1896.0,0,0.0
+10757,20,"I could not get ""going.""",0,1.0,1406.0,0,1.0
+10758,1,I was bothered by things that usually don't bother me.,0,2.0,549.0,0,2.0
+10758,2,I did not feel like eating; my appetite was poor.,0,0.0,13125.0,0,0.0
+10758,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,673.0,0,1.0
+10758,4,I felt just as good as other people.,1,3.0,397.0,0,0.0
+10758,5,I had trouble keeping my mind on what I was doing.,0,1.0,987.0,0,1.0
+10758,6,I felt depressed.,0,1.0,787.0,0,1.0
+10758,7,I felt that everything I did was an effort.,0,1.0,7002.0,0,1.0
+10758,8,I felt hopeful about the future.,1,3.0,741.0,0,0.0
+10758,9,I thought my life had been a failure.,0,2.0,4821.0,0,2.0
+10758,10,I felt fearful.,0,2.0,501.0,0,2.0
+10758,11,My sleep was restless.,0,2.0,2167.0,0,2.0
+10758,12,I was happy.,1,2.0,853.0,0,1.0
+10758,13,I talked less than ususal.,0,1.0,680.0,0,1.0
+10758,14,I felt lonely.,0,1.0,899.0,0,1.0
+10758,15,People were unfriendly.,0,1.0,846.0,0,1.0
+10758,16,I enjoyed life.,1,2.0,918.0,0,1.0
+10758,17,I had crying spells.,0,0.0,434.0,0,0.0
+10758,18,I felt sad.,0,1.0,2312.0,0,1.0
+10758,19,I felt that people dislike me.,0,1.0,12402.0,0,1.0
+10758,20,"I could not get ""going.""",0,2.0,1537.0,0,2.0
+10759,1,I was bothered by things that usually don't bother me.,0,0.0,6826.0,0,0.0
+10759,2,I did not feel like eating; my appetite was poor.,0,1.0,2293.0,0,1.0
+10759,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2515.0,0,2.0
+10759,4,I felt just as good as other people.,1,0.0,6087.0,0,3.0
+10759,5,I had trouble keeping my mind on what I was doing.,0,0.0,5009.0,0,0.0
+10759,6,I felt depressed.,0,2.0,2855.0,0,2.0
+10759,7,I felt that everything I did was an effort.,0,2.0,3592.0,0,2.0
+10759,8,I felt hopeful about the future.,1,1.0,4209.0,0,2.0
+10759,9,I thought my life had been a failure.,0,0.0,4883.0,0,0.0
+10759,10,I felt fearful.,0,2.0,2200.0,0,2.0
+10759,11,My sleep was restless.,0,2.0,549.0,0,2.0
+10759,12,I was happy.,1,1.0,5332.0,0,2.0
+10759,13,I talked less than ususal.,0,0.0,1069.0,0,0.0
+10759,14,I felt lonely.,0,0.0,2783.0,0,0.0
+10759,15,People were unfriendly.,0,0.0,2398.0,0,0.0
+10759,16,I enjoyed life.,1,0.0,3438.0,0,3.0
+10759,17,I had crying spells.,0,2.0,4269.0,0,2.0
+10759,18,I felt sad.,0,2.0,3556.0,0,2.0
+10759,19,I felt that people dislike me.,0,0.0,3865.0,0,0.0
+10759,20,"I could not get ""going.""",0,1.0,1410.0,0,1.0
+10760,1,I was bothered by things that usually don't bother me.,0,1.0,7177.0,0,1.0
+10760,2,I did not feel like eating; my appetite was poor.,0,0.0,2348.0,0,0.0
+10760,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2752.0,0,1.0
+10760,4,I felt just as good as other people.,1,0.0,4246.0,0,3.0
+10760,5,I had trouble keeping my mind on what I was doing.,0,0.0,5212.0,0,0.0
+10760,6,I felt depressed.,0,1.0,1470.0,0,1.0
+10760,7,I felt that everything I did was an effort.,0,1.0,1830.0,0,1.0
+10760,8,I felt hopeful about the future.,1,1.0,3795.0,0,2.0
+10760,9,I thought my life had been a failure.,0,0.0,1470.0,0,0.0
+10760,10,I felt fearful.,0,0.0,1351.0,0,0.0
+10760,11,My sleep was restless.,0,2.0,2017.0,0,2.0
+10760,12,I was happy.,1,1.0,2617.0,0,2.0
+10760,13,I talked less than ususal.,0,0.0,6518.0,0,0.0
+10760,14,I felt lonely.,0,2.0,1627.0,0,2.0
+10760,15,People were unfriendly.,0,1.0,1831.0,0,1.0
+10760,16,I enjoyed life.,1,1.0,2610.0,0,2.0
+10760,17,I had crying spells.,0,0.0,1372.0,0,0.0
+10760,18,I felt sad.,0,2.0,1658.0,0,2.0
+10760,19,I felt that people dislike me.,0,0.0,2280.0,0,0.0
+10760,20,"I could not get ""going.""",0,1.0,2070.0,0,1.0
+10761,1,I was bothered by things that usually don't bother me.,0,1.0,3496.0,0,1.0
+10761,2,I did not feel like eating; my appetite was poor.,0,0.0,2356.0,0,0.0
+10761,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1604.0,0,0.0
+10761,4,I felt just as good as other people.,1,1.0,4029.0,0,2.0
+10761,5,I had trouble keeping my mind on what I was doing.,0,3.0,2113.0,0,3.0
+10761,6,I felt depressed.,0,1.0,2030.0,0,1.0
+10761,7,I felt that everything I did was an effort.,0,2.0,6881.0,0,2.0
+10761,8,I felt hopeful about the future.,1,2.0,1352.0,0,1.0
+10761,9,I thought my life had been a failure.,0,0.0,2065.0,0,0.0
+10761,10,I felt fearful.,0,1.0,1308.0,0,1.0
+10761,11,My sleep was restless.,0,3.0,1770.0,0,3.0
+10761,12,I was happy.,1,1.0,1622.0,0,2.0
+10761,13,I talked less than ususal.,0,0.0,1739.0,0,0.0
+10761,14,I felt lonely.,0,1.0,1643.0,0,1.0
+10761,15,People were unfriendly.,0,1.0,1551.0,0,1.0
+10761,16,I enjoyed life.,1,2.0,1339.0,0,1.0
+10761,17,I had crying spells.,0,0.0,2527.0,0,0.0
+10761,18,I felt sad.,0,1.0,772.0,0,1.0
+10761,19,I felt that people dislike me.,0,0.0,1515.0,0,0.0
+10761,20,"I could not get ""going.""",0,2.0,976.0,0,2.0
+10762,1,I was bothered by things that usually don't bother me.,0,0.0,7583.0,0,0.0
+10762,2,I did not feel like eating; my appetite was poor.,0,0.0,1521.0,0,0.0
+10762,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,3015.0,0,0.0
+10762,4,I felt just as good as other people.,1,0.0,4984.0,0,3.0
+10762,5,I had trouble keeping my mind on what I was doing.,0,0.0,4400.0,0,0.0
+10762,6,I felt depressed.,0,0.0,1689.0,0,0.0
+10762,7,I felt that everything I did was an effort.,0,1.0,2936.0,0,1.0
+10762,8,I felt hopeful about the future.,1,1.0,2591.0,0,2.0
+10762,9,I thought my life had been a failure.,0,0.0,6168.0,0,0.0
+10762,10,I felt fearful.,0,0.0,1528.0,0,0.0
+10762,11,My sleep was restless.,0,2.0,5968.0,0,2.0
+10762,12,I was happy.,1,1.0,1655.0,0,2.0
+10762,13,I talked less than ususal.,0,0.0,5880.0,0,0.0
+10762,14,I felt lonely.,0,0.0,2042.0,0,0.0
+10762,15,People were unfriendly.,0,0.0,1325.0,0,0.0
+10762,16,I enjoyed life.,1,1.0,1937.0,0,2.0
+10762,17,I had crying spells.,0,0.0,3392.0,0,0.0
+10762,18,I felt sad.,0,1.0,1576.0,0,1.0
+10762,19,I felt that people dislike me.,0,0.0,1616.0,0,0.0
+10762,20,"I could not get ""going.""",0,1.0,1575.0,0,1.0
+10764,1,I was bothered by things that usually don't bother me.,0,3.0,5582.0,0,3.0
+10764,2,I did not feel like eating; my appetite was poor.,0,0.0,4343.0,0,0.0
+10764,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,8006.0,0,1.0
+10764,4,I felt just as good as other people.,1,2.0,2834.0,0,1.0
+10764,5,I had trouble keeping my mind on what I was doing.,0,3.0,3366.0,0,3.0
+10764,6,I felt depressed.,0,1.0,3824.0,0,1.0
+10764,7,I felt that everything I did was an effort.,0,2.0,2642.0,0,2.0
+10764,8,I felt hopeful about the future.,1,2.0,4588.0,0,1.0
+10764,9,I thought my life had been a failure.,0,0.0,5738.0,0,0.0
+10764,10,I felt fearful.,0,1.0,2638.0,0,1.0
+10764,11,My sleep was restless.,0,0.0,4774.0,0,0.0
+10764,12,I was happy.,1,1.0,2825.0,0,2.0
+10764,13,I talked less than ususal.,0,0.0,4105.0,0,0.0
+10764,14,I felt lonely.,0,0.0,1922.0,0,0.0
+10764,15,People were unfriendly.,0,0.0,1523.0,0,0.0
+10764,16,I enjoyed life.,1,2.0,2824.0,0,1.0
+10764,17,I had crying spells.,0,0.0,2547.0,0,0.0
+10764,18,I felt sad.,0,1.0,1659.0,0,1.0
+10764,19,I felt that people dislike me.,0,0.0,2315.0,0,0.0
+10764,20,"I could not get ""going.""",0,1.0,1832.0,0,1.0
+10765,1,I was bothered by things that usually don't bother me.,0,2.0,6123.0,0,2.0
+10765,2,I did not feel like eating; my appetite was poor.,0,3.0,1604.0,0,3.0
+10765,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,5840.0,0,2.0
+10765,4,I felt just as good as other people.,1,2.0,3746.0,0,1.0
+10765,5,I had trouble keeping my mind on what I was doing.,0,3.0,2110.0,0,3.0
+10765,6,I felt depressed.,0,3.0,1425.0,0,3.0
+10765,7,I felt that everything I did was an effort.,0,3.0,2443.0,0,3.0
+10765,8,I felt hopeful about the future.,1,2.0,1988.0,0,1.0
+10765,9,I thought my life had been a failure.,0,1.0,2365.0,0,1.0
+10765,10,I felt fearful.,0,0.0,1041.0,0,0.0
+10765,11,My sleep was restless.,0,3.0,2065.0,0,3.0
+10765,12,I was happy.,1,2.0,1545.0,0,1.0
+10765,13,I talked less than ususal.,0,3.0,2292.0,0,3.0
+10765,14,I felt lonely.,0,3.0,1123.0,0,3.0
+10765,15,People were unfriendly.,0,3.0,846.0,0,3.0
+10765,16,I enjoyed life.,1,2.0,1659.0,0,1.0
+10765,17,I had crying spells.,0,2.0,2457.0,0,2.0
+10765,18,I felt sad.,0,3.0,3794.0,0,3.0
+10765,19,I felt that people dislike me.,0,2.0,1793.0,0,2.0
+10765,20,"I could not get ""going.""",0,0.0,3290.0,0,0.0
+10766,1,I was bothered by things that usually don't bother me.,0,1.0,4215.0,0,1.0
+10766,2,I did not feel like eating; my appetite was poor.,0,0.0,2240.0,0,0.0
+10766,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1226.0,0,0.0
+10766,4,I felt just as good as other people.,1,0.0,1670.0,0,3.0
+10766,5,I had trouble keeping my mind on what I was doing.,0,1.0,2424.0,0,1.0
+10766,6,I felt depressed.,0,0.0,1704.0,0,0.0
+10766,7,I felt that everything I did was an effort.,0,0.0,2744.0,0,0.0
+10766,8,I felt hopeful about the future.,1,1.0,2840.0,0,2.0
+10766,9,I thought my life had been a failure.,0,0.0,2936.0,0,0.0
+10766,10,I felt fearful.,0,0.0,832.0,0,0.0
+10766,11,My sleep was restless.,0,1.0,2296.0,0,1.0
+10766,12,I was happy.,1,1.0,1984.0,0,2.0
+10766,13,I talked less than ususal.,0,0.0,2360.0,0,0.0
+10766,14,I felt lonely.,0,0.0,1000.0,0,0.0
+10766,15,People were unfriendly.,0,0.0,592.0,0,0.0
+10766,16,I enjoyed life.,1,1.0,992.0,0,2.0
+10766,17,I had crying spells.,0,0.0,1480.0,0,0.0
+10766,18,I felt sad.,0,1.0,888.0,0,1.0
+10766,19,I felt that people dislike me.,0,0.0,1064.0,0,0.0
+10766,20,"I could not get ""going.""",0,1.0,984.0,0,1.0
+10767,1,I was bothered by things that usually don't bother me.,0,1.0,5984.0,0,1.0
+10767,2,I did not feel like eating; my appetite was poor.,0,0.0,7792.0,0,0.0
+10767,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,6696.0,0,1.0
+10767,4,I felt just as good as other people.,1,2.0,10288.0,0,1.0
+10767,5,I had trouble keeping my mind on what I was doing.,0,2.0,768.0,0,2.0
+10767,6,I felt depressed.,0,1.0,4960.0,0,1.0
+10767,7,I felt that everything I did was an effort.,0,3.0,3072.0,0,3.0
+10767,8,I felt hopeful about the future.,1,3.0,4840.0,0,0.0
+10767,9,I thought my life had been a failure.,0,1.0,5503.0,0,1.0
+10767,10,I felt fearful.,0,1.0,1961.0,0,1.0
+10767,11,My sleep was restless.,0,1.0,2952.0,0,1.0
+10767,12,I was happy.,1,2.0,2504.0,0,1.0
+10767,13,I talked less than ususal.,0,2.0,4679.0,0,2.0
+10767,14,I felt lonely.,0,1.0,2353.0,0,1.0
+10767,15,People were unfriendly.,0,1.0,1480.0,0,1.0
+10767,16,I enjoyed life.,1,2.0,1736.0,0,1.0
+10767,17,I had crying spells.,0,0.0,7751.0,0,0.0
+10767,18,I felt sad.,0,1.0,6529.0,0,1.0
+10767,19,I felt that people dislike me.,0,1.0,2783.0,0,1.0
+10767,20,"I could not get ""going.""",0,3.0,1929.0,0,3.0
+10768,1,I was bothered by things that usually don't bother me.,0,2.0,12649.0,0,2.0
+10768,2,I did not feel like eating; my appetite was poor.,0,0.0,1292.0,0,0.0
+10768,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1730.0,0,1.0
+10768,4,I felt just as good as other people.,1,1.0,3086.0,0,2.0
+10768,5,I had trouble keeping my mind on what I was doing.,0,1.0,1348.0,0,1.0
+10768,6,I felt depressed.,0,1.0,982.0,0,1.0
+10768,7,I felt that everything I did was an effort.,0,1.0,1178.0,0,1.0
+10768,8,I felt hopeful about the future.,1,3.0,1822.0,0,0.0
+10768,9,I thought my life had been a failure.,0,0.0,1318.0,0,0.0
+10768,10,I felt fearful.,0,1.0,1800.0,0,1.0
+10768,11,My sleep was restless.,0,0.0,1458.0,0,0.0
+10768,12,I was happy.,1,1.0,1222.0,0,2.0
+10768,13,I talked less than ususal.,0,1.0,2004.0,0,1.0
+10768,14,I felt lonely.,0,1.0,2064.0,0,1.0
+10768,15,People were unfriendly.,0,1.0,858.0,0,1.0
+10768,16,I enjoyed life.,1,2.0,3054.0,0,1.0
+10768,17,I had crying spells.,0,0.0,1201.0,0,0.0
+10768,18,I felt sad.,0,2.0,1598.0,0,2.0
+10768,19,I felt that people dislike me.,0,0.0,1092.0,0,0.0
+10768,20,"I could not get ""going.""",0,2.0,683.0,0,2.0
+10769,1,I was bothered by things that usually don't bother me.,0,0.0,8476.0,0,0.0
+10769,2,I did not feel like eating; my appetite was poor.,0,0.0,664.0,0,0.0
+10769,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,3383.0,0,1.0
+10769,4,I felt just as good as other people.,1,0.0,6409.0,0,3.0
+10769,5,I had trouble keeping my mind on what I was doing.,0,1.0,3957.0,0,1.0
+10769,6,I felt depressed.,0,1.0,3299.0,0,1.0
+10769,7,I felt that everything I did was an effort.,0,0.0,2803.0,0,0.0
+10769,8,I felt hopeful about the future.,1,1.0,4765.0,0,2.0
+10769,9,I thought my life had been a failure.,0,1.0,4665.0,0,1.0
+10769,10,I felt fearful.,0,2.0,7452.0,0,2.0
+10769,11,My sleep was restless.,0,0.0,3071.0,0,0.0
+10769,12,I was happy.,1,1.0,1862.0,0,2.0
+10769,13,I talked less than ususal.,0,1.0,4493.0,0,1.0
+10769,14,I felt lonely.,0,0.0,81957.0,0,0.0
+10769,15,People were unfriendly.,0,2.0,1983.0,0,2.0
+10769,16,I enjoyed life.,1,1.0,3321.0,0,2.0
+10769,17,I had crying spells.,0,1.0,2465.0,0,1.0
+10769,18,I felt sad.,0,1.0,1017.0,0,1.0
+10769,19,I felt that people dislike me.,0,2.0,4020.0,0,2.0
+10769,20,"I could not get ""going.""",0,0.0,3503.0,0,0.0
+10770,1,I was bothered by things that usually don't bother me.,0,1.0,10227.0,0,1.0
+10770,2,I did not feel like eating; my appetite was poor.,0,0.0,466.0,0,0.0
+10770,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,3724.0,0,2.0
+10770,4,I felt just as good as other people.,1,0.0,3993.0,0,3.0
+10770,5,I had trouble keeping my mind on what I was doing.,0,0.0,3145.0,0,0.0
+10770,6,I felt depressed.,0,2.0,2905.0,0,2.0
+10770,7,I felt that everything I did was an effort.,0,0.0,2763.0,0,0.0
+10770,8,I felt hopeful about the future.,1,2.0,1993.0,0,1.0
+10770,9,I thought my life had been a failure.,0,0.0,1567.0,0,0.0
+10770,10,I felt fearful.,0,0.0,2017.0,0,0.0
+10770,11,My sleep was restless.,0,0.0,1012.0,0,0.0
+10770,12,I was happy.,1,2.0,1105.0,0,1.0
+10770,13,I talked less than ususal.,0,0.0,1723.0,0,0.0
+10770,14,I felt lonely.,0,2.0,1684.0,0,2.0
+10770,15,People were unfriendly.,0,0.0,1759.0,0,0.0
+10770,16,I enjoyed life.,1,2.0,1574.0,0,1.0
+10770,17,I had crying spells.,0,1.0,1019.0,0,1.0
+10770,18,I felt sad.,0,2.0,2217.0,0,2.0
+10770,19,I felt that people dislike me.,0,0.0,4475.0,0,0.0
+10770,20,"I could not get ""going.""",0,0.0,1114.0,0,0.0
+10772,1,I was bothered by things that usually don't bother me.,0,1.0,6312.0,0,1.0
+10772,2,I did not feel like eating; my appetite was poor.,0,2.0,1768.0,0,2.0
+10772,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,5238.0,0,2.0
+10772,4,I felt just as good as other people.,1,1.0,1927.0,0,2.0
+10772,5,I had trouble keeping my mind on what I was doing.,0,2.0,3395.0,0,2.0
+10772,6,I felt depressed.,0,2.0,1633.0,0,2.0
+10772,7,I felt that everything I did was an effort.,0,3.0,4601.0,0,3.0
+10772,8,I felt hopeful about the future.,1,0.0,4521.0,0,3.0
+10772,9,I thought my life had been a failure.,0,1.0,2932.0,0,1.0
+10772,10,I felt fearful.,0,3.0,1735.0,0,3.0
+10772,11,My sleep was restless.,0,2.0,11121.0,0,2.0
+10772,12,I was happy.,1,2.0,2024.0,0,1.0
+10772,13,I talked less than ususal.,0,2.0,2250.0,0,2.0
+10772,14,I felt lonely.,0,1.0,2525.0,0,1.0
+10772,15,People were unfriendly.,0,1.0,2193.0,0,1.0
+10772,16,I enjoyed life.,1,1.0,684.0,0,2.0
+10772,17,I had crying spells.,0,2.0,1749.0,0,2.0
+10772,18,I felt sad.,0,2.0,2299.0,0,2.0
+10772,19,I felt that people dislike me.,0,1.0,1736.0,0,1.0
+10772,20,"I could not get ""going.""",0,3.0,1468.0,0,3.0
+10773,1,I was bothered by things that usually don't bother me.,0,2.0,3017.0,0,2.0
+10773,2,I did not feel like eating; my appetite was poor.,0,2.0,746.0,0,2.0
+10773,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2410.0,0,2.0
+10773,4,I felt just as good as other people.,1,1.0,5799.0,0,2.0
+10773,5,I had trouble keeping my mind on what I was doing.,0,2.0,383.0,0,2.0
+10773,6,I felt depressed.,0,3.0,571.0,0,3.0
+10773,7,I felt that everything I did was an effort.,0,3.0,1334.0,0,3.0
+10773,8,I felt hopeful about the future.,1,3.0,2498.0,0,0.0
+10773,9,I thought my life had been a failure.,0,2.0,662.0,0,2.0
+10773,10,I felt fearful.,0,3.0,2667.0,0,3.0
+10773,11,My sleep was restless.,0,3.0,974.0,0,3.0
+10773,12,I was happy.,1,2.0,1587.0,0,1.0
+10773,13,I talked less than ususal.,0,2.0,1919.0,0,2.0
+10773,14,I felt lonely.,0,3.0,725.0,0,3.0
+10773,15,People were unfriendly.,0,2.0,5639.0,0,2.0
+10773,16,I enjoyed life.,1,3.0,786.0,0,0.0
+10773,17,I had crying spells.,0,3.0,600.0,0,3.0
+10773,18,I felt sad.,0,3.0,1511.0,0,3.0
+10773,19,I felt that people dislike me.,0,3.0,503.0,0,3.0
+10773,20,"I could not get ""going.""",0,3.0,452.0,0,3.0
+10774,1,I was bothered by things that usually don't bother me.,0,2.0,5553.0,0,2.0
+10774,2,I did not feel like eating; my appetite was poor.,0,1.0,775.0,0,1.0
+10774,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1409.0,0,2.0
+10774,4,I felt just as good as other people.,1,3.0,1982.0,0,0.0
+10774,5,I had trouble keeping my mind on what I was doing.,0,1.0,1268.0,0,1.0
+10774,6,I felt depressed.,0,2.0,1586.0,0,2.0
+10774,7,I felt that everything I did was an effort.,0,2.0,679.0,0,2.0
+10774,8,I felt hopeful about the future.,1,2.0,861.0,0,1.0
+10774,9,I thought my life had been a failure.,0,2.0,1740.0,0,2.0
+10774,10,I felt fearful.,0,2.0,1091.0,0,2.0
+10774,11,My sleep was restless.,0,1.0,1710.0,0,1.0
+10774,12,I was happy.,1,2.0,1761.0,0,1.0
+10774,13,I talked less than ususal.,0,1.0,2759.0,0,1.0
+10774,14,I felt lonely.,0,3.0,2237.0,0,3.0
+10774,15,People were unfriendly.,0,2.0,1403.0,0,2.0
+10774,16,I enjoyed life.,1,1.0,3090.0,0,2.0
+10774,17,I had crying spells.,0,2.0,2190.0,0,2.0
+10774,18,I felt sad.,0,3.0,1349.0,0,3.0
+10774,19,I felt that people dislike me.,0,2.0,2155.0,0,2.0
+10774,20,"I could not get ""going.""",0,2.0,869.0,0,2.0
+10775,1,I was bothered by things that usually don't bother me.,0,1.0,3843.0,0,1.0
+10775,2,I did not feel like eating; my appetite was poor.,0,0.0,1613.0,0,0.0
+10775,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1250.0,0,2.0
+10775,4,I felt just as good as other people.,1,1.0,1529.0,0,2.0
+10775,5,I had trouble keeping my mind on what I was doing.,0,3.0,3182.0,0,3.0
+10775,6,I felt depressed.,0,3.0,1644.0,0,3.0
+10775,7,I felt that everything I did was an effort.,0,3.0,1100.0,0,3.0
+10775,8,I felt hopeful about the future.,1,3.0,1479.0,0,0.0
+10775,9,I thought my life had been a failure.,0,0.0,671.0,0,0.0
+10775,10,I felt fearful.,0,1.0,3295.0,0,1.0
+10775,11,My sleep was restless.,0,2.0,1713.0,0,2.0
+10775,12,I was happy.,1,3.0,2350.0,0,0.0
+10775,13,I talked less than ususal.,0,1.0,1171.0,0,1.0
+10775,14,I felt lonely.,0,0.0,1499.0,0,0.0
+10775,15,People were unfriendly.,0,0.0,466.0,0,0.0
+10775,16,I enjoyed life.,1,3.0,1305.0,0,0.0
+10775,17,I had crying spells.,0,0.0,1676.0,0,0.0
+10775,18,I felt sad.,0,2.0,1592.0,0,2.0
+10775,19,I felt that people dislike me.,0,0.0,2377.0,0,0.0
+10775,20,"I could not get ""going.""",0,3.0,1345.0,0,3.0
+10776,1,I was bothered by things that usually don't bother me.,0,1.0,11233.0,0,1.0
+10776,2,I did not feel like eating; my appetite was poor.,0,0.0,2908.0,0,0.0
+10776,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2969.0,0,1.0
+10776,4,I felt just as good as other people.,1,3.0,7566.0,0,0.0
+10776,5,I had trouble keeping my mind on what I was doing.,0,1.0,2735.0,0,1.0
+10776,6,I felt depressed.,0,2.0,3488.0,0,2.0
+10776,7,I felt that everything I did was an effort.,0,1.0,4449.0,0,1.0
+10776,8,I felt hopeful about the future.,1,2.0,3393.0,0,1.0
+10776,9,I thought my life had been a failure.,0,2.0,6731.0,0,2.0
+10776,10,I felt fearful.,0,1.0,4386.0,0,1.0
+10776,11,My sleep was restless.,0,3.0,3311.0,0,3.0
+10776,12,I was happy.,1,1.0,5418.0,0,2.0
+10776,13,I talked less than ususal.,0,1.0,2099.0,0,1.0
+10776,14,I felt lonely.,0,1.0,2605.0,0,1.0
+10776,15,People were unfriendly.,0,2.0,5503.0,0,2.0
+10776,16,I enjoyed life.,1,1.0,2176.0,0,2.0
+10776,17,I had crying spells.,0,1.0,1936.0,0,1.0
+10776,18,I felt sad.,0,2.0,2744.0,0,2.0
+10776,19,I felt that people dislike me.,0,2.0,1252.0,0,2.0
+10776,20,"I could not get ""going.""",0,1.0,1888.0,0,1.0
+10777,1,I was bothered by things that usually don't bother me.,0,2.0,7111.0,0,2.0
+10777,2,I did not feel like eating; my appetite was poor.,0,1.0,2070.0,0,1.0
+10777,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2886.0,0,2.0
+10777,4,I felt just as good as other people.,1,3.0,137694.0,0,0.0
+10777,5,I had trouble keeping my mind on what I was doing.,0,3.0,3071.0,0,3.0
+10777,6,I felt depressed.,0,3.0,1612.0,0,3.0
+10777,7,I felt that everything I did was an effort.,0,3.0,2676.0,0,3.0
+10777,8,I felt hopeful about the future.,1,3.0,4059.0,0,0.0
+10777,9,I thought my life had been a failure.,0,2.0,2828.0,0,2.0
+10777,10,I felt fearful.,0,2.0,3831.0,0,2.0
+10777,11,My sleep was restless.,0,3.0,3174.0,0,3.0
+10777,12,I was happy.,1,3.0,2409.0,0,0.0
+10777,13,I talked less than ususal.,0,2.0,3091.0,0,2.0
+10777,14,I felt lonely.,0,2.0,2123.0,0,2.0
+10777,15,People were unfriendly.,0,2.0,1905.0,0,2.0
+10777,16,I enjoyed life.,1,3.0,2498.0,0,0.0
+10777,17,I had crying spells.,0,2.0,1525.0,0,2.0
+10777,18,I felt sad.,0,3.0,2459.0,0,3.0
+10777,19,I felt that people dislike me.,0,2.0,2855.0,0,2.0
+10777,20,"I could not get ""going.""",0,3.0,1143.0,0,3.0
+10778,1,I was bothered by things that usually don't bother me.,0,0.0,7349.0,0,0.0
+10778,2,I did not feel like eating; my appetite was poor.,0,0.0,1062.0,0,0.0
+10778,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1150.0,0,0.0
+10778,4,I felt just as good as other people.,1,0.0,4366.0,0,3.0
+10778,5,I had trouble keeping my mind on what I was doing.,0,2.0,6332.0,0,2.0
+10778,6,I felt depressed.,0,0.0,1627.0,0,0.0
+10778,7,I felt that everything I did was an effort.,0,0.0,1276.0,0,0.0
+10778,8,I felt hopeful about the future.,1,1.0,2096.0,0,2.0
+10778,9,I thought my life had been a failure.,0,0.0,1236.0,0,0.0
+10778,10,I felt fearful.,0,0.0,1844.0,0,0.0
+10778,11,My sleep was restless.,0,0.0,1735.0,0,0.0
+10778,12,I was happy.,1,1.0,1607.0,0,2.0
+10778,13,I talked less than ususal.,0,0.0,2180.0,0,0.0
+10778,14,I felt lonely.,0,0.0,970.0,0,0.0
+10778,15,People were unfriendly.,0,0.0,1356.0,0,0.0
+10778,16,I enjoyed life.,1,2.0,2707.0,0,1.0
+10778,17,I had crying spells.,0,0.0,1408.0,0,0.0
+10778,18,I felt sad.,0,0.0,959.0,0,0.0
+10778,19,I felt that people dislike me.,0,0.0,813.0,0,0.0
+10778,20,"I could not get ""going.""",0,1.0,2728.0,0,1.0
+10779,1,I was bothered by things that usually don't bother me.,0,0.0,7768.0,0,0.0
+10779,2,I did not feel like eating; my appetite was poor.,0,0.0,1748.0,0,0.0
+10779,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2149.0,0,1.0
+10779,4,I felt just as good as other people.,1,3.0,1535.0,0,0.0
+10779,5,I had trouble keeping my mind on what I was doing.,0,2.0,2167.0,0,2.0
+10779,6,I felt depressed.,0,3.0,1198.0,0,3.0
+10779,7,I felt that everything I did was an effort.,0,3.0,6066.0,0,3.0
+10779,8,I felt hopeful about the future.,1,3.0,10857.0,0,0.0
+10779,9,I thought my life had been a failure.,0,2.0,2828.0,0,2.0
+10779,10,I felt fearful.,0,1.0,2231.0,0,1.0
+10779,11,My sleep was restless.,0,3.0,1701.0,0,3.0
+10779,12,I was happy.,1,3.0,2250.0,0,0.0
+10779,13,I talked less than ususal.,0,0.0,1651.0,0,0.0
+10779,14,I felt lonely.,0,3.0,2633.0,0,3.0
+10779,15,People were unfriendly.,0,3.0,1317.0,0,3.0
+10779,16,I enjoyed life.,1,3.0,2000.0,0,0.0
+10779,17,I had crying spells.,0,1.0,1552.0,0,1.0
+10779,18,I felt sad.,0,3.0,1082.0,0,3.0
+10779,19,I felt that people dislike me.,0,3.0,4466.0,0,3.0
+10779,20,"I could not get ""going.""",0,3.0,649.0,0,3.0
+10780,1,I was bothered by things that usually don't bother me.,0,1.0,3451.0,0,1.0
+10780,2,I did not feel like eating; my appetite was poor.,0,1.0,1165.0,0,1.0
+10780,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1650.0,0,1.0
+10780,4,I felt just as good as other people.,1,2.0,1533.0,0,1.0
+10780,5,I had trouble keeping my mind on what I was doing.,0,3.0,4327.0,0,3.0
+10780,6,I felt depressed.,0,3.0,2283.0,0,3.0
+10780,7,I felt that everything I did was an effort.,0,3.0,659.0,0,3.0
+10780,8,I felt hopeful about the future.,1,0.0,475.0,0,3.0
+10780,9,I thought my life had been a failure.,0,2.0,2092.0,0,2.0
+10780,10,I felt fearful.,0,0.0,9926.0,0,0.0
+10780,11,My sleep was restless.,0,2.0,5698.0,0,2.0
+10780,12,I was happy.,1,1.0,2055.0,0,2.0
+10780,13,I talked less than ususal.,0,1.0,3562.0,0,1.0
+10780,14,I felt lonely.,0,0.0,801.0,0,0.0
+10780,15,People were unfriendly.,0,0.0,4409.0,0,0.0
+10780,16,I enjoyed life.,1,3.0,4257.0,0,0.0
+10780,17,I had crying spells.,0,1.0,2049.0,0,1.0
+10780,18,I felt sad.,0,1.0,3073.0,0,1.0
+10780,19,I felt that people dislike me.,0,1.0,874.0,0,1.0
+10780,20,"I could not get ""going.""",0,2.0,2230.0,0,2.0
+10781,1,I was bothered by things that usually don't bother me.,0,1.0,13533.0,0,1.0
+10781,2,I did not feel like eating; my appetite was poor.,0,2.0,7681.0,0,2.0
+10781,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,5452.0,0,1.0
+10781,4,I felt just as good as other people.,1,1.0,6478.0,0,2.0
+10781,5,I had trouble keeping my mind on what I was doing.,0,0.0,6335.0,0,0.0
+10781,6,I felt depressed.,0,3.0,4736.0,0,3.0
+10781,7,I felt that everything I did was an effort.,0,2.0,5415.0,0,2.0
+10781,8,I felt hopeful about the future.,1,2.0,16017.0,0,1.0
+10781,9,I thought my life had been a failure.,0,1.0,4868.0,0,1.0
+10781,10,I felt fearful.,0,2.0,8209.0,0,2.0
+10781,11,My sleep was restless.,0,2.0,1948.0,0,2.0
+10781,12,I was happy.,1,2.0,4170.0,0,1.0
+10781,13,I talked less than ususal.,0,1.0,2826.0,0,1.0
+10781,14,I felt lonely.,0,0.0,3257.0,0,0.0
+10781,15,People were unfriendly.,0,1.0,2453.0,0,1.0
+10781,16,I enjoyed life.,1,1.0,3989.0,0,2.0
+10781,17,I had crying spells.,0,2.0,2537.0,0,2.0
+10781,18,I felt sad.,0,2.0,1600.0,0,2.0
+10781,19,I felt that people dislike me.,0,1.0,3213.0,0,1.0
+10781,20,"I could not get ""going.""",0,1.0,1889.0,0,1.0
+10782,1,I was bothered by things that usually don't bother me.,0,0.0,4460.0,0,0.0
+10782,2,I did not feel like eating; my appetite was poor.,0,0.0,1940.0,0,0.0
+10782,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,914.0,0,0.0
+10782,4,I felt just as good as other people.,1,0.0,5428.0,0,3.0
+10782,5,I had trouble keeping my mind on what I was doing.,0,1.0,4003.0,0,1.0
+10782,6,I felt depressed.,0,0.0,3393.0,0,0.0
+10782,7,I felt that everything I did was an effort.,0,0.0,3898.0,0,0.0
+10782,8,I felt hopeful about the future.,1,3.0,1192.0,0,0.0
+10782,9,I thought my life had been a failure.,0,0.0,1306.0,0,0.0
+10782,10,I felt fearful.,0,0.0,1360.0,0,0.0
+10782,11,My sleep was restless.,0,0.0,1452.0,0,0.0
+10782,12,I was happy.,1,3.0,1613.0,0,0.0
+10782,13,I talked less than ususal.,0,0.0,1717.0,0,0.0
+10782,14,I felt lonely.,0,0.0,834.0,0,0.0
+10782,15,People were unfriendly.,0,0.0,3928.0,0,0.0
+10782,16,I enjoyed life.,1,3.0,1420.0,0,0.0
+10782,17,I had crying spells.,0,0.0,1588.0,0,0.0
+10782,18,I felt sad.,0,0.0,1024.0,0,0.0
+10782,19,I felt that people dislike me.,0,0.0,1338.0,0,0.0
+10782,20,"I could not get ""going.""",0,0.0,924.0,0,0.0
+10784,1,I was bothered by things that usually don't bother me.,0,1.0,6559.0,0,1.0
+10784,2,I did not feel like eating; my appetite was poor.,0,0.0,1931.0,0,0.0
+10784,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1749.0,0,1.0
+10784,4,I felt just as good as other people.,1,1.0,1933.0,0,2.0
+10784,5,I had trouble keeping my mind on what I was doing.,0,2.0,2222.0,0,2.0
+10784,6,I felt depressed.,0,3.0,1290.0,0,3.0
+10784,7,I felt that everything I did was an effort.,0,3.0,1417.0,0,3.0
+10784,8,I felt hopeful about the future.,1,3.0,2100.0,0,0.0
+10784,9,I thought my life had been a failure.,0,0.0,1938.0,0,0.0
+10784,10,I felt fearful.,0,2.0,1404.0,0,2.0
+10784,11,My sleep was restless.,0,2.0,1051.0,0,2.0
+10784,12,I was happy.,1,2.0,1348.0,0,1.0
+10784,13,I talked less than ususal.,0,2.0,2081.0,0,2.0
+10784,14,I felt lonely.,0,2.0,1581.0,0,2.0
+10784,15,People were unfriendly.,0,1.0,1416.0,0,1.0
+10784,16,I enjoyed life.,1,2.0,1449.0,0,1.0
+10784,17,I had crying spells.,0,3.0,2315.0,0,3.0
+10784,18,I felt sad.,0,3.0,4486.0,0,3.0
+10784,19,I felt that people dislike me.,0,1.0,1013.0,0,1.0
+10784,20,"I could not get ""going.""",0,3.0,1175.0,0,3.0
+10785,1,I was bothered by things that usually don't bother me.,0,1.0,4939.0,0,1.0
+10785,2,I did not feel like eating; my appetite was poor.,0,0.0,3499.0,0,0.0
+10785,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,2733.0,0,1.0
+10785,4,I felt just as good as other people.,1,1.0,10508.0,0,2.0
+10785,5,I had trouble keeping my mind on what I was doing.,0,1.0,3678.0,0,1.0
+10785,6,I felt depressed.,0,1.0,1172.0,0,1.0
+10785,7,I felt that everything I did was an effort.,0,1.0,2180.0,0,1.0
+10785,8,I felt hopeful about the future.,1,2.0,2014.0,0,1.0
+10785,9,I thought my life had been a failure.,0,0.0,2655.0,0,0.0
+10785,10,I felt fearful.,0,0.0,1350.0,0,0.0
+10785,11,My sleep was restless.,0,1.0,1936.0,0,1.0
+10785,12,I was happy.,1,2.0,2237.0,0,1.0
+10785,13,I talked less than ususal.,0,0.0,2757.0,0,0.0
+10785,14,I felt lonely.,0,0.0,1800.0,0,0.0
+10785,15,People were unfriendly.,0,0.0,2757.0,0,0.0
+10785,16,I enjoyed life.,1,2.0,2418.0,0,1.0
+10785,17,I had crying spells.,0,0.0,2048.0,0,0.0
+10785,18,I felt sad.,0,1.0,2351.0,0,1.0
+10785,19,I felt that people dislike me.,0,0.0,2306.0,0,0.0
+10785,20,"I could not get ""going.""",0,1.0,6862.0,0,1.0
+10786,1,I was bothered by things that usually don't bother me.,0,1.0,998.0,0,1.0
+10786,2,I did not feel like eating; my appetite was poor.,0,0.0,26091.0,0,0.0
+10786,3,I felt that I could not shake off the blues even with help from my family or friends.,0,3.0,4193.0,0,3.0
+10786,4,I felt just as good as other people.,1,3.0,3741.0,0,0.0
+10786,5,I had trouble keeping my mind on what I was doing.,0,3.0,3568.0,0,3.0
+10786,6,I felt depressed.,0,3.0,4815.0,0,3.0
+10786,7,I felt that everything I did was an effort.,0,3.0,801.0,0,3.0
+10786,8,I felt hopeful about the future.,1,3.0,2172.0,0,0.0
+10786,9,I thought my life had been a failure.,0,3.0,3043.0,0,3.0
+10786,10,I felt fearful.,0,0.0,4030.0,0,0.0
+10786,11,My sleep was restless.,0,1.0,2346.0,0,1.0
+10786,12,I was happy.,1,3.0,1889.0,0,0.0
+10786,13,I talked less than ususal.,0,2.0,2560.0,0,2.0
+10786,14,I felt lonely.,0,3.0,2314.0,0,3.0
+10786,15,People were unfriendly.,0,1.0,2443.0,0,1.0
+10786,16,I enjoyed life.,1,3.0,1913.0,0,0.0
+10786,17,I had crying spells.,0,0.0,1416.0,0,0.0
+10786,18,I felt sad.,0,3.0,2228.0,0,3.0
+10786,19,I felt that people dislike me.,0,3.0,2006.0,0,3.0
+10786,20,"I could not get ""going.""",0,3.0,1711.0,0,3.0
+10787,1,I was bothered by things that usually don't bother me.,0,2.0,6495.0,0,2.0
+10787,2,I did not feel like eating; my appetite was poor.,0,0.0,1415.0,0,0.0
+10787,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1735.0,0,2.0
+10787,4,I felt just as good as other people.,1,3.0,2545.0,0,0.0
+10787,5,I had trouble keeping my mind on what I was doing.,0,2.0,1764.0,0,2.0
+10787,6,I felt depressed.,0,3.0,1752.0,0,3.0
+10787,7,I felt that everything I did was an effort.,0,2.0,1941.0,0,2.0
+10787,8,I felt hopeful about the future.,1,2.0,1667.0,0,1.0
+10787,9,I thought my life had been a failure.,0,2.0,2012.0,0,2.0
+10787,10,I felt fearful.,0,1.0,1246.0,0,1.0
+10787,11,My sleep was restless.,0,1.0,1573.0,0,1.0
+10787,12,I was happy.,1,2.0,2180.0,0,1.0
+10787,13,I talked less than ususal.,0,2.0,2567.0,0,2.0
+10787,14,I felt lonely.,0,3.0,1161.0,0,3.0
+10787,15,People were unfriendly.,0,1.0,1883.0,0,1.0
+10787,16,I enjoyed life.,1,2.0,3450.0,0,1.0
+10787,17,I had crying spells.,0,2.0,2395.0,0,2.0
+10787,18,I felt sad.,0,3.0,1690.0,0,3.0
+10787,19,I felt that people dislike me.,0,2.0,2976.0,0,2.0
+10787,20,"I could not get ""going.""",0,2.0,292.0,0,2.0
+10789,1,I was bothered by things that usually don't bother me.,0,1.0,8061.0,0,1.0
+10789,2,I did not feel like eating; my appetite was poor.,0,0.0,3050.0,0,0.0
+10789,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,2012.0,0,0.0
+10789,4,I felt just as good as other people.,1,3.0,2460.0,0,0.0
+10789,5,I had trouble keeping my mind on what I was doing.,0,1.0,2467.0,0,1.0
+10789,6,I felt depressed.,0,3.0,3106.0,0,3.0
+10789,7,I felt that everything I did was an effort.,0,1.0,3164.0,0,1.0
+10789,8,I felt hopeful about the future.,1,3.0,2915.0,0,0.0
+10789,9,I thought my life had been a failure.,0,3.0,5240.0,0,3.0
+10789,10,I felt fearful.,0,0.0,6442.0,0,0.0
+10789,11,My sleep was restless.,0,1.0,1891.0,0,1.0
+10789,12,I was happy.,1,3.0,2325.0,0,0.0
+10789,13,I talked less than ususal.,0,0.0,4364.0,0,0.0
+10789,14,I felt lonely.,0,1.0,2090.0,0,1.0
+10789,15,People were unfriendly.,0,2.0,2531.0,0,2.0
+10789,16,I enjoyed life.,1,3.0,1585.0,0,0.0
+10789,17,I had crying spells.,0,0.0,1294.0,0,0.0
+10789,18,I felt sad.,0,3.0,3206.0,0,3.0
+10789,19,I felt that people dislike me.,0,3.0,1827.0,0,3.0
+10789,20,"I could not get ""going.""",0,2.0,2225.0,0,2.0
+10790,1,I was bothered by things that usually don't bother me.,0,1.0,4127.0,0,1.0
+10790,2,I did not feel like eating; my appetite was poor.,0,0.0,1721.0,0,0.0
+10790,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,1279.0,0,1.0
+10790,4,I felt just as good as other people.,1,3.0,1769.0,0,0.0
+10790,5,I had trouble keeping my mind on what I was doing.,0,3.0,6631.0,0,3.0
+10790,6,I felt depressed.,0,1.0,1064.0,0,1.0
+10790,7,I felt that everything I did was an effort.,0,3.0,4616.0,0,3.0
+10790,8,I felt hopeful about the future.,1,3.0,1384.0,0,0.0
+10790,9,I thought my life had been a failure.,0,1.0,2456.0,0,1.0
+10790,10,I felt fearful.,0,1.0,528.0,0,1.0
+10790,11,My sleep was restless.,0,2.0,1672.0,0,2.0
+10790,12,I was happy.,1,3.0,2400.0,0,0.0
+10790,13,I talked less than ususal.,0,0.0,600.0,0,0.0
+10790,14,I felt lonely.,0,0.0,864.0,0,0.0
+10790,15,People were unfriendly.,0,1.0,2216.0,0,1.0
+10790,16,I enjoyed life.,1,3.0,1159.0,0,0.0
+10790,17,I had crying spells.,0,0.0,577.0,0,0.0
+10790,18,I felt sad.,0,0.0,920.0,0,0.0
+10790,19,I felt that people dislike me.,0,1.0,856.0,0,1.0
+10790,20,"I could not get ""going.""",0,3.0,1756.0,0,3.0
+10791,1,I was bothered by things that usually don't bother me.,0,2.0,1895.0,0,2.0
+10791,2,I did not feel like eating; my appetite was poor.,0,0.0,657.0,0,0.0
+10791,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,952.0,0,1.0
+10791,4,I felt just as good as other people.,1,2.0,397.0,0,1.0
+10791,5,I had trouble keeping my mind on what I was doing.,0,0.0,385.0,0,0.0
+10791,6,I felt depressed.,0,1.0,252.0,0,1.0
+10791,7,I felt that everything I did was an effort.,0,0.0,425.0,0,0.0
+10791,8,I felt hopeful about the future.,1,1.0,1188.0,0,2.0
+10791,9,I thought my life had been a failure.,0,3.0,1122.0,0,3.0
+10791,10,I felt fearful.,0,2.0,305.0,0,2.0
+10791,11,My sleep was restless.,0,1.0,931.0,0,1.0
+10791,12,I was happy.,1,2.0,570.0,0,1.0
+10791,13,I talked less than ususal.,0,1.0,264.0,0,1.0
+10791,14,I felt lonely.,0,0.0,382.0,0,0.0
+10791,15,People were unfriendly.,0,3.0,508.0,0,3.0
+10791,16,I enjoyed life.,1,1.0,446.0,0,2.0
+10791,17,I had crying spells.,0,3.0,437.0,0,3.0
+10791,18,I felt sad.,0,3.0,310.0,0,3.0
+10791,19,I felt that people dislike me.,0,1.0,618.0,0,1.0
+10791,20,"I could not get ""going.""",0,0.0,450.0,0,0.0
+10792,1,I was bothered by things that usually don't bother me.,0,1.0,3203.0,0,1.0
+10792,2,I did not feel like eating; my appetite was poor.,0,1.0,2100.0,0,1.0
+10792,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2115.0,0,2.0
+10792,4,I felt just as good as other people.,1,3.0,1957.0,0,0.0
+10792,5,I had trouble keeping my mind on what I was doing.,0,3.0,2515.0,0,3.0
+10792,6,I felt depressed.,0,3.0,593.0,0,3.0
+10792,7,I felt that everything I did was an effort.,0,3.0,1080.0,0,3.0
+10792,8,I felt hopeful about the future.,1,3.0,2000.0,0,0.0
+10792,9,I thought my life had been a failure.,0,3.0,1768.0,0,3.0
+10792,10,I felt fearful.,0,1.0,2332.0,0,1.0
+10792,11,My sleep was restless.,0,2.0,2132.0,0,2.0
+10792,12,I was happy.,1,2.0,1246.0,0,1.0
+10792,13,I talked less than ususal.,0,1.0,1768.0,0,1.0
+10792,14,I felt lonely.,0,3.0,1788.0,0,3.0
+10792,15,People were unfriendly.,0,0.0,3036.0,0,0.0
+10792,16,I enjoyed life.,1,2.0,1729.0,0,1.0
+10792,17,I had crying spells.,0,1.0,1287.0,0,1.0
+10792,18,I felt sad.,0,3.0,1550.0,0,3.0
+10792,19,I felt that people dislike me.,0,1.0,1253.0,0,1.0
+10792,20,"I could not get ""going.""",0,3.0,1777.0,0,3.0
+10793,1,I was bothered by things that usually don't bother me.,0,0.0,5250.0,0,0.0
+10793,2,I did not feel like eating; my appetite was poor.,0,0.0,1723.0,0,0.0
+10793,3,I felt that I could not shake off the blues even with help from my family or friends.,0,0.0,1862.0,0,0.0
+10793,4,I felt just as good as other people.,1,2.0,3066.0,0,1.0
+10793,5,I had trouble keeping my mind on what I was doing.,0,1.0,1032.0,0,1.0
+10793,6,I felt depressed.,0,0.0,1082.0,0,0.0
+10793,7,I felt that everything I did was an effort.,0,0.0,1764.0,0,0.0
+10793,8,I felt hopeful about the future.,1,1.0,4872.0,0,2.0
+10793,9,I thought my life had been a failure.,0,1.0,3313.0,0,1.0
+10793,10,I felt fearful.,0,1.0,974.0,0,1.0
+10793,11,My sleep was restless.,0,0.0,1996.0,0,0.0
+10793,12,I was happy.,1,0.0,2687.0,0,3.0
+10793,13,I talked less than ususal.,0,0.0,1615.0,0,0.0
+10793,14,I felt lonely.,0,1.0,2295.0,0,1.0
+10793,15,People were unfriendly.,0,0.0,1161.0,0,0.0
+10793,16,I enjoyed life.,1,0.0,3097.0,0,3.0
+10793,17,I had crying spells.,0,0.0,1767.0,0,0.0
+10793,18,I felt sad.,0,0.0,1257.0,0,0.0
+10793,19,I felt that people dislike me.,0,0.0,845.0,0,0.0
+10793,20,"I could not get ""going.""",0,1.0,986.0,0,1.0
+10794,1,I was bothered by things that usually don't bother me.,0,2.0,9790.0,0,2.0
+10794,2,I did not feel like eating; my appetite was poor.,0,0.0,12381.0,0,0.0
+10794,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,1481.0,0,2.0
+10794,4,I felt just as good as other people.,1,3.0,2965.0,0,0.0
+10794,5,I had trouble keeping my mind on what I was doing.,0,3.0,1758.0,0,3.0
+10794,6,I felt depressed.,0,3.0,1938.0,0,3.0
+10794,7,I felt that everything I did was an effort.,0,3.0,895.0,0,3.0
+10794,8,I felt hopeful about the future.,1,3.0,2113.0,0,0.0
+10794,9,I thought my life had been a failure.,0,3.0,1834.0,0,3.0
+10794,10,I felt fearful.,0,2.0,1594.0,0,2.0
+10794,11,My sleep was restless.,0,2.0,1181.0,0,2.0
+10794,12,I was happy.,1,3.0,1435.0,0,0.0
+10794,13,I talked less than ususal.,0,2.0,1301.0,0,2.0
+10794,14,I felt lonely.,0,2.0,1189.0,0,2.0
+10794,15,People were unfriendly.,0,2.0,1641.0,0,2.0
+10794,16,I enjoyed life.,1,3.0,2661.0,0,0.0
+10794,17,I had crying spells.,0,0.0,809.0,0,0.0
+10794,18,I felt sad.,0,3.0,6033.0,0,3.0
+10794,19,I felt that people dislike me.,0,3.0,1106.0,0,3.0
+10794,20,"I could not get ""going.""",0,3.0,1918.0,0,3.0
+10796,1,I was bothered by things that usually don't bother me.,0,1.0,7483.0,0,1.0
+10796,2,I did not feel like eating; my appetite was poor.,0,0.0,709.0,0,0.0
+10796,3,I felt that I could not shake off the blues even with help from my family or friends.,0,1.0,3549.0,0,1.0
+10796,4,I felt just as good as other people.,1,2.0,3688.0,0,1.0
+10796,5,I had trouble keeping my mind on what I was doing.,0,3.0,2499.0,0,3.0
+10796,6,I felt depressed.,0,3.0,1167.0,0,3.0
+10796,7,I felt that everything I did was an effort.,0,3.0,887.0,0,3.0
+10796,8,I felt hopeful about the future.,1,2.0,3873.0,0,1.0
+10796,9,I thought my life had been a failure.,0,0.0,3867.0,0,0.0
+10796,10,I felt fearful.,0,0.0,735.0,0,0.0
+10796,11,My sleep was restless.,0,2.0,2533.0,0,2.0
+10796,12,I was happy.,1,2.0,1065.0,0,1.0
+10796,13,I talked less than ususal.,0,1.0,2017.0,0,1.0
+10796,14,I felt lonely.,0,1.0,977.0,0,1.0
+10796,15,People were unfriendly.,0,0.0,3513.0,0,0.0
+10796,16,I enjoyed life.,1,2.0,3060.0,0,1.0
+10796,17,I had crying spells.,0,0.0,2367.0,0,0.0
+10796,18,I felt sad.,0,2.0,2164.0,0,2.0
+10796,19,I felt that people dislike me.,0,0.0,2750.0,0,0.0
+10796,20,"I could not get ""going.""",0,2.0,1911.0,0,2.0
+10798,1,I was bothered by things that usually don't bother me.,0,2.0,3768.0,0,2.0
+10798,2,I did not feel like eating; my appetite was poor.,0,1.0,3487.0,0,1.0
+10798,3,I felt that I could not shake off the blues even with help from my family or friends.,0,2.0,2192.0,0,2.0
+10798,4,I felt just as good as other people.,1,2.0,1408.0,0,1.0
+10798,5,I had trouble keeping my mind on what I was doing.,0,3.0,1353.0,0,3.0
+10798,6,I felt depressed.,0,3.0,2016.0,0,3.0
+10798,7,I felt that everything I did was an effort.,0,3.0,1072.0,0,3.0
+10798,8,I felt hopeful about the future.,1,2.0,2216.0,0,1.0
+10798,9,I thought my life had been a failure.,0,2.0,1688.0,0,2.0
+10798,10,I felt fearful.,0,2.0,2568.0,0,2.0
+10798,11,My sleep was restless.,0,1.0,1176.0,0,1.0
+10798,12,I was happy.,1,2.0,1504.0,0,1.0
+10798,13,I talked less than ususal.,0,2.0,2192.0,0,2.0
+10798,14,I felt lonely.,0,1.0,1592.0,0,1.0
+10798,15,People were unfriendly.,0,2.0,1624.0,0,2.0
+10798,16,I enjoyed life.,1,2.0,5208.0,0,1.0
+10798,17,I had crying spells.,0,1.0,4536.0,0,1.0
+10798,18,I felt sad.,0,3.0,1968.0,0,3.0
+10798,19,I felt that people dislike me.,0,1.0,1393.0,0,1.0
+10798,20,"I could not get ""going.""",0,3.0,1744.0,0,3.0
