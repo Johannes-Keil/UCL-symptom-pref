@@ -1,0 +1,1790 @@
+---
+title: "Demonstration"
+author: "Johannes Keil"
+format: pdf
+editor: visual
+---
+
+## Demonstration for preregistration
+
+This script is meant to illustrate and further elaborate the analysis approach discussed in the preregistration. Note that we do not at all intend to 'preregister' this code - the final code used in analysis may be very different. Think of the code provided more as a 'sketch' - For example, in many analyses crucial steps, e.g., checking data quality, are not included.
+
+First, load in our data.
+
+```{r, include = F}
+library(tidyverse)
+library(BradleyTerry2)
+library(nlme)
+library(ltm)
+library(gridExtra)
+library(lmtest)
+library(pROC)
+library(lavaan)
+
+
+printf <- function(msg = "%5.3f", ...) {
+  cat(sprintf(msg, ...))
+}
+inv_logit <- function(x) {
+  exp(x)/(1+exp(x))
+}
+
+set.seed(7119)
+
+# load data
+dat <- readRDS(file = "dat_pairwise.rds")
+
+# for now, select a subset of participants
+selection <- sample(unique(dat$participant), 20, replace = FALSE)
+
+dat <- dat %>% 
+  filter(participant %in% selection)
+
+dat_demo <- readRDS(file = "dat_demo.rds") %>% 
+  filter(participant %in% selection)
+
+dat_filter <- readRDS(file = "dat_filter.rds") %>% 
+  filter(participant %in% selection) %>% 
+  mutate(
+    # from the factor analysis below we know that severity, impact and frequency strongly load on the same underlying factor. So, use the sum-score
+    impairment_response = frequency_response + severity_response + impact_response
+  )
+
+# which items are 'core'?
+
+core_items <- c("i5", "i14", "i32", "i33", "i34")
+```
+
+## Reliability
+
+### Random responding
+
+#### F-test:
+
+Van Leeuwen & Mandabach (2002) point out that ANOVA is relatively robust to ipsative data (Greer & Dunlap, 1997). So, we could simply use an omnibus one-way F-test on ranks, which tests the null-hypothesis whether means in the dataset are different, or all equivalent to the grand mean (= 0). If this test is significant, this would indicate that there is a true difference in preference and respondents do not respond at random. However, this analysis applies to the entire dataset (i.e., overall, do participants respond at random?), not individual participants. So, it just yields a very rough yes/no answer.
+
+Assess reliability using the trick from Van Leeuwen & Mandabach (2002).
+
+```{r}
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in the item1 or item2 column
+  # for our merge operation below to include these, we need to
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+  
+  
+wins_participant_w1 <- wins_participant %>% 
+  filter(wave == 1) %>% 
+  mutate(
+    rank = rank(wins)
+  )
+
+
+wins_participant_w2 <- wins_participant %>% 
+  filter(wave == 2) %>% 
+  mutate(
+    rank = rank(wins)
+  )
+# overall not all items seem to be given equal rank.
+# This means that (a) participants are not all random responders and (b) participants have shared variance in their preferences
+res1 <- oneway.test(rank ~ item, data = wins_participant_w1, var.equal = FALSE)
+
+res2 <- oneway.test(rank ~ item, data = wins_participant_w2, var.equal = FALSE)
+
+  
+```
+
+#### Determining a 'significance threshold' for random responding
+
+The following two methods work by conducting a single significance test per participant, to see whether their response pattern is significantly different from 0. This test is computed for each participant. Thus, we are in need of a meaningful threshold for judging whether the proportion of participants whose test is significant (indicating non-random responding) is larger than would be expected at pure chance given our participant-level alpha significance threshold.
+
+We can determine this threshold by constructing a binomial significance test. Let our null hypothesis be that all participants are answering at random. Thus, under the null hypothesis, the number of significant tests in our sample is binomially distributed as:
+
+$$
+P(X = k) = \binom{n}{k} * \alpha^k * (1-\alpha)^{n-k}
+$$
+
+Where k is the number of significant tests we observe, n is the total number of participants, and alpha is our significance threshold. We now compute the cumulative binomial distribution:
+
+$$
+P(X \ge k) = 1 -\sum_i^kP(X = i)
+$$
+
+If this probability is very small given the actually observed number of significant tests, this would be grounds to reject the null hypothesis.
+
+Given our sample size of n = 128 (barring potential exclusions), plot $P(X\ge k)$:
+
+```{r}
+
+k = 1:128
+n = 128
+p = 1- pbinom(k, size = 128, prob = 0.05)
+
+plot(k, p)
+```
+
+If we use a very stringent significance threshold of 0.001, this criterion would be met if more than 15 participants were found not to respond at random. However, clearly, only 15% of participants not responding at random would not be a satisfying outcome practically. For this reason, we arbitrarily set a higher threshold of 70%.
+
+#### Kendall/David Method
+
+Mazzuchi et al. (2008) applied a solution taken from the work of David (1963) and Kendall (1962) to the problem of reliability in aerospace safety expert judgments. The idea is that a perfectly deterministic rater should always rank items in a transitive fashion (i.e., if A is preferred over B, and B over C, than C cannot be preferred over A). Let item i and judge r, then N_r is the number of times that j ranked i as more severe than the other items (= the number of 'wins'). Then the number of 'intransitive' ratings can be calculated as:
+
+$$ c(r) = \dfrac{n(n^2-1)}{24} - \dfrac{1}{2} * \sum(N_r - \dfrac{1}{2}(n-1))^2 $$
+
+From this, we can derive an approximately chi-square distributed statistic for n \> 7, with n(n-1) \* (n-2) /(n-4)\^2 degrees of freedom (Kendall, 1962):
+
+$$ c'(r) = d.f. + (\dfrac{8}{n-4}) * [\dfrac{1}{4} *\binom{n}{3} - c(r) + \dfrac{1}{2}] $$
+
+This tests the null-hypothesis that the participant answered randomly - so a significant value would indicate that the participant's responses were not random.
+
+```{r}
+
+
+###########################
+# Analysis with real data #
+###########################
+
+# the list of false responders
+false_responders <- list(
+  participant = c(),      # participant id
+  c_bar = c(),            # the false responding statistic
+  p_val = c(),            # corresponding p_value
+  is_false_responder = c()   # TRUE if participant was a false responder
+) 
+
+# significance threshold
+alpha = 0.05
+
+# iterate over the number of participants
+for (subj in unique(dat$participant)) {
+  
+  # select subset of data
+  this_dat <- dat %>% 
+    filter(
+      participant == subj,
+      wave == 1
+    )
+
+  n_wins <- c()
+  
+  # the number of items
+  k = unique(c(this_dat$item1, this_dat$item2)) %>% length()
+  
+  # now calculate degrees of freedom for our statistic
+  df = k * (k - 1) * (k - 2) / (k - 4)^2
+
+  for (i in 1:k) {
+    n_wins[i] <- sum(this_dat$win1[this_dat$item1 == paste("i", i, sep = "")]) + sum(this_dat$win2[this_dat$player2 == paste("i", i, sep = "")])
+  }
+
+  # now apply David (1963)'s formula
+  c = k * (k^2-1) / 24 - 0.5 * sum((n_wins - 0.5 * (k-1))^2)
+
+  # and calculate our test statistic
+
+  c_bar = df + 8 / (k - 4) * (0.25 * choose(k, 3) - c + 0.5) 
+
+  # get a p-value
+  p_val = 1 - pchisq(c_bar, df)
+  
+  # was the participant a false responder
+  is_false_responder = ifelse(p_val < alpha, 0, 1)
+  
+  false_responders$participant <- c(false_responders$participant, subj)
+  false_responders$c_bar <- c(false_responders$c_bar, c_bar)
+  false_responders$p_val <- c(false_responders$p_val, p_val)
+  false_responders$is_false_responder <- c(false_responders$is_false_responder, is_false_responder)
+  
+}
+
+false_responders
+```
+
+#### Entropy
+
+The entropy of a discrete probability distribution of n values tells you the sum across all outcomes i of the surprisal that would occur if the i-th value of the distribution were the outcome of a random experiment. It is maximised for a uniform distribution (since, in this, case we have no clue which outcome to expect), and minimised for a distribution in which one outcome always occurs and the others never occur. If participants have consistent, strong preferences, their entropies should be thus smaller than what would be expected under uniformity. Let p be the probability that a randomly choosing actor would choose this item as the 'first choice' given the number of wins it has achieved. Then, the entropy H would be:
+
+$$ H = - \sum_i p_i*log_2(p_i) $$
+
+We can compute the entropy of the distribution of wins for a single participant:
+
+```{r}
+
+
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in one row
+  # for our merge operation below to work, we need to fix this
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant_wave <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+
+this <- wins_participant_wave %>% 
+  filter(participant == 10542, wave == 1)
+
+total_wins = this$wins %>% sum()
+
+this <- this %>% 
+  mutate(
+    p = wins / total_wins,
+    p = ifelse(p == 0, 0.000000001, p)
+  ) %>% 
+  mutate(
+    h = p * log(p, base = 2)
+  )
+entropy <- -sum(this$h)
+```
+
+Now compare that participant's to a sample that is drawn from a uniform distribution:
+
+```{r}
+
+total_wins = this$wins %>% sum()
+
+
+these_wins <- data.frame( # list storing wins by item index
+  item = unique(this$item),
+  wins = rep(0, length(unique(this$item)))
+) 
+
+for (i in 1:total_wins) {
+  index <- runif(1, min = 0, max = length(unique(this$item))) %>% round()
+  these_wins$wins[index] <- these_wins$wins[index] + 1
+}
+
+these_wins <- these_wins %>% 
+  mutate(
+    p = wins / total_wins,
+  ) %>% 
+  filter(p > 0) %>% 
+  mutate(
+    h = p * log(p, base = 2)
+  )
+uniform_entropy <- -sum(these_wins$h)
+uniform_entropy
+```
+
+And the theoretical maximum:
+
+```{r}
+p <- 1 / length(unique(this$item))
+
+max_entropy = -length(unique(this$item)) * p * log(p, base = 2)
+max_entropy
+```
+
+On this basis, we can construct a simulation/permutation test to see whether the entropy is smaller or larger than what would be expected under uniformity:
+
+```{r}
+
+n_permutations <- 1000
+
+uniform_entropy <- c()
+
+for (perm in 1:n_permutations) {
+
+  these_wins <- data.frame( # list storing wins by item index
+    item = unique(this$item),
+    wins = rep(0, length(unique(this$item)))
+  ) 
+  
+  for (i in 1:total_wins) {
+    index <- runif(1, min = 0, max = length(unique(this$item))) %>% round()
+    these_wins$wins[index] <- these_wins$wins[index] + 1
+  }
+  
+  these_wins <- these_wins %>% 
+    mutate(
+      p = wins / total_wins,
+    ) %>% 
+    filter(p > 0) %>% 
+    mutate(
+      h = p * log(p, base = 2)
+    )
+  uniform_entropy <- c(uniform_entropy, -sum(these_wins$h))
+}
+
+# get quantiles for a significance threshold
+threshold <- quantile(uniform_entropy, probs = c(0.05))
+
+# in our case, this is significant
+sig <- entropy < threshold
+
+sig
+```
+
+What does the entropy measure tell us?
+
+-   Comparable to the random responding test, we can see whether participants' responses significantly differ from what would be expected under random responding (uniformity). This essentially validates the c'-Analysis with a different method.
+
+-   In addition, entropy quantifies the amount of information that is already contained in our distribution. Less information = participants are more 'certain' in their choices. The fact that (for this participant at least), we get a value that is moderately smaller than what would be under uniformity is reassuring, because it tells us that participants do have pronounced preference profiles and this analysis is worth conducting.
+
+-   Unlike c', the entropy also gives an individual-difference measure of how 'strong' the preference profile is. Larger entropy = less strongly held preferences.
+
+To get a version of this that is comparable across individuals, a few changes are needed (noting that H_max will differ if participants have different numbers of items in their questionnaire:$$ Score = 100 *  (1 - \dfrac{H_{participant}}{ H_{max}(k_{items})}) $$
+
+```{r}
+# first, standardise by dividing by the maximum entropy 
+# this gives a number between 0 and 1 
+# flip, so larger numbers indicate a more pronounced preference profile.
+entropy_score <- 100 * (1 - entropy / max_entropy)
+entropy_score
+```
+
+Finally, validate with simulation of random participants:
+
+```{r}
+n_participants <- 10
+n_items = 36
+
+dat_sim <- matrix(ncol = 3, nrow = 0) %>% as.data.frame()
+colnames(dat_sim) <- c("participant", "item", "wins")
+
+for (subj in 1:n_participants) {
+  
+    these_wins <- data.frame( # list storing wins by item index
+      item = paste("i", 1:n_items, sep = ""),
+      wins = rep(0, n_items)
+    ) 
+    
+    for (i in 1:total_wins) {
+      index <- runif(1, min = 0, max = n_items) %>% round()
+      these_wins$wins[index] <- these_wins$wins[index] + 1
+    }
+    
+    dat_sim <- rbind(dat_sim, data.frame(participant = rep(subj, n_items), item = paste("i", 1:n_items, sep = ""), wins = these_wins$wins))
+  }
+  
+
+
+res_entropy <- matrix(ncol = 7, nrow = 0) %>% as.data.frame()
+colnames(res_entropy) <- c("participant", "n_items", "h", "h_threshold", "h_max", "sig", "score")
+
+n_permutations <- 200
+
+counter <- 0
+
+for (subj in unique(dat_sim$participant)) {
+  
+  counter <- counter + 1
+  print(paste("Computing participant no. ", counter, sep = ""))
+  
+  this <- dat_sim %>% 
+    filter(participant == subj)
+  
+  total_wins = this$wins %>% sum()
+  
+  this <- this %>% 
+    mutate(
+      p = wins / total_wins,
+      p = ifelse(p == 0, 0.000000001, p)
+    ) %>% 
+    mutate(
+      h = p * log(p, base = 2)
+    )
+  entropy <- -sum(this$h)
+  
+  uniform_entropy <- c()
+  
+  # create a permuted distribution
+  for (perm in 1:n_permutations) {
+  
+    these_wins <- data.frame( # list storing wins by item index
+      item = unique(this$item),
+      wins = rep(0, length(unique(this$item)))
+    ) 
+    
+    for (i in 1:total_wins) {
+      index <- runif(1, min = 0, max = length(unique(this$item))) %>% round()
+      these_wins$wins[index] <- these_wins$wins[index] + 1
+    }
+    
+    these_wins <- these_wins %>% 
+      mutate(
+        p = wins / total_wins,
+      ) %>% 
+      filter(p > 0) %>% 
+      mutate(
+        h = p * log(p, base = 2)
+      )
+    uniform_entropy <- c(uniform_entropy, -sum(these_wins$h))
+  }
+  
+  # get quantiles for a significance threshold
+  threshold <- quantile(uniform_entropy, probs = c(0.05))
+  
+  #compute significance
+  sig <- entropy < threshold
+  
+  # compute maximal entropy (uniform distribution)
+  p <- 1 / length(unique(this$item))
+  h_max <- -length(unique(this$item)) * p * log(p, base = 2)
+  
+  # save results  
+  res_entropy <- res_entropy %>% 
+    add_row(
+      participant = subj,
+      n_items = length(unique(this$item)),
+      h = entropy,
+      h_threshold = threshold,
+      sig = sig,
+      h_max = h_max,
+      score = 100 * (1 - entropy / h_max)
+    )
+}
+
+# for how many participants did this return a significant result?
+sum(res_entropy$sig) / nrow(res_entropy)
+
+# looks like a rate of 0%. Even less than the 5% we would have expected to find. This shows that our entropy-method seems to be working reasonably well.
+```
+
+### Test-retest: Aitchison's Distance
+
+This is an idea from van Eijnatten et al. (2015), concerning the use of Aitchison's distance. AD is a metric which allows us to compare how similar/different two profiles on an (ipsative) preference score are.
+
+The formula is the following, where X and Y are separate preference profiles over n items:
+
+$$ d(X, Y) = \sqrt{ \dfrac{1}{2n}\sum_a \sum_b (ln\dfrac{X_a}{X_b} - ln\dfrac{Y_a}{Y_b})^2} $$
+
+In words, this is the square-root of the sum of squares of the difference in log-ratio preferences for each item pair. Here, X stands for wave 1 and Y for wave 2. So, we want to see whether the log-ratio of ranks between item a and item b is different in wave 1 and 2 (AD increases) or the same (AD does not increase). For a perfect fit, this value would approach 0. The idea is to run a permutation test, testing if the AD-value that is actually observed is smaller than the value that would be observed if we permute the values from the 2nd wave (equivalent to no true relationship = larger distance expected).
+
+#### Get Distance for real data
+
+```{r}
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in the item1 or item2 column
+  # for our merge operation below to include these, we need to
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant_wave <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+
+  
+res_AD <- matrix(nrow = 0, ncol = 5) %>% as.data.frame()
+colnames(res_AD) <- c(
+  "participant", # which participant
+  "shared",      # how many items are shared between the two waves (i.e., relevant for AD)
+  "total_w1",    # how many items in wave 1
+  "total_w2",    # how many items in wave 2
+  "AD"           # measured Aitchison's Distance
+) 
+
+n_participants <- 0
+
+for (p in unique(dat$participant)){
+  
+  dat1<- wins_participant_wave %>% 
+    filter(
+      wave == 1,
+      participant == p
+    )
+  
+  dat2 <- wins_participant_wave %>% 
+    filter(
+      wave == 2,
+      participant == p
+    )
+  
+  # in both cases, the contests were based on the current selection of items participants endorsed as 'bothering' them. 
+  # i.e., this list may change
+  # thus, we cannot compute the aichison's distance over all those items. Instead, use only those items that overlapped
+  
+  # How much overlap was there in selected items?
+  
+  # Items from one that are also in 2
+  shared_items <- unique(dat1$item)[unique(dat1$item) %in% unique(dat2$item)]
+  
+  shared <- length(shared_items)
+  
+  # how many items in total in 1?
+  total_w1 <- unique(dat1$item) %>% length()
+  
+  # how many items in total in 2?
+  total_w2 <- unique(dat2$item) %>% length()
+  
+  # select only shared items
+  
+  dat1 <- dat1 %>% filter(item %in% shared_items) %>% mutate(rank = rank(wins))
+  dat2 <- dat2 %>% filter(item %in% shared_items) %>% mutate(rank = rank(wins))
+  
+  log_ratio1 <- c()
+  log_ratio2 <- c()
+  distance <- c()
+  
+  remaining_players <- shared_items[2:length(shared_items)]
+  
+  # now get the log ratios of ranks
+  
+  for (i in shared_items) {
+    for (j in remaining_players) {
+      
+      # note, we only compute the distance for the upper triangle of the item-item matrix, that's because the the values for the upper and lower end are the same except for the sign (which gets cancelled by the square anyway), and the diagonal is 0 by definition.
+      if (i != j) {
+        
+        rank1i <- filter(dat1, item == i)$rank
+        rank2i <- filter(dat2, item == i)$rank
+        rank1j <- filter(dat1, item == j)$rank
+        rank2j <- filter(dat2, item == j)$rank
+        
+        l1 <- log(rank1i / rank1j)
+        l2 <- log(rank2i / rank2j)
+        
+        log_ratio1 <- append(log_ratio1, l1)
+        log_ratio2 <- append(log_ratio2, l2)
+      }
+    # don't repeat items that already fought every other item.
+    remaining_players = remaining_players[remaining_players != i]
+    }
+  }
+  
+  # compute the aitchison distance over the log ratios.
+  
+  AD = sqrt(1/shared * sum((log_ratio1 - log_ratio2)^2))
+
+  # save info
+  
+  res_AD <- res_AD %>% 
+    add_row(
+      participant = p,
+      shared = shared,
+      total_w1 = total_w1,
+      total_w2 = total_w2,
+      AD = AD
+    )
+   n_participants <- n_participants + 1
+   print(paste(n_participants, " out of ", length(unique(dat$participant)), " done!", sep = ""))
+}
+
+res_AD
+```
+
+#### Construct a permutation test
+
+```{r}
+
+  # next, for each participant, compute an individualised permuted version
+  # our null hypothesis would be that there is no relationship between responses at time 1 and responses at time 2
+  
+# very few permutations so the script compiles in a reasonable timeframe
+n_permutations = 70
+
+res_AD_perm = matrix(ncol = n_permutations + 1, nrow = 0)
+
+n_participants <- 0
+
+# exclude participants who don't have any shared values to work with
+for (p in filter(res_AD, shared != 0)$participant) {
+    
+    dat1<- wins_participant_wave %>% 
+    filter(
+      wave == 1,
+      participant == p
+    )
+  
+    dat2 <- wins_participant_wave %>% 
+      filter(
+        wave == 2,
+        participant == p
+      )
+    
+    # select only shared items
+    shared_items <- unique(dat1$item)[unique(dat1$item) %in% unique(dat2$item)]
+    dat1 <- dat1 %>% filter(item %in% shared_items) %>% mutate(true_rank = rank(wins))
+    dat2 <- dat2 %>% filter(item %in% shared_items) %>% mutate(true_rank = rank(wins))
+  
+    AD <- c()
+    
+    # now permute
+    for (perm in 1:n_permutations) {
+      
+      # randomly shuffle the order of rankings in both sets
+      # this generates a null-distribution where the ranks in our data are completely unrelated
+      dat1$rank <- sample(dat1$true_rank, nrow(dat1), replace = FALSE)
+      dat2$rank <- sample(dat2$true_rank, nrow(dat2), replace = FALSE) 
+      
+      
+      log_ratio1 <- c()
+      log_ratio2 <- c()
+      distance <- c()
+      
+      remaining_players <- shared_items[2:length(shared_items)]
+      
+      # now get the log ratios of ranks
+      
+      for (i in shared_items) {
+        for (j in remaining_players) {
+          
+          if (i != j) {
+            
+            rank1i <- filter(dat1, item == i)$rank
+            rank2i <- filter(dat2, item == i)$rank
+            rank1j <- filter(dat1, item == j)$rank
+            rank2j <- filter(dat2, item == j)$rank
+            
+            l1 <- log(rank1i / rank1j)
+            l2 <- log(rank2i / rank2j)
+            
+            log_ratio1 <- append(log_ratio1, l1)
+            log_ratio2 <- append(log_ratio2, l2)
+          }
+        # don't repeat items that already fought every other item.
+        remaining_players = remaining_players[remaining_players != i]
+        }
+      }
+      
+      # compute the aitchison distance over the log ratios.
+      # note that we only computed the upper triangle of the matrix.
+      # so no need to halve the value as in the formula above.
+      
+      this_AD = sqrt(1/(shared) * sum((log_ratio1 - log_ratio2)^2))
+      
+      # save results
+      AD <- c(AD, this_AD)
+          
+    }
+    
+    # save results
+    res_AD_perm <- rbind(res_AD_perm, c(p, AD))
+    
+    # print progress
+    
+    n_participants <- n_participants + 1
+    print(paste(n_participants, " out of ", length(filter(res_AD, shared != 0)$participant), " done!", sep = ""))
+
+}
+
+colnames(res_AD_perm) <- c("participant", paste("perm", 1:n_permutations, sep = ""))
+
+# save, so we don't have to run it all the time
+saveRDS(res_AD_perm, file = "distance_permuted_pilot.rds")
+
+res_AD_perm
+```
+
+#### Compare results
+
+We want to get p-values for each participant, testing whether their ADs are significantly lower than what has been obtained under a full switch. So, for each participant, get the Aichison's Distance at the lower 5% quantile (one-sided test), and compare to the actually observed distance. Here, we see some 77% significant, which is good.
+
+```{r}
+
+# load in data, to save compiling time when needed
+#res_AD_perm <- readRDS(file = paste(getwd(), "/distance_permuted_pilot.rds", sep = ""))
+
+res_AD_total <- cbind(res_AD_perm, dplyr::select(filter(res_AD, shared != 0), -participant)) 
+threshold <- c()
+sig <- c()
+
+for (i in 1:nrow(res_AD_total)) {
+  t <- quantile(res_AD_perm[i, 2:(n_permutations + 1)], probs = 0.05, na.rm = FALSE)
+  print(t)
+  threshold <- c(threshold, print(t))
+}
+
+res_AD_total$threshold <- threshold
+
+res_AD_total <- res_AD_total %>% 
+  mutate(
+    sig = ifelse(AD > threshold, 0, 1)
+  )
+
+# get proportion of significant responses
+sum(res_AD_total$sig) / nrow(res_AD_total)
+```
+
+### Test-retest: Ranking of core symptoms
+
+We can also conduct a test-retest analysis on core symptoms only. Since participants are free in the amount of wins they give to core symptoms versus other symptoms (and our analysis is blind to that information), the number of wins is no longer bound by a sum constraint and traditional correlation methods are appropriate.
+
+```{r}
+
+core_items <- c("i5", "i14", "i32", "i33", "i34")
+
+wins_core <- wins_participant_wave %>% 
+  filter(item %in% core_items) %>% 
+  dplyr::select(-wins1, -wins2) %>% 
+  pivot_wider(names_from = wave, values_from = wins, names_prefix = "wins_w")
+
+res_core <- list(
+  item = c(),
+  r = c(),
+  p = c()
+)
+
+for (i in core_items) {
+  this <- filter(wins_core, item == i)
+  a <- cor.test(this$wins_w1, this$wins_w2, method = "pearson")
+  
+  res_core$item <- c(res_core$item, i)
+  res_core$r <- c(res_core$r, round(a$estimate, 3))
+  res_core$p <- c(res_core$p, round(a$p.value, 3))
+}
+```
+
+## Validity
+
+### Agreement with Likert-Items
+
+Not all items feature at both timepoints, or have been shown to every participant. To deal with this, focus only on core items, or use within-participant rank differences.
+
+#### BTM: Agreement with Core-items
+
+```{r}
+
+# for now only consider wave 1
+
+# every value you put into BTM needs to be a factor
+dat2 <- dat
+
+dat2$participant <- as.factor(dat2$participant)
+
+# create an array storing participant-level information
+
+dat_subj <- dat_filter %>% 
+  filter(wave == 1) %>% 
+  dplyr::select(participant, item_id, severity_response, frequency_response, impact_response) %>% 
+  pivot_wider(names_from = item_id, values_from = c(severity_response, frequency_response, impact_response))
+
+dat_BTM <- list(
+  preferences = dat2,
+  participants = dplyr::select(dat_subj, -participant),
+  items = diag(52) 
+)
+
+rownames(dat_BTM$item) <- c(paste("i", 1:52, sep = "")) %>% as.factor()
+colnames(dat_BTM$item) <- c(paste("i", 1:52, sep = "")) %>% as.factor()
+
+# run the model
+# note that it CANNOT deal with missingness in the subject-level variables (i.e., filter responses)
+this_model <- BTm(outcome = cbind(win1, win2), formula = ~ item + i5[item] * severity_response_5[participant] + i14[item] * severity_response_14[participant] + i32[item] * severity_response_32[participant] + i33[item] * severity_response_33[participant] + i34[item] * severity_response_34[participant], player1 = item1, player2 = item2, id = "item", refcat = "i52", data = dat_BTM, na.action = na.omit)
+
+summary(this_model)
+
+```
+
+#### LME: Correlate core items and rank/number of wins.
+
+Again, since the number of wins in core items is unbounded, traditional linear models are appropriate, assuming assumptions are met overall. Here, fit an LME to the number of wins, predicted from likert-item agreement.
+
+Note a problem: Since there was a random selection of item pairings, the raw number of wins is biased - if item 1 has only been shown 5 times and item 15 100 times, item 1 can never have as many wins. The BTM (technically) overcomes this limitation and should be more trustworthy. However, run both analyses anyway.
+
+```{r}
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in one row
+  # for our merge operation below to work, we need to fix this
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant, considering only core items.
+  this_dat <- merge(a, b) %>% 
+    filter(item %in% core_items) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant, wave) %>% 
+    mutate(
+      rank = rank(wins)
+    )
+
+this_filter <- dat_filter %>% 
+  mutate(
+    item = paste("i", item_id, sep = "")
+  ) %>% 
+  filter(
+    item %in% core_items,
+    wave == 1
+    ) %>% 
+  mutate(
+    item = item %>% factor(levels = core_items),
+  ) %>% 
+  dplyr::select(participant, item, severity_response) %>% 
+  dplyr::rename(
+    filter_response = severity_response
+  )
+
+dat_agreement <- merge(this_dat, this_filter)
+
+# now we see that the number of wins is predicted by the response to the filter item (for now, only severity)
+model_agree <- lm(data = dat_agreement, formula = wins ~ filter_response)
+
+# include random intercepts
+
+model_agree_int <- lme(dat = dat_agreement, fixed = wins ~ filter_response, random = ~ 1|participant, method = "ML")
+
+# cannot include random effects, since we only have 2 timepoints. Try an interaction of filter_response and wave. Parameters are not significant.
+model_agree_int <- lme(dat = dat_agreement, fixed = wins ~ filter_response, random = ~ 1|participant, method = "ML")
+
+# compare models
+
+# test inclusion of random intercepts
+test <- lrtest(model_agree, model_agree_int)
+
+# adjust, since we compare a lm to a lme object
+log_likelihood <- test[2, 2] + test[1, 2]
+chi_sq <- 2 * log_likelihood
+p <- dchisq(chi_sq, 1)
+
+# the random intercepts model is strongly preferred.
+
+```
+
+#### LME: Rank difference and Filter-Difference
+
+First, compute rank difference (looking only at wave 1 for now.
+
+```{r}
+
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in one row
+  # for our merge operation below to work, we need to fix this
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant_wave <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+
+dat_w1 <- dat %>% 
+  filter(
+    wave == 1
+  ) %>% 
+  mutate(
+    item1_rank = NA,
+    item2_rank = NA
+  )
+
+params <- list(
+  participant = c(),
+  item = c(),
+  alpha = c(),
+  rank = c(), 
+  p = c(),
+  se = c()
+)
+
+for (subj in unique(dat$participant)) {
+  # pick a participant
+  this_dat <- dat_w1 %>% 
+    filter(participant == subj)
+
+  wins <- wins_participant_wave %>% 
+    filter(wave == 1,
+           participant == subj)
+  wins$rank <- rank(wins$wins)
+  wins <- wins %>% arrange(item)
+
+  # save parameters in a list for checking
+  params$rank <- c(params$rank, wins$rank)
+  params$item <- c(params$item, wins$item)
+  params$participant <- c(params$participant, rep(subj, nrow(wins)))
+  params$wins <- c(params$wins, wins$wins)
+
+  # record params in the actual dataset
+  for (i in wins$item){
+    dat_w1 <- dat_w1 %>% 
+      mutate(
+        
+        item1_rank = ifelse(item1 == i & participant == subj, wins[wins$item == i,]$rank, item1_rank),
+        item2_rank = ifelse(item2 == i & participant == subj, wins[wins$item == i,]$rank, item2_rank)
+      )
+  }
+}
+    
+    # Now, standardise values for ease of interpretation
+    dat_w1 <- dat_w1 %>% 
+      mutate(
+        rank_diff_raw = item1_rank - item2_rank,
+        log_rt_raw = log_rt,
+        log_rt = scale(log_rt_raw),
+        rank_diff = scale(rank_diff_raw)
+      )
+    
+  
+  plot(dat_w1$log_rt, dat_w1$rank_diff)
+```
+
+Now, add in the filter items.
+
+```{r}
+
+this_dat <- matrix(ncol = 6, nrow = 0) %>% as.data.frame()
+colnames(this_dat) <- c("severity_response_1", "severity_response_2", "frequency_response_1", "frequency_response_2", "impact_response_1", "impact_response_2") 
+
+dat_filter2 <- dat_filter %>% 
+  filter(wave == 1)
+
+for (i in 1:nrow(dat_w1)) {
+  
+  p <- dat$participant[i]
+  item1 <- sub("i", "", dat$item1[i])
+  item2 <- sub("i", "", dat$item2[i])
+  
+  s1 <- dat_filter2 %>% 
+    filter(participant == p, item_id == item1) %>% 
+    dplyr::select(severity_response)
+  s2 <- dat_filter2 %>% 
+    filter(participant == p, item_id == item2) %>% 
+    dplyr::select(severity_response)
+  
+  f1 <- dat_filter2 %>% 
+    filter(participant == p, item_id == item1) %>% 
+    dplyr::select(frequency_response)
+  f2 <- dat_filter2 %>% 
+    filter(participant == p, item_id == item2) %>% 
+    dplyr::select(frequency_response)
+  
+  i1 <- dat_filter2 %>% 
+    filter(participant == p, item_id == item1) %>% 
+    dplyr::select(impact_response)
+  i2 <- dat_filter2 %>% 
+    filter(participant == p, item_id == item2) %>% 
+    dplyr::select(impact_response)
+  
+  
+  this_dat <- this_dat %>%
+    add_row(
+      severity_response_1 = s1[1, 1],
+      severity_response_2 = s2[1, 1],
+      frequency_response_1 = f1[1, 1],
+      frequency_response_2 = f2[1, 1],
+      impact_response_1 = i1[1, 1],
+      impact_response_2 = i2[1, 1]
+    )
+}
+
+this_dat <- this_dat %>% 
+  mutate(
+    severity_diff = scale(severity_response_1 - severity_response_2),
+    frequency_diff = scale(frequency_response_1 - frequency_response_2),
+    impact_diff = scale(impact_response_1 - impact_response_2)
+  )
+
+dat_w1 <- cbind(dat_w1, this_dat)
+
+plot(dat_w1$rank_diff, dat_w1$severity_diff)
+```
+
+Finally, run the models:
+
+```{r}
+
+# model without any random effects
+model_filter <- lm(data = dat_w1, severity_diff ~ rank_diff)
+
+
+# fit a model including only random intercepts
+
+model_filter_int_only <- lme(data = dat_w1, log_rt ~ rank_diff, random = ~ 1 | participant, method = "ML", control = lmeControl(opt = "optim"))
+
+# fit a model including full random effects, and their correlation
+
+model_filter_full_random <- lme(data = dat_w1, log_rt ~ severity_diff, random = ~ 1 + severity_diff| participant, method = "ML", control = lmeControl(opt = "optim"))
+
+# test inclusion of random intercepts
+test <- lrtest(model_filter,model_filter_int_only)
+
+# adjust, since we compare a lm to a lme object
+log_likelihood <- test[2, 2] + test[1, 2]
+chi_sq <- 2 * log_likelihood
+p <- dchisq(chi_sq, 1)
+
+#one d.f. difference
+AIC_diff <- 2 * (1 - log_likelihood)
+
+# test inclusion of random slopes
+# adding the random slopes does not seem to improve fit
+test2 <- anova(model_filter_full_random, model_filter_int_only)
+
+AIC_diff2 <- summary(model_filter_full_random)$AIC - summary(model_filter_int_only)$AIC
+
+# re-fit final model with REML
+model_filter_final <- lme(data = dat_w1, severity_diff ~ rank_diff, random = ~ 1| participant, method = "REML", control = lmeControl(opt = "optim"))
+
+# plotted residuals at trial level look good.
+r <-residuals(model_filter_final, level = 0)
+hist(r, breaks = seq(min(r), max(r), length = 101))
+
+# plotted residuals at subject level look good, too
+r <-residuals(model_filter_final, level = 1)
+hist(r, breaks = seq(min(r), max(r), length = 101))
+
+# look at the model
+summary(model_filter_final)
+```
+
+### RT & Rank Difference
+
+This is a simple LME, designed to estimate the relationship between reaction time and the strength difference between both items.
+
+```{r}
+  
+##############################
+#####  Do analysis with Ranks#
+##############################
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in one row
+  # for our merge operation below to work, we need to fix this
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant_wave <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+
+dat_w1 <- dat %>% 
+  filter(
+    wave == 1
+  ) %>% 
+  mutate(
+    item1_rank = NA,
+    item2_rank = NA
+  )
+
+params <- list(
+  participant = c(),
+  item = c(),
+  alpha = c(),
+  rank = c(), 
+  p = c(),
+  se = c()
+)
+
+for (subj in unique(dat$participant)) {
+  # pick a participant
+  this_dat <- dat_w1 %>% 
+    filter(participant == subj)
+
+  wins <- wins_participant_wave %>% 
+    filter(wave == 1,
+           participant == subj)
+  wins$rank <- rank(wins$wins)
+  wins <- wins %>% arrange(item)
+
+  # save parameters in a list for checking
+  params$rank <- c(params$rank, wins$rank)
+  params$item <- c(params$item, wins$item)
+  params$participant <- c(params$participant, rep(subj, nrow(wins)))
+  params$wins <- c(params$wins, wins$wins)
+
+  # record params in the actual dataset
+  for (i in wins$item){
+    dat_w1 <- dat_w1 %>% 
+      mutate(
+        
+        item1_rank = ifelse(item1 == i & participant == subj, wins[wins$item == i,]$rank, item1_rank),
+        item2_rank = ifelse(item2 == i & participant == subj, wins[wins$item == i,]$rank, item2_rank)
+      )
+  }
+}
+    
+    # Now, standardise values for ease of interpretation
+    dat_w1 <- dat_w1 %>% 
+      mutate(
+        rank_diff_raw = abs(item1_rank - item2_rank),
+        log_rt_raw = log_rt,
+        log_rt = scale(log_rt_raw),
+        rank_diff = scale(rank_diff_raw)
+      )
+    
+  
+  plot(dat_w1$log_rt, dat_w1$rank_diff)
+```
+
+Now run and compare the models:
+
+```{r}
+
+rt_model_rank <- lm(data = dat_w1, log_rt ~ rank_diff)
+
+
+# fit a model including only random intercepts
+
+rt_model_rank_int_only <- lme(data = dat_w1, log_rt ~ rank_diff, random = ~ 1 | participant, method = "ML", control = lmeControl(opt = "optim"))
+
+# fit a model including full random effects, and their correlation
+
+rt_model_rank_random_effects <- lme(data = dat_w1, log_rt ~ rank_diff, random = ~ 1 + rank_diff| participant, method = "ML", control = lmeControl(opt = "optim"))
+
+# test inclusion of random intercepts
+test <- lrtest(rt_model_rank,rt_model_rank_int_only)
+
+# adjust, since we compare a lm to a lme object
+log_likelihood <- test[2, 2] + test[1, 2]
+chi_sq <- 2 * log_likelihood
+p <- dchisq(chi_sq, 1)
+
+#one d.f. difference
+AIC_diff <- 2 * (1 - log_likelihood)
+
+# test inclusion of random slopes
+test2 <- anova(rt_model_rank_random_effects, rt_model_rank_int_only)
+
+AIC_diff2 <- summary(rt_model_rank_random_effects)$AIC - summary(rt_model_rank_int_only)$AIC
+
+# re-fit final model with REML
+rt_model_rank_final <- lme(data = dat_w1, log_rt ~ rank_diff, random = ~ 1 + rank_diff| participant, method = "REML", control = lmeControl(opt = "optim"))
+
+# plotted residuals at trial level look good.
+r <-residuals(rt_model_rank_final, level = 0)
+hist(r, breaks = seq(min(r), max(r), length = 101))
+
+# plotted residuals at subject level look good, too
+r <-residuals(rt_model_rank_final, level = 1)
+hist(r, breaks = seq(min(r), max(r), length = 101))
+
+# look at the model
+summary(rt_model_rank_final)
+```
+
+### Are preferences the same for everyone?
+
+#### With plots
+
+```{r}
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in the item1 or item2 column
+  # for our merge operation below to include these, we need to
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+  
+  
+wins_participant_w1 <- wins_participant %>% 
+  filter(wave == 1) %>% 
+  mutate(
+    rank = rank(wins)
+  )
+
+plot_w1 <- ggplot(data = wins_participant_w1) +
+  facet_wrap(facets = vars(participant),, scales = "fixed") +
+  geom_col(aes(x = item, y = wins), stat = "sum")
+
+plot_w1
+```
+
+#### With Aitchison's distance
+
+Same idea as in the test-retest section. However, now we randomly pair up participants. If their preference profiles were actually the same, we would expect the overall Aitchison's distance to be close to 0.
+
+```{r}
+# randomly group participants into pairs
+# for now, only look at the first wave
+p1 <- unique(dat$participant) %>% sample(round(length(unique(dat$participant))/2))
+p2 <- unique(dat$participant)[!unique(dat$participant) %in% p1]
+
+# prep data
+
+# recompute wins & ranks within each participant, but separate by wave
+
+  a <- dat %>% 
+    group_by(participant, wave, item1) %>% 
+    summarise(
+      wins1 = sum(win1)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item1)
+  
+  # some entries are missing, because items only appear in the item1 or item2 column
+  # for our merge operation below to include these, we need to
+  # manually add those entries
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item2_list[!item2_list %in% item1_list]) {
+        a <- a %>% add_row(
+          participant = subj,
+          wave = w,
+          item = i,
+          wins1 = 0
+        )
+      }
+    }
+  }
+
+  b <- dat %>% 
+    group_by(participant, wave, item2) %>% 
+    summarise(
+      wins2 = sum(win2)
+    ) %>% 
+    ungroup() %>% 
+    dplyr::rename(item = item2)
+  
+  
+  for (w in 1:2) {
+    for (subj in unique(dat$participant)){
+      
+      item1_list <- filter(dat, participant == subj, wave == w)$item1 %>% unique()
+      item2_list <- filter(dat, participant == subj, wave == w)$item2 %>% unique()
+      
+      for (i in item1_list[!item1_list %in% item2_list]) {
+        b <- b %>% 
+          add_row(
+            participant = subj,
+            wave = w,
+            item = i,
+            wins2 = 0
+        )
+      }
+    }
+  }
+
+# compute ranks within each participant
+  wins_participant_wave <- merge(a, b) %>% 
+    mutate(wins = wins1 + wins2) %>% 
+    arrange(participant) %>% 
+    group_by(participant)
+
+  
+res_AD <- matrix(nrow = 0, ncol = 6) %>% as.data.frame()
+colnames(res_AD) <- c(
+  "participant1", # which participants
+  "participant2",
+  "shared",      # how many items are shared between the two waves (i.e., relevant for AD)
+  "total_w1",    # how many items in wave 1
+  "total_w2",    # how many items in wave 2
+  "AD"           # measured Aitchison's Distance
+) 
+
+n_participants <- 0
+
+for (p in 1:length(p1)){
+  
+  dat1<- wins_participant_wave %>% 
+    filter(
+      wave == 1,
+      participant == p1[p]
+    )
+  
+  dat2 <- wins_participant_wave %>% 
+    filter(
+      wave == 1,
+      participant == p2[p]
+    )
+  
+  # in both cases, the contests were based on the current selection of items participants endorsed as 'bothering' them. 
+  # i.e., this list may change
+  # thus, we cannot compute the aichison's distance over all those items. Instead, use only those items that overlapped
+  
+  # How much overlap was there in selected items?
+  
+  # Items from one that are also in 2
+  shared_items <- unique(dat1$item)[unique(dat1$item) %in% unique(dat2$item)]
+  
+  shared <- length(shared_items)
+  
+  # how many items in total in 1?
+  total_w1 <- unique(dat1$item) %>% length()
+  
+  # how many items in total in 2?
+  total_w2 <- unique(dat2$item) %>% length()
+  
+  # select only shared items
+  
+  dat1 <- dat1 %>% filter(item %in% shared_items) %>% mutate(rank = rank(wins))
+  dat2 <- dat2 %>% filter(item %in% shared_items) %>% mutate(rank = rank(wins))
+  
+  log_ratio1 <- c()
+  log_ratio2 <- c()
+  distance <- c()
+  
+  remaining_players <- shared_items[2:length(shared_items)]
+  
+  # now get the log ratios of ranks
+  
+  for (i in shared_items) {
+    for (j in remaining_players) {
+      
+      # note, we only compute the distance for the upper triangle of the item-item matrix, that's because the the values for the upper and lower end are the same except for the sign (which gets cancelled by the square anyway), and the diagnal is 0 by definition.
+      if (i != j) {
+        
+        rank1i <- filter(dat1, item == i)$rank
+        rank2i <- filter(dat2, item == i)$rank
+        rank1j <- filter(dat1, item == j)$rank
+        rank2j <- filter(dat2, item == j)$rank
+        
+        l1 <- log(rank1i / rank1j)
+        l2 <- log(rank2i / rank2j)
+        
+        log_ratio1 <- append(log_ratio1, l1)
+        log_ratio2 <- append(log_ratio2, l2)
+      }
+    # don't repeat items that already fought every other item.
+    remaining_players = remaining_players[remaining_players != i]
+    }
+  }
+  
+  # compute the aitchison distance over the log ratios.
+  
+  AD = sqrt(1/(2*shared) * sum((log_ratio1 - log_ratio2)^2))
+
+  # save info
+  
+  res_AD <- res_AD %>% 
+    add_row(
+      participant1 = p1[p],
+      participant2 = p2[p],
+      shared = shared,
+      total_w1 = total_w1,
+      total_w2 = total_w2,
+      AD = AD
+    )
+   n_participants <- n_participants + 1
+   print(paste(n_participants, " out of ", length(p1), " done!", sep = ""))
+}
+
+# have a look at the distribution of distances
+hist(res_AD$AD)
+
+# looks reasonably normal so run a one-sample t-test
+t.test(res_AD$AD, alternative = "greater")
+```
+
+## Exploration
+
+### Is there more entropy in the preference profile of more depressed participants?
+
+This will use the entropy score we computed in the section 'Entropy' above. We would then set up a correlation matrix, correlating entropy score to age, sex and depression status. Not illustrated here, since the code would be very straightforward.
+
+### Can we cluster participants based on their preferences?
+
+k-means clustering is a clustering method that minimises variance within clusters and maximises variance between clusters. First, multi-dimensional scaling is used to project our data into a 2-dimensional space where distances between points represent dissimiliarity of scores (when doing this 'seriously, the number of dimensions will have to be determined through model comparison). Next, k-means clustering is applied. For illustrative purposes, I have extracted only 2 clusters (though a solution with 3 clusters looks reasonable as well). For the full dataset, one would have to use more sophisticated metrics to validate the number of clusters to be extracted.
+
+```{r}
+
+library(magrittr)
+library(dplyr)
+library(ggpubr)
+
+# get data
+
+dat_MDS <- dat_subj %>% 
+  dplyr::select(participant, starts_with("severity_response_"))
+
+# Cmpute MDS
+mds <- dat_MDS %>%
+  dist() %>%          
+  cmdscale() %>%
+  as_tibble()
+colnames(mds) <- c("Dim.1", "Dim.2")
+
+# Plot MDS
+my_plot <- ggscatter(mds, x = "Dim.1", y = "Dim.2", 
+          label = NULL,
+          size = 1,
+          repel = TRUE)
+
+# now add in groups using clustering
+
+clust <- kmeans(mds, 2)$cluster %>%
+  as.factor()
+
+mds <- mds %>%
+  mutate(groups = clust)
+# Plot and color by groups
+this_plot <- ggscatter(mds, x = "Dim.1", y = "Dim.2", 
+          label = NULL,
+          color = "groups",
+          palette = "jco",
+          size = 1, 
+          ellipse = TRUE,
+          ellipse.type = "convex",
+          repel = TRUE)
+
+plot(this_plot)
+```
